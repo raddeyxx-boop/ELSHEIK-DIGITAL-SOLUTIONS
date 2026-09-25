@@ -1,0 +1,10 @@
+insert into public.services(slug,title_en,title_ar,summary_en,summary_ar,status,sort_order,published_at) values
+('web-development','Web Development','تطوير المواقع','High-performance digital experiences.','تجارب رقمية عالية الأداء.','published',1,now()),
+('web-applications','Web Applications','تطبيقات الويب','Purpose-built platforms for business workflows.','منصات مصممة لسير عمل الشركات.','published',2,now()),
+('mobile-applications','Mobile Applications','تطبيقات الجوال','Connected customer and operational applications.','تطبيقات مترابطة للعملاء والعمليات.','published',3,now()),
+('automation','Automation','الأتمتة','Reliable orchestration across business systems.','تنسيق موثوق بين أنظمة الأعمال.','published',4,now()),
+('ai-systems','AI & Intelligent Systems','الذكاء الاصطناعي والأنظمة الذكية','Purposeful intelligence for defined decisions.','ذكاء هادف لقرارات محددة.','published',5,now()),
+('custom-software','Custom Software','البرمجيات المخصصة','Software fitted to real operational requirements.','برمجيات تناسب المتطلبات التشغيلية الفعلية.','published',6,now()) on conflict(slug) do nothing;
+insert into public.technologies(slug,name,category,status,sort_order) values ('nextjs','Next.js','frontend','published',1),('react','React','frontend','published',2),('typescript','TypeScript','frontend','published',3),('supabase','Supabase','data','published',4),('postgresql','PostgreSQL','data','published',5),('n8n','n8n','automation','published',6),('playwright','Playwright','testing','published',7),('vercel','Vercel','infrastructure','published',8) on conflict(slug) do nothing;
+insert into public.projects(slug,title_en,title_ar,summary_en,summary_ar,industry_en,industry_ar,year,status,featured,is_demo,published_at) values ('relax-moon-spa-automation','Relax Moon Spa Automation','أتمتة ريلاكس مون سبا','Sanitized demonstration of conversational booking and operational coordination.','نموذج مبسّط للحجز بالمحادثة وتنسيق العمليات.','Service operations','عمليات الخدمات','Example','published',true,true,now()) on conflict(slug) do nothing;
+

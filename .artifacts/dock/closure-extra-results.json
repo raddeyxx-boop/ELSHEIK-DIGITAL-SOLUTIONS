@@ -1,0 +1,32 @@
+[
+  {
+    "locale": "en",
+    "keyboardOrder": [
+      "Home",
+      "Services",
+      "Work",
+      "About",
+      "Insights",
+      "Contact",
+      "العربية",
+      "Start a project"
+    ],
+    "localeSwitchActive": "/ar",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "keyboardOrder": [
+      "الرئيسية",
+      "الخدمات",
+      "أعمالنا",
+      "من نحن",
+      "رؤى",
+      "تواصل معنا",
+      "English",
+      "ابدأ مشروعك"
+    ],
+    "localeSwitchActive": "/en",
+    "overflow": false
+  }
+]

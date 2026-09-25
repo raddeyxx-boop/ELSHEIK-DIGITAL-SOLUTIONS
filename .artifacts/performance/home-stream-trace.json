@@ -1,0 +1,103 @@
+{
+  "ttfb": 114.61169999999998,
+  "heroAt": 117.7295,
+  "responseEnd": 7506.4324,
+  "cms": [
+    {
+      "event": "start",
+      "path": "/rest/v1/projects",
+      "time": 1790330028061
+    },
+    {
+      "event": "start",
+      "path": "/rest/v1/services",
+      "time": 1790330028064
+    },
+    {
+      "event": "error",
+      "path": "/rest/v1/projects",
+      "time": 1790330028142,
+      "duration": 81,
+      "code": "ENOTFOUND"
+    },
+    {
+      "event": "error",
+      "path": "/rest/v1/services",
+      "time": 1790330028143,
+      "duration": 79,
+      "code": "ENOTFOUND"
+    },
+    {
+      "event": "start",
+      "path": "/rest/v1/projects",
+      "time": 1790330029154
+    },
+    {
+      "event": "start",
+      "path": "/rest/v1/services",
+      "time": 1790330029157
+    },
+    {
+      "event": "error",
+      "path": "/rest/v1/projects",
+      "time": 1790330029257,
+      "duration": 103,
+      "code": "ENOTFOUND"
+    },
+    {
+      "event": "error",
+      "path": "/rest/v1/services",
+      "time": 1790330029258,
+      "duration": 101,
+      "code": "ENOTFOUND"
+    },
+    {
+      "event": "start",
+      "path": "/rest/v1/projects",
+      "time": 1790330031259
+    },
+    {
+      "event": "start",
+      "path": "/rest/v1/services",
+      "time": 1790330031261
+    },
+    {
+      "event": "error",
+      "path": "/rest/v1/projects",
+      "time": 1790330031347,
+      "duration": 88,
+      "code": "ENOTFOUND"
+    },
+    {
+      "event": "error",
+      "path": "/rest/v1/services",
+      "time": 1790330031348,
+      "duration": 87,
+      "code": "ENOTFOUND"
+    },
+    {
+      "event": "start",
+      "path": "/rest/v1/projects",
+      "time": 1790330035352
+    },
+    {
+      "event": "start",
+      "path": "/rest/v1/services",
+      "time": 1790330035354
+    },
+    {
+      "event": "error",
+      "path": "/rest/v1/projects",
+      "time": 1790330035460,
+      "duration": 108,
+      "code": "ENOTFOUND"
+    },
+    {
+      "event": "error",
+      "path": "/rest/v1/services",
+      "time": 1790330035461,
+      "duration": 107,
+      "code": "ENOTFOUND"
+    }
+  ]
+}

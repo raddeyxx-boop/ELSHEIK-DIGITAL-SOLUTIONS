@@ -1,0 +1,4 @@
+import { z } from "zod";
+export const inquirySchema=z.object({name:z.string().trim().min(2).max(80),company:z.string().trim().max(120).optional().or(z.literal("")),email:z.email().max(160),phone:z.string().trim().max(40).optional().or(z.literal("")),country:z.string().trim().max(80).optional().or(z.literal("")),service:z.enum(["website","web-application","mobile-application","automation","ai","custom-software","unsure"]),budget:z.string().trim().max(80).optional().or(z.literal("")),timeline:z.string().trim().max(80).optional().or(z.literal("")),description:z.string().trim().min(20).max(3000),website:z.string().max(0).optional()});
+export type InquiryInput=z.infer<typeof inquirySchema>;
+

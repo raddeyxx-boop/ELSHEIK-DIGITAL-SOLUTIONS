@@ -1,0 +1,189 @@
+{
+  "pages": [
+    {
+      "path": "/ar/",
+      "arabicTextElements": 114,
+      "renderedInTajawal": 88,
+      "notTajawal": 0,
+      "skippedNotRendered": 26
+    },
+    {
+      "path": "/ar/work",
+      "arabicTextElements": 59,
+      "renderedInTajawal": 51,
+      "notTajawal": 0,
+      "skippedNotRendered": 8
+    },
+    {
+      "path": "/ar/work/relax-moon-spa-automation",
+      "arabicTextElements": 202,
+      "renderedInTajawal": 189,
+      "notTajawal": 0,
+      "skippedNotRendered": 13
+    },
+    {
+      "path": "/ar/insights",
+      "arabicTextElements": 40,
+      "renderedInTajawal": 32,
+      "notTajawal": 0,
+      "skippedNotRendered": 8
+    },
+    {
+      "path": "/ar/technologies",
+      "arabicTextElements": 41,
+      "renderedInTajawal": 33,
+      "notTajawal": 0,
+      "skippedNotRendered": 8
+    },
+    {
+      "path": "/ar/services",
+      "arabicTextElements": 63,
+      "renderedInTajawal": 49,
+      "notTajawal": 0,
+      "skippedNotRendered": 14
+    },
+    {
+      "path": "/ar/about",
+      "arabicTextElements": 115,
+      "renderedInTajawal": 106,
+      "notTajawal": 0,
+      "skippedNotRendered": 9
+    },
+    {
+      "path": "/ar/contact",
+      "arabicTextElements": 45,
+      "renderedInTajawal": 37,
+      "notTajawal": 1,
+      "skippedNotRendered": 7
+    },
+    {
+      "path": "/ar/process",
+      "arabicTextElements": 39,
+      "renderedInTajawal": 32,
+      "notTajawal": 0,
+      "skippedNotRendered": 7
+    },
+    {
+      "path": "/ar/does-not-exist",
+      "arabicTextElements": 0,
+      "renderedInTajawal": 0,
+      "notTajawal": 0,
+      "skippedNotRendered": 0
+    }
+  ],
+  "offenders": {
+    "Consolas :: span": {
+      "path": "contact",
+      "sample": "الاسم",
+      "family": "SFMono-Regular, Consolas, \"Liberation Mo",
+      "count": 1
+    }
+  },
+  "spacing": {
+    "span (1.96px)": {
+      "path": "",
+      "sample": "هندسة رقمية للأعمال",
+      "count": 28
+    },
+    "p (-1.728px)": {
+      "path": "",
+      "sample": "نحن لا نسلّم صفحات. نصمم ونبني",
+      "count": 1
+    },
+    "small (1.96px)": {
+      "path": "",
+      "sample": "قدراتنا",
+      "count": 4
+    },
+    "h2 (-3.96px)": {
+      "path": "",
+      "sample": "قدرات تتحول إلى نتائج.",
+      "count": 5
+    },
+    "h2 (-5.184px)": {
+      "path": "",
+      "sample": "أفكار حول تصميم وتشغيل الأنظمة",
+      "count": 1
+    },
+    "h2 (-7.056px)": {
+      "path": "",
+      "sample": "لنبنِ النظام الذي يحتاجه عملك ",
+      "count": 1
+    },
+    "span (0.84px)": {
+      "path": "",
+      "sample": "جميع الحقوق محفوظة.",
+      "count": 18
+    },
+    "span (1.12px)": {
+      "path": "work",
+      "sample": "01 / عمليات الخدمات",
+      "count": 2
+    },
+    "h2 (-4.1184px)": {
+      "path": "work",
+      "sample": "أتمتة الحجوزات والعمليات عبر و",
+      "count": 1
+    },
+    "h3 (1.26px)": {
+      "path": "work",
+      "sample": "ما الذي ينسّقه النظام",
+      "count": 3
+    },
+    "p (1.4px)": {
+      "path": "work/relax-moon-spa-automation",
+      "sample": "عمليات الخدمات · نموذج",
+      "count": 2
+    },
+    "div.perspective (1.2px)": {
+      "path": "work/relax-moon-spa-automation",
+      "sample": "ما يختبره العميل",
+      "count": 2
+    },
+    "h2 (-5.544px)": {
+      "path": "work/relax-moon-spa-automation",
+      "sample": "مشكلة العمل",
+      "count": 7
+    },
+    "strong (-2.304px)": {
+      "path": "work/relax-moon-spa-automation",
+      "sample": "شاهد النظام يتخذ القرار",
+      "count": 1
+    },
+    "h2 (-3.4056px)": {
+      "path": "work/relax-moon-spa-automation",
+      "sample": "جرّب إدارة العمليات.",
+      "count": 1
+    },
+    "small (1.2px)": {
+      "path": "work/relax-moon-spa-automation",
+      "sample": "لوحة العمليات",
+      "count": 1
+    },
+    "h3 (-1.184px)": {
+      "path": "work/relax-moon-spa-automation",
+      "sample": "نظرة عامة",
+      "count": 1
+    },
+    "span (0.54px)": {
+      "path": "work/relax-moon-spa-automation",
+      "sample": "حجوزات ← تعيينات ← أحداث",
+      "count": 2
+    },
+    "h2 (-6.912px)": {
+      "path": "work/relax-moon-spa-automation",
+      "sample": "نظامك القادم يبدأ هنا.",
+      "count": 1
+    },
+    "h2 (-3.564px)": {
+      "path": "services",
+      "sample": "تطوير المواقع",
+      "count": 6
+    },
+    "small (0.84px)": {
+      "path": "contact",
+      "sample": "اختياري",
+      "count": 5
+    }
+  }
+}

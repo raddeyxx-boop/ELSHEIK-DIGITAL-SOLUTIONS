@@ -1,0 +1,58 @@
+[
+  {
+    "label": "home hero visible",
+    "route": "/en",
+    "width": 1440,
+    "scroll": 0,
+    "windowMs": 5000,
+    "taskMs": 704,
+    "scriptMs": 47,
+    "layoutMs": 17,
+    "styleMs": 72,
+    "rafFrames": 301,
+    "canvasState": "running",
+    "dpr": 1
+  },
+  {
+    "label": "home hero offscreen",
+    "route": "/en",
+    "width": 1440,
+    "scroll": 4000,
+    "windowMs": 5000,
+    "taskMs": 745,
+    "scriptMs": 51,
+    "layoutMs": 22,
+    "styleMs": 96,
+    "rafFrames": 300,
+    "canvasState": "paused",
+    "dpr": 1
+  },
+  {
+    "label": "home mobile hero visible",
+    "route": "/en",
+    "width": 390,
+    "scroll": 0,
+    "windowMs": 5000,
+    "taskMs": 637,
+    "scriptMs": 44,
+    "layoutMs": 15,
+    "styleMs": 68,
+    "rafFrames": 301,
+    "canvasState": "running",
+    "dpr": 1
+  },
+  {
+    "label": "contact hero visible",
+    "route": "/en/contact",
+    "width": 1440,
+    "scroll": 0,
+    "windowMs": 5000,
+    "taskMs": 136,
+    "scriptMs": 43,
+    "layoutMs": 0,
+    "styleMs": 0,
+    "rafFrames": 301,
+    "canvasState": "running",
+    "dpr": 1
+  }
+]

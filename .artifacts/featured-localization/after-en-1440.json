@@ -1,0 +1,135 @@
+{
+  "section": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 814.6875
+  },
+  "panels": [
+    {
+      "x": 44,
+      "y": 110,
+      "width": 352.953125,
+      "height": 593.6875
+    },
+    {
+      "x": 396.953125,
+      "y": 233.6875,
+      "width": 333,
+      "height": 470
+    },
+    {
+      "x": 729.953125,
+      "y": 110,
+      "width": 228.953125,
+      "height": 593.6875
+    },
+    {
+      "x": 958.90625,
+      "y": 110,
+      "width": 437.078125,
+      "height": 593.6875
+    }
+  ],
+  "stages": [
+    {
+      "box": {
+        "x": 748.953125,
+        "y": 196.015625,
+        "width": 190.953125,
+        "height": 60.234375
+      },
+      "dot": {
+        "left": "-4px",
+        "top": "15px"
+      },
+      "border": "1px"
+    },
+    {
+      "box": {
+        "x": 748.953125,
+        "y": 256.25,
+        "width": 190.953125,
+        "height": 60.234375
+      },
+      "dot": {
+        "left": "-4px",
+        "top": "15px"
+      },
+      "border": "1px"
+    },
+    {
+      "box": {
+        "x": 748.953125,
+        "y": 316.484375,
+        "width": 190.953125,
+        "height": 60.234375
+      },
+      "dot": {
+        "left": "-4px",
+        "top": "15px"
+      },
+      "border": "1px"
+    },
+    {
+      "box": {
+        "x": 748.953125,
+        "y": 376.71875,
+        "width": 190.953125,
+        "height": 60.234375
+      },
+      "dot": {
+        "left": "-4px",
+        "top": "15px"
+      },
+      "border": "1px"
+    },
+    {
+      "box": {
+        "x": 748.953125,
+        "y": 436.953125,
+        "width": 190.953125,
+        "height": 60.234375
+      },
+      "dot": {
+        "left": "-4px",
+        "top": "15px"
+      },
+      "border": "1px"
+    },
+    {
+      "box": {
+        "x": 748.953125,
+        "y": 497.1875,
+        "width": 190.953125,
+        "height": 60.234375
+      },
+      "dot": {
+        "left": "-4px",
+        "top": "15px"
+      },
+      "border": "1px"
+    },
+    {
+      "box": {
+        "x": 748.953125,
+        "y": 557.421875,
+        "width": 190.953125,
+        "height": 60.234375
+      },
+      "dot": {
+        "left": "-4px",
+        "top": "15px"
+      },
+      "border": "1px"
+    }
+  ],
+  "cta": {
+    "x": 84,
+    "y": 610.09375,
+    "width": 272.953125,
+    "height": 53.59375
+  },
+  "overflow": false,
+  "text": "FEATURED CASE STUDY\nRelax Moon Spa Automation\nWhatsApp Booking & Operations Automation\nRiyadh + Al Sharqiyah, Saudi Arabia\n\nSanitized demonstration of conversational booking and operational coordination.\n\nView case study\n‹\nRelax Moon Spa\nBusiness Account\n\nHello! I'd like to book an appointment.\n\nWhat service would you like?\n\nMassage Therapy\n\nGreat. When would you like to come?\n\nTomorrow at 5 PM\n\nYour appointment is confirmed.\n\n01\nCustomer request\n02\nWhatsApp\n03\nAutomation engine\n04\nCheck availability\n05\nAssign specialist\n06\nCalendar & database\n07\nConfirmation sent\nWELLNESS\nMEETS\nAUTOMATION.\n01 / 01"
+}

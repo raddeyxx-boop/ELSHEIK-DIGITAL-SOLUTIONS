@@ -1,0 +1,38 @@
+[
+  {
+    "pixelBlast": "off",
+    "variant": "current",
+    "gpuProcessCpuPct": 23.7,
+    "rendererCpuPct": 13
+  },
+  {
+    "pixelBlast": "off",
+    "variant": "A: diagram svg promoted",
+    "gpuProcessCpuPct": 11.4,
+    "rendererCpuPct": 13.4
+  },
+  {
+    "pixelBlast": "off",
+    "variant": "B: packet in its own promoted overlay svg",
+    "gpuProcessCpuPct": 17.8,
+    "rendererCpuPct": 9.4
+  },
+  {
+    "pixelBlast": "on",
+    "variant": "current",
+    "gpuProcessCpuPct": 24.6,
+    "rendererCpuPct": 14.3
+  },
+  {
+    "pixelBlast": "on",
+    "variant": "A: diagram svg promoted",
+    "gpuProcessCpuPct": 13.4,
+    "rendererCpuPct": 14.4
+  },
+  {
+    "pixelBlast": "on",
+    "variant": "B: packet in its own promoted overlay svg",
+    "gpuProcessCpuPct": 20.2,
+    "rendererCpuPct": 11.5
+  }
+]

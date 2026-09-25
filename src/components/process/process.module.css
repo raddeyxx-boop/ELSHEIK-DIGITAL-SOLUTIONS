@@ -1,0 +1,302 @@
+/* Process page — delivery operating system. Editorial: thin rules, mono labels,
+   one accent. Sections alternate the two existing near-black grounds. */
+
+.page { --rule: 1px solid var(--border); --ground-2: #0c0c10; }
+.section { padding-block: clamp(4.5rem, 8vw, 8.5rem); border-block-start: var(--rule); background: var(--background); }
+.mono { width: fit-content; font-family: var(--font-mono); letter-spacing: .06em; }
+.muted { color: var(--muted); }
+.eyebrow { display: block; margin-block-end: 1.25rem; color: var(--accent); font-size: var(--text-label); font-weight: 700; letter-spacing: .12em; line-height: 1.45; text-transform: uppercase; }
+
+/* Section heads: large heading at the start, technical explanation at the end. */
+.head { display: grid; gap: 1.25rem 4rem; align-items: end; margin-block-end: clamp(2.5rem, 6vw, 5rem); }
+.head h2 { margin: 0; max-width: 17ch; }
+.headBody { margin: 0; max-width: 34rem; color: var(--foreground-secondary); font-size: var(--text-body); line-height: 1.7; }
+@media (min-width: 1024px) { .head { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); } }
+
+.list { list-style: none; margin: 0; padding: 0; display: grid; gap: .45rem; }
+.list li { position: relative; padding-inline-start: 1.1rem; color: var(--foreground-secondary); font-size: var(--text-small); line-height: 1.6; break-inside: avoid; }
+.list li::before { content: ""; position: absolute; inset-inline-start: 0; top: .8em; width: .45rem; height: 1px; background: var(--muted); }
+.listAccent li { color: var(--foreground); }
+.listAccent li::before { background: var(--accent); }
+@media (min-width: 700px) { .listSplit { display: block; columns: 2; column-gap: 2rem; } .listSplit li { margin-block-end: .45rem; } }
+
+/* 01 — Stage navigator */
+.navigator { scroll-margin-top: 6rem; }
+.tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-block-start: var(--rule); border-inline-start: var(--rule); }
+/* Compact process nodes: height follows content (no fixed min-heights). The head row
+   carries the number, the stage dot and a rule that runs on into the next node, so
+   the row still reads as one timeline. */
+.tabs button { position: relative; display: flex; flex-direction: column; align-items: stretch; gap: .45rem; padding: clamp(.75rem, .9vw, .95rem) clamp(.7rem, .85vw, .9rem) clamp(.85rem, 1vw, 1.05rem); border: 0; border-inline-end: var(--rule); border-block-end: var(--rule); background: transparent; color: var(--foreground-secondary); text-align: start; cursor: pointer; transition: background .2s, color .2s; }
+.tabs button:hover { color: var(--foreground); background: color-mix(in srgb, var(--foreground) 2.5%, transparent); }
+.tabs button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.tabs button[aria-selected="true"] { color: var(--foreground); background: color-mix(in srgb, var(--accent) 4%, transparent); box-shadow: inset 0 2px var(--accent); }
+.tabHead { display: flex; align-items: center; gap: .5rem; margin-block-end: .35rem; }
+.tabHead::after { content: ""; flex: 1; height: 1px; margin-inline-end: calc(-1 * clamp(.7rem, .85vw, .9rem)); background: var(--border); }
+.tabNumber { font: 700 var(--text-label)/1 var(--font-mono); color: var(--muted); letter-spacing: .06em; }
+.tabDot { flex: none; width: .55rem; aspect-ratio: 1; border-radius: 50%; border: 1px solid var(--foreground-secondary); background: var(--background); }
+.tabs strong { font-size: var(--text-body); font-weight: 600; line-height: 1.3; }
+.tabShort { display: block; color: var(--muted); font-size: var(--text-meta); line-height: 1.45; }
+.tabLoop { position: absolute; top: clamp(.75rem, .9vw, .95rem); inset-inline-end: clamp(.7rem, .85vw, .9rem); display: inline-flex; align-items: center; gap: .3rem; padding-inline-start: .35rem; background: var(--background); color: var(--muted); font: 600 .75rem/1 var(--font-mono); }
+.tabs button[aria-selected="true"] .tabLoop { background: transparent; }
+.tabs button[aria-selected="true"] .tabNumber { color: var(--accent); }
+.tabs button[aria-selected="true"] .tabDot { background: var(--accent); border-color: var(--accent); box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 16%, transparent); }
+.tabs button[aria-selected="true"] strong { font-weight: 800; }
+/* Phones: compact 2-column nodes (number and title); the selected stage's short
+   description opens the detail panel instead (.panelShort). */
+@media (max-width: 559px) { .tabShort { display: none; } .tabs button { gap: .3rem; } }
+/* 560-1023: 2 x 4 with descriptions; 1024-1279: 4 x 2; 1280+: one row of eight. */
+@media (min-width: 1024px) { .tabs { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (min-width: 1280px) { .tabs { grid-template-columns: repeat(8, minmax(0, 1fr)); } }
+
+.panel { padding-block: clamp(2.5rem, 5vw, 4.5rem); border-block-end: var(--rule); }
+.panel:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.panel:not([hidden]) { animation: stageIn .22s ease-out both; }
+@keyframes stageIn { from { opacity: 0; transform: translateY(6px); } }
+
+.stage { display: grid; gap: 2.5rem clamp(2rem, 5vw, 6rem); }
+@media (min-width: 1024px) { .stage { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); } }
+.stageCode { display: block; color: var(--muted); font-size: var(--text-label); text-transform: uppercase; }
+.stageLead h3 { display: flex; align-items: baseline; gap: .45em; margin: .9rem 0 2rem; font-size: clamp(2.3rem, 4.2vw, 4.4rem); font-weight: 560; line-height: 1; letter-spacing: -.045em; }
+.stageNumber { color: var(--accent); font-size: .5em; font-weight: 700; letter-spacing: 0; }
+.fieldLabel { display: flex; flex-wrap: wrap; align-items: baseline; gap: .6rem; margin: 0 0 .6rem; color: var(--foreground-secondary); font-size: var(--text-meta); font-weight: 700; }
+.fieldLabel bdi { color: var(--accent); font-size: .8rem; }
+.objective { margin: 0; max-width: 34rem; color: var(--foreground); font-size: var(--text-body-lg); line-height: 1.6; }
+.principle { margin: 1.75rem 0 0; padding-inline-start: 1rem; border-inline-start: 2px solid var(--accent); color: var(--foreground); font-size: var(--text-body); font-weight: 600; line-height: 1.55; }
+.gate { margin-block-start: 2.25rem; padding: 1.2rem 1.35rem 1.35rem; border: 1px solid var(--border-bright); background: color-mix(in srgb, var(--accent) 4%, transparent); }
+.gateQuestion { margin: 0; color: var(--foreground); font-size: clamp(1.15rem, 1.6vw, 1.45rem); font-weight: 600; line-height: 1.45; }
+
+.fields { margin: 0; }
+.fields > div { display: grid; gap: .6rem 1.5rem; padding-block: 1.15rem; border-block-start: var(--rule); }
+.fields > div:last-child { border-block-end: var(--rule); }
+.fields dt { display: flex; align-items: baseline; gap: .6rem; color: var(--foreground-secondary); font-size: var(--text-meta); font-weight: 700; }
+.fields dt bdi { min-width: 2.8rem; color: var(--muted); font-size: .78rem; }
+.fields dd { margin: 0; }
+@media (min-width: 700px) { .fields > div { grid-template-columns: 10rem minmax(0, 1fr); } }
+.tracks { display: grid; gap: 1.25rem; margin-block-start: 1.4rem; }
+.tracks h4 { margin: 0 0 .7rem; padding-block-start: .7rem; border-block-start: var(--rule); color: var(--foreground); font-size: var(--text-meta); font-weight: 700; }
+@media (min-width: 700px) { .tracks { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+.advance { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem 2rem; padding-block: 1.25rem; border-block-end: var(--rule); }
+.advance p { margin: 0; color: var(--muted); font-size: var(--text-small); }
+.advance p .mono { margin-inline-end: .8rem; color: var(--accent); font-size: .8rem; text-transform: uppercase; }
+.advance button { display: inline-flex; align-items: center; gap: .6rem; min-height: 3rem; padding: .6rem 1.15rem; border: 1px solid var(--border-bright); border-radius: 999px; background: transparent; color: var(--foreground); font-size: var(--text-small); font-weight: 700; cursor: pointer; transition: border-color .2s, color .2s; }
+.advance button:hover { border-color: var(--accent); color: var(--accent); }
+.advanceTarget { color: var(--foreground-secondary); font-weight: 500; }
+.advance button:hover .advanceTarget { color: inherit; }
+
+/* 02 — Automation by design */
+.byDesign, .artifacts, .gates, .loop, .model { background: var(--ground-2); }
+.model { background: var(--background); }
+.split { display: grid; gap: 2.5rem clamp(2rem, 6vw, 7rem); }
+.split .head { grid-template-columns: 1fr; margin: 0; align-content: start; }
+.split .head h2 { font-size: clamp(2.3rem, 4vw, 4.4rem); }
+@media (min-width: 1024px) { .split { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); } .split .head { position: sticky; top: 7rem; align-self: start; } }
+.matrix { list-style: none; margin: 0; padding: 0; border-block-start: var(--rule); }
+.matrix li { position: relative; border-block-end: var(--rule); }
+/* Inline-start rail: travelled stages brighter neutral, the selected stage lime. */
+.matrix li::before { content: ""; position: absolute; inset-block: -1px; inset-inline-start: 0; width: 2px; background: transparent; transition: background-color .2s; }
+.matrix li[data-state="done"]::before { background: var(--border-bright); }
+.matrix li[data-state="active"]::before { background: var(--accent); }
+.matrix button { appearance: none; display: grid; grid-template-columns: 2.6rem minmax(0, 1fr); gap: .2rem 1rem; align-items: baseline; width: 100%; padding: 1.1rem .75rem; border: 0; background: transparent; color: inherit; font: inherit; text-align: start; cursor: pointer; transition: background-color .2s; }
+.matrix button:hover { background: color-mix(in srgb, var(--foreground) 2.5%, transparent); }
+.matrix button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.matrix button > bdi { grid-row: span 3; color: var(--muted); font-size: var(--text-label); transition: color .2s; }
+.matrixStage { color: var(--muted); font-size: var(--text-meta); }
+.matrixRole { color: var(--foreground-secondary); font-size: var(--text-body-lg); font-weight: 500; line-height: 1.4; transition: color .2s; }
+.matrixPhase { justify-self: start; color: var(--muted); font: 700 .72rem/1.3 var(--font-mono); letter-spacing: .1em; text-transform: uppercase; opacity: .45; transition: opacity .2s, color .2s; }
+.matrix li[data-lit] .matrixPhase { opacity: 1; }
+.matrix li[data-state="done"] > button > bdi, .matrix li[data-state="done"] .matrixRole { color: var(--foreground); }
+.matrix li[data-state="active"] button { background: color-mix(in srgb, var(--accent) 5%, transparent); }
+.matrix li[data-state="active"] > button > bdi, .matrix li[data-state="active"] .matrixRole, .matrix li[data-state="active"] .matrixPhase { color: var(--accent); }
+/* Automation (05) keeps its lime identity even when another stage is explored. */
+.matrix li[data-core] .matrixRole, .matrix li[data-core] > button > bdi { color: var(--accent); }
+@media (min-width: 700px) { .matrix button { grid-template-columns: 2.6rem 9rem minmax(0, 1fr) auto; } .matrix button > bdi { grid-row: auto; } .matrixPhase { justify-self: end; } }
+:global(html[lang="ar"]) .matrixPhase { font-family: var(--font-arabic); letter-spacing: 0; font-size: var(--text-meta); text-transform: none; }
+
+/* 03 — Execution model: EVENT → … → NOTIFY, with a failure branch off VERIFY.
+   Live states: done (brighter neutral), active (lime), VERIFY passed (lime) or failed
+   (--danger); failure handling uses --danger, the human hand-off --warning. */
+.execution { --x: 1; }
+:global(html[dir="rtl"]) .execution { --x: -1; }
+.modelBar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem 2rem; margin-block-end: 1rem; }
+.modelReadout { margin-block-end: clamp(2rem, 4vw, 3rem); padding: .95rem 1.15rem; border: var(--rule); border-inline-start: 2px solid var(--accent); background: var(--background-elevated); }
+.modelReadout p { display: grid; grid-template-columns: minmax(0, max-content) minmax(0, 1fr); gap: .35rem 1.25rem; align-items: baseline; margin: 0; }
+.modelReadout bdi { color: var(--accent); font-size: .8rem; font-weight: 700; text-transform: uppercase; }
+.modelReadout span { color: var(--foreground); font-size: var(--text-body); line-height: 1.55; }
+.execution[data-mode="failure"] .modelReadout { border-inline-start-color: var(--danger); }
+.modelReadout p[data-tone="failure"] bdi { color: var(--danger); }
+.modelReadout p[data-tone="human"] bdi { color: var(--warning); }
+@media (max-width: 699px) { .modelReadout p { grid-template-columns: minmax(0, 1fr); } }
+
+.flowTrack { position: relative; }
+.flowSignal { display: none; }
+.flow { list-style: none; margin: 0; padding: 0; display: grid; }
+.flow > li { position: relative; padding: 0 0 2.25rem 1.6rem; border-inline-start: 1px solid var(--border-bright); transition: background-color .2s; }
+:global(html[dir="rtl"]) .flow > li { padding: 0 1.6rem 2.25rem 0; }
+.flow > li::before { content: ""; position: absolute; top: .3rem; inset-inline-start: -.3rem; width: .6rem; aspect-ratio: 1; background: var(--background); border: 1px solid var(--foreground-secondary); transition: background-color .2s, border-color .2s; }
+.flow > li[data-verify]::before { border-color: var(--accent); }
+.flow > li[data-state="done"]::before { background: var(--foreground-secondary); }
+.flow > li[data-state="active"]::before, .flow > li[data-result="ok"]::before { background: var(--accent); border-color: var(--accent); }
+.flow > li[data-result="fail"]::before { background: var(--danger); border-color: var(--danger); }
+.flow > li[data-state="active"] { background: color-mix(in srgb, var(--accent) 4%, transparent); }
+.flow > li[data-result="fail"] { background: color-mix(in srgb, var(--danger) 6%, transparent); }
+.flow > li:not([data-state="active"]):has(h3 button:hover) { background: color-mix(in srgb, var(--foreground) 2.5%, transparent); }
+.flowCode { display: block; color: var(--muted); font-size: .8rem; text-transform: uppercase; transition: color .2s; }
+.flow > li[data-verify] .flowCode, .flow > li[data-state="active"] .flowCode { color: var(--accent); }
+.flow > li[data-result="fail"] .flowCode { color: var(--danger); }
+.flow h3, .failure h3 { margin: .6rem 0 .4rem; font-size: clamp(1.45rem, 2vw, 2rem); font-weight: 560; line-height: 1.15; letter-spacing: -.02em; }
+.flow h3 { margin-block-start: 0; }
+.flow h3 button { appearance: none; display: grid; gap: .6rem; width: 100%; padding: 0; border: 0; background: transparent; color: inherit; font: inherit; letter-spacing: inherit; text-align: start; cursor: pointer; }
+.flow h3 button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.flowQuestion { margin: 0 0 .9rem; color: var(--foreground); font-size: var(--text-small); font-weight: 600; line-height: 1.5; }
+.flowExamples { display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; }
+.flowExamples li { padding-inline-start: .8rem; color: var(--muted); font-size: var(--text-meta); }
+.flowExamples li::before { width: .3rem; top: .75em; }
+.flowNote { margin: 1rem 0 0; padding-block-start: .7rem; border-block-start: 1px dashed color-mix(in srgb, var(--accent) 55%, transparent); color: var(--accent); font-size: var(--text-meta); font-weight: 600; }
+.failure { position: relative; display: grid; gap: 1rem 2rem; margin-block-start: .5rem; margin-inline-start: 1.6rem; padding: 1.3rem 1.4rem; border: 1px dashed var(--border-bright); transition: border-color .25s, background-color .25s; }
+.failure[data-branch] { border-style: solid; border-color: color-mix(in srgb, var(--danger) 60%, transparent); background: color-mix(in srgb, var(--danger) 4%, transparent); }
+.failure[data-branch] > div > .flowCode { color: var(--danger); }
+.failure ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; align-content: start; }
+.failure ul li { display: inline-flex; align-items: baseline; gap: .5rem; padding: .4rem .8rem; border: var(--rule); border-radius: 999px; color: var(--foreground); font-size: var(--text-meta); transition: border-color .2s, background-color .2s; }
+.failure ul li bdi { color: var(--muted); font-size: .72rem; transition: color .2s; }
+.failure ul li[data-state="done"] { border-color: color-mix(in srgb, var(--danger) 45%, transparent); }
+.failure ul li[data-state="active"] { border-color: var(--danger); background: color-mix(in srgb, var(--danger) 9%, transparent); }
+.failure ul li[data-state] bdi { color: var(--danger); }
+.failure ul li[data-human][data-state] { border-style: dashed; border-color: var(--warning); }
+.failure ul li[data-human][data-state="active"] { background: color-mix(in srgb, var(--warning) 9%, transparent); }
+.failure ul li[data-human][data-state] bdi { color: var(--warning); }
+.note { margin: 2.5rem 0 0; max-width: 52rem; padding-inline-start: 1rem; border-inline-start: 1px solid var(--border-bright); color: var(--muted); font-size: var(--text-meta); line-height: 1.7; }
+@media (min-width: 1200px) {
+  .flow { grid-template-columns: repeat(7, minmax(0, 1fr)); border-block-start: 1px solid var(--border-bright); }
+  .flow > li, :global(html[dir="rtl"]) .flow > li { padding: 1.6rem 1rem 1.75rem; border-inline-start: 0; border-inline-end: var(--rule); }
+  .flow > li:last-child { border-inline-end: 0; }
+  .flow > li::before { top: -.33rem; inset-inline-start: 1rem; }
+  .flow > li:not(:last-child)::after { content: ""; position: absolute; top: -.28rem; inset-inline-end: -.3rem; width: .5rem; height: .5rem; border-top: 1px solid var(--foreground-secondary); border-inline-end: 1px solid var(--foreground-secondary); transform: rotate(45deg); background: var(--background); transition: border-color .2s; }
+  :global(html[dir="rtl"]) .flow > li:not(:last-child)::after { transform: rotate(-45deg); }
+  .flow > li:has(+ li[data-state="active"])::after { border-color: var(--accent); }
+  .flowExamples { display: grid; gap: .3rem; }
+  /* One signal on the top rail, translated to the current stage. */
+  .flowSignal { display: block; position: absolute; z-index: 1; top: -1px; inset-inline-start: 0; width: calc(100% / var(--n)); height: 2px; background: var(--accent); transform: translateX(calc(var(--i) * 100% * var(--x))); transition: transform .45s cubic-bezier(.4, 0, .2, 1); pointer-events: none; }
+  .failure { margin-inline-start: calc(100% * 4 / 7); margin-block-start: 2.5rem; }
+  .failure::before, .failure::after { content: ""; position: absolute; bottom: 100%; inset-inline-start: calc(1rem + .25rem); height: 2.5rem; }
+  .failure::before { border-inline-start: 1px dashed var(--foreground-secondary); }
+  /* The branch: a solid connector drops from VERIFY when verification fails. */
+  .failure::after { width: 1px; margin-inline-start: -.5px; background: var(--danger); transform: scaleY(0); transform-origin: top; transition: transform .35s ease; }
+  .failure[data-branch]::after { transform: scaleY(1); }
+}
+@media (prefers-reduced-motion: reduce) { .flowSignal, .failure::after, .flow > li, .flow > li::before, .failure, .failure ul li { transition: none; } }
+
+/* 04 — Artifacts */
+.artifactList { list-style: none; margin: 0; padding: 0; display: grid; column-gap: 2.5rem; }
+.artifactList li { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr) auto; gap: 1rem; align-items: baseline; padding-block: 1.05rem; border-block-start: var(--rule); }
+.artifactList li > span { color: var(--foreground); font-size: var(--text-body-lg); font-weight: 500; line-height: 1.35; }
+.artifactList bdi { font-size: var(--text-label); }
+.artifactStage { color: var(--muted); white-space: nowrap; }
+@media (min-width: 700px) { .artifactList { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* 05 — Responsibility */
+.columns { display: grid; gap: 2.5rem 0; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); }
+.columns > div { padding-inline: 1.25rem; border-inline-start: var(--rule); }
+.columns h3 { margin: 0 0 1.4rem; font-size: var(--text-h3); font-weight: 560; line-height: 1.2; letter-spacing: -.02em; }
+.columns .eyebrow { margin-block-end: .9rem; }
+
+/* 06 — Gates + quality signals */
+.gateRail { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-block-start: var(--rule); border-inline-start: var(--rule); }
+.gateRail li { display: flex; flex-direction: column; gap: .35rem; padding: 1.2rem .9rem; border-inline-end: var(--rule); border-block-end: var(--rule); }
+.gateCode { color: var(--accent); font-size: .8rem; margin-block-end: 1.6rem; }
+.gateRail strong { color: var(--foreground); font-size: var(--text-small); font-weight: 700; line-height: 1.4; }
+.gateRail span { color: var(--muted); font-size: var(--text-meta); }
+@media (min-width: 600px) { .gateRail { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { .gateRail { grid-template-columns: repeat(8, minmax(0, 1fr)); } }
+.signals { display: grid; gap: 1.5rem clamp(2rem, 6vw, 7rem); margin-block-start: clamp(3rem, 6vw, 5rem); }
+.signals p { margin: 0; max-width: 24rem; color: var(--foreground-secondary); font-size: var(--text-body); line-height: 1.7; }
+.signals ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .35em .55em; color: var(--foreground); font-size: clamp(1.3rem, 2.3vw, 2.1rem); font-weight: 500; line-height: 1.3; letter-spacing: -.02em; }
+.signals li:not(:last-child)::after { content: "/"; margin-inline-start: .55em; color: var(--accent); font-family: var(--font-mono); font-weight: 400; }
+@media (min-width: 1024px) { .signals { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); } }
+
+/* 07 — Human + automation boundary: engineering rules on the site's dark ground.
+   The code column carries the only accent; rows are ruled like the rest of the page. */
+.boundary { background: var(--background); }
+.boundaryRows { list-style: none; margin: 0; padding: 0; border-block-start: 1px solid var(--border-bright); }
+.boundaryRows li { display: grid; gap: .6rem 2rem; align-items: baseline; padding-block: 1.5rem; border-block-end: var(--rule); transition: background-color .2s; }
+.boundaryRows li:hover { background: color-mix(in srgb, var(--foreground) 2%, transparent); }
+.boundaryCode { justify-self: start; padding: .25rem .55rem; border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent); color: var(--accent); font-size: .78rem; font-weight: 700; }
+.boundaryRows h3 { margin: 0; color: var(--foreground); font-size: var(--text-h3); font-weight: 560; line-height: 1.25; letter-spacing: -.02em; }
+.boundaryRows p { margin: 0; color: var(--foreground-secondary); font-size: var(--text-body); line-height: 1.65; }
+@media (min-width: 900px) { .boundaryRows li { grid-template-columns: 8rem minmax(0, 1.1fr) minmax(0, 1fr); } }
+
+/* 08 — Failure-first + security */
+.principleGrid { display: grid; gap: 3rem clamp(2rem, 6vw, 6rem); }
+.conditions { list-style: none; margin: 0; padding: 0; display: grid; column-gap: 2rem; align-content: start; }
+.conditions li { display: grid; gap: .3rem; padding-block: 1rem; border-block-start: var(--rule); }
+.conditions bdi { color: var(--muted); font-size: .78rem; }
+.conditions span { color: var(--foreground); font-size: var(--text-body-lg); font-weight: 500; }
+.security { padding-block-start: 2rem; border-block-start: 1px solid var(--border-bright); }
+.security h3 { margin: 0 0 .8rem; font-size: var(--text-h3); font-weight: 560; line-height: 1.2; letter-spacing: -.02em; }
+.security > p { margin: 0 0 1.5rem; color: var(--foreground-secondary); font-size: var(--text-small); }
+@media (min-width: 600px) { .conditions { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1024px) {
+  .principleGrid { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); }
+  .security { padding-block-start: 0; padding-inline-start: clamp(1.5rem, 3vw, 3rem); border-block-start: 0; border-inline-start: 1px solid var(--border-bright); }
+}
+
+/* 09 — Feedback loop */
+.loopGrid { display: grid; gap: 3rem; align-items: center; }
+.loopGrid .head { grid-template-columns: 1fr; }
+.loopGrid .listSplit { margin-block-start: .25rem; }
+/* The ring is fixed; only the signal moves (a rotated group, composited). */
+.loopLive { display: grid; gap: 1.25rem; justify-items: center; min-width: 0; }
+.loopSvg { width: 100%; max-width: 34rem; overflow: visible; }
+.loopNode { cursor: pointer; }
+.loopDot { fill: var(--background); stroke: var(--foreground-secondary); transition: fill .2s, stroke .2s; }
+.loopNode[data-state="done"] .loopDot { fill: var(--foreground-secondary); }
+.loopNode[data-state="edge"] .loopDot { stroke: var(--accent); }
+.loopNode[data-state="active"] .loopDot { fill: var(--accent); stroke: var(--accent); }
+.loopLabel { fill: var(--foreground-secondary); font-size: 13px; transition: fill .2s; }
+.loopNode:hover .loopLabel, .loopNode[data-state="edge"] .loopLabel { fill: var(--foreground); }
+.loopNode[data-state="active"] .loopLabel { fill: var(--foreground); font-weight: 700; }
+.loopNumber { fill: var(--accent); font-family: var(--font-mono); font-size: 11px; }
+.loopArcPath { opacity: .5; transition: opacity .2s; }
+.loopArcPath[data-active] { opacity: 1; }
+.loopArc { fill: var(--muted); font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .14em; transition: fill .2s; }
+.loopArc[data-active] { fill: var(--accent); }
+.loopCenter { fill: var(--muted); font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .16em; }
+.loopSignal { transform-box: view-box; transform-origin: 260px 210px; pointer-events: none; }
+.loopLive[data-travel] .loopSignal { transition: transform .45s cubic-bezier(.4, 0, .2, 1); }
+.loopControls { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .75rem 1rem; width: 100%; }
+.loopStages { display: flex; flex-wrap: wrap; justify-content: center; gap: .35rem; }
+.loopStages button { min-width: 2.75rem; min-height: 2.75rem; padding: .3rem .65rem; border: var(--rule); background: transparent; color: var(--foreground-secondary); font: 700 var(--text-meta)/1 var(--font-mono); cursor: pointer; transition: border-color .2s, color .2s, background-color .2s; }
+.loopStages button:hover { border-color: var(--border-bright); color: var(--foreground); }
+.loopStages button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.loopStages button[data-state="active"] { border-color: var(--accent); color: var(--accent); background: color-mix(in srgb, var(--accent) 6%, transparent); }
+.loopStages button[data-evidence] { font-size: .72rem; letter-spacing: .1em; }
+.loopReadout { width: 100%; max-width: 34rem; }
+.loopReadout p { display: grid; grid-template-columns: minmax(0, max-content) minmax(0, 1fr); gap: .3rem 1rem; align-items: baseline; margin: 0; }
+.loopReadout bdi { color: var(--accent); font: 700 .8rem/1.4 var(--font-mono); }
+.loopReadout strong { color: var(--foreground); font-size: var(--text-body); font-weight: 600; }
+.loopReadout span { grid-column: 2; color: var(--foreground-secondary); font-size: var(--text-small); line-height: 1.6; }
+@media (prefers-reduced-motion: reduce) { .loopLive .loopSignal, .loopDot, .loopLabel, .loopArcPath, .loopArc { transition: none; } }
+@media (min-width: 1024px) { .loopGrid { grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); } }
+
+/* 10 — CTA */
+.cta { padding-block: clamp(5.5rem, 10vw, 10rem); background: var(--surface); border-block-start: var(--rule); }
+.cta > div { display: grid; gap: 2rem 5rem; align-items: end; }
+.cta h2 { margin: 0; max-width: 12ch; font-size: clamp(2.9rem, 6.5vw, 7.5rem); font-weight: 560; line-height: .92; letter-spacing: -.06em; text-wrap: balance; }
+.cta p { margin: 0 0 1.5rem; max-width: 30rem; color: var(--foreground-secondary); font-size: var(--text-body); line-height: 1.7; }
+.cta :global(.button) svg { width: 1.1rem; }
+@media (min-width: 900px) { .cta > div { grid-template-columns: minmax(0, 1.45fr) minmax(0, .55fr); } }
+
+/* Arabic: Tajawal is cursive — no negative tracking, heavier cuts, taller leading. */
+:global(html[lang="ar"]) .stageLead h3,
+:global(html[lang="ar"]) .flow h3, :global(html[lang="ar"]) .failure h3,
+:global(html[lang="ar"]) .columns h3, :global(html[lang="ar"]) .boundaryRows h3,
+:global(html[lang="ar"]) .security h3, :global(html[lang="ar"]) .signals ul { letter-spacing: 0; font-weight: 700; }
+:global(html[lang="ar"]) .stageLead h3 { line-height: 1.2; }
+:global(html[lang="ar"]) .cta h2 { letter-spacing: 0; font-weight: 700; line-height: 1.2; max-width: 14ch; }
+:global(html[lang="ar"]) .matrixRole, :global(html[lang="ar"]) .artifactList li > span, :global(html[lang="ar"]) .conditions span { font-weight: 500; }
+:global(html[lang="ar"]) .fieldLabel, :global(html[lang="ar"]) .fields dt { font-size: var(--text-small); }
+
+@media (prefers-reduced-motion: reduce) { .panel:not([hidden]) { animation: none; } }
+/* The stage summary shown in the tab on wider screens; on phones it opens the panel. */
+.panelShort { display: none; margin: -1rem 0 1.5rem; color: var(--foreground-secondary); font-size: var(--text-body); line-height: 1.6; }
+@media (max-width: 559px) { .panelShort { display: block; } }

@@ -1,0 +1,50 @@
+[
+  {
+    "route": "services",
+    "viewport": "390x844",
+    "intervalMs": 8000,
+    "frames": 187,
+    "fps": 22.017306076060414,
+    "framesDiffer": true,
+    "changedPixels": 344,
+    "changedPercent": 0.21513445903689807,
+    "textStable": true,
+    "before": {
+      "x": 10,
+      "y": 200.59375,
+      "width": 346,
+      "height": 131.953125
+    },
+    "after": {
+      "x": 10,
+      "y": 200.59375,
+      "width": 346,
+      "height": 131.953125
+    },
+    "reducedCanvasCount": 0
+  },
+  {
+    "route": "contact",
+    "viewport": "390x844",
+    "intervalMs": 8000,
+    "frames": 186,
+    "fps": 22.067155722550247,
+    "framesDiffer": true,
+    "changedPixels": 170,
+    "changedPercent": 0.11007511007511007,
+    "textStable": true,
+    "before": {
+      "x": 10,
+      "y": 200.59375,
+      "width": 346,
+      "height": 87.96875
+    },
+    "after": {
+      "x": 10,
+      "y": 200.59375,
+      "width": 346,
+      "height": 87.96875
+    },
+    "reducedCanvasCount": 0
+  }
+]

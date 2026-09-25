@@ -1,0 +1,42 @@
+[
+  {
+    "route": "/en",
+    "variant": "baseline (all effects)",
+    "gpuProcessCpuPct": 32.3,
+    "rendererCpuPct": 19.2,
+    "mainThreadPct": 11.6,
+    "state": "running"
+  },
+  {
+    "route": "/en",
+    "variant": "header backdrop-filter off",
+    "gpuProcessCpuPct": 33.6,
+    "rendererCpuPct": 18.4,
+    "mainThreadPct": 11.9,
+    "state": "running"
+  },
+  {
+    "route": "/en",
+    "variant": "hero mask-image off",
+    "gpuProcessCpuPct": 31.3,
+    "rendererCpuPct": 18.1,
+    "mainThreadPct": 11.7,
+    "state": "running"
+  },
+  {
+    "route": "/en",
+    "variant": "both off",
+    "gpuProcessCpuPct": 30.3,
+    "rendererCpuPct": 17.3,
+    "mainThreadPct": 11.6,
+    "state": "running"
+  },
+  {
+    "route": "/en",
+    "variant": "PixelBlast paused (canvas hidden)",
+    "gpuProcessCpuPct": 25.9,
+    "rendererCpuPct": 16.6,
+    "mainThreadPct": 11.2,
+    "state": "running"
+  }
+]

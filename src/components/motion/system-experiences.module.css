@@ -1,0 +1,107 @@
+.lab {
+  border: 1px solid var(--border-bright);
+  border-radius: 1.75rem;
+  background: #0a0f11;
+  overflow: hidden;
+}
+.labHead {
+  padding: clamp(1.2rem, 3vw, 2.5rem);
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+.labHead div {
+  display: grid;
+  gap: 0.7rem;
+}
+.labHead span,
+.lab > p {
+  font: 0.58rem/1.5 var(--font-mono);
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+.labHead strong {
+  font-size: clamp(1.6rem, 4vw, 4rem);
+  letter-spacing: -0.04em;
+}
+.labHead button {
+  border: 1px solid var(--accent);
+  border-radius: 99px;
+  background: var(--accent);
+  color: #06100e;
+  padding: 1rem 1.4rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.lab ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.lab li {
+  position: relative;
+  min-height: 10rem;
+  padding: 1.2rem;
+  border-inline-end: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  color: var(--muted);
+  transition:
+    background 0.35s,
+    color 0.35s;
+}
+.lab li span {
+  font: 0.55rem var(--font-mono);
+}
+.lab li strong {
+  display: block;
+  margin-top: 3rem;
+  font-size: 0.72rem;
+}
+.lab li i {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 0.5rem;
+  aspect-ratio: 1;
+  border: 1px solid var(--muted);
+  border-radius: 50%;
+}
+.lab li.complete {
+  color: var(--foreground);
+  background: rgba(105, 220, 203, 0.06);
+}
+.lab li.complete i {
+  background: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 0 16px var(--accent);
+}
+.lab > p {
+  padding: 1rem 1.4rem;
+  margin: 0;
+}
+@media (max-width: 700px) {
+  .labHead {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .lab ol {
+    grid-template-columns: 1fr;
+  }
+  .lab li {
+    min-height: 6rem;
+  }
+  .lab li strong {
+    margin-top: 1.5rem;
+  }
+}
+
+/* Meaningful interface copy remains readable without changing the system geometry. */
+.labHead span,.lab>p,.lab li span{font-size:var(--text-label);line-height:1.45}.lab li strong{font-size:var(--text-small);line-height:1.45}
+
+/* Arabic-text labels use Tajawal: Arabic words in the mono stack take the mono
+   face's wide space. Latin technical labels keep the mono face. */
+:global(html[lang="ar"]) :is(.lab > p) { font-family: var(--font-arabic); letter-spacing: 0; }

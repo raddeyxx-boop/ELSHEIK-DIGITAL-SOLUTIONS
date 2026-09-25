@@ -1,0 +1,331 @@
+{
+  "label": "after1-swiftshader",
+  "gpu": false,
+  "mobile": false,
+  "cpu": 1,
+  "navs": [
+    {
+      "href": "/en/services",
+      "contentMs": 235,
+      "longTasks": [
+        114,
+        95,
+        95,
+        94,
+        131,
+        102,
+        89,
+        82,
+        79,
+        108,
+        80,
+        80,
+        80,
+        79,
+        111,
+        85
+      ]
+    },
+    {
+      "href": "/en/work",
+      "contentMs": 179,
+      "longTasks": [
+        83,
+        58,
+        58,
+        82,
+        50,
+        139,
+        91,
+        85,
+        106,
+        93,
+        81,
+        85,
+        90,
+        83,
+        83,
+        84
+      ]
+    },
+    {
+      "href": "/en/process",
+      "contentMs": 637,
+      "longTasks": [
+        77,
+        77,
+        112,
+        82,
+        75,
+        78,
+        89,
+        97,
+        142,
+        103,
+        99,
+        86,
+        89,
+        70,
+        86,
+        91,
+        73,
+        89,
+        89,
+        89
+      ]
+    },
+    {
+      "href": "/en/about",
+      "contentMs": 235,
+      "longTasks": [
+        87,
+        58,
+        86,
+        113,
+        66,
+        114,
+        75,
+        72,
+        70,
+        67,
+        67,
+        65,
+        65,
+        68,
+        62,
+        71,
+        65,
+        65,
+        65,
+        65,
+        79
+      ]
+    },
+    {
+      "href": "/en/insights",
+      "contentMs": 149,
+      "longTasks": [
+        69,
+        65,
+        66,
+        88,
+        53,
+        64,
+        70,
+        58,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "href": "/en/contact",
+      "contentMs": 87,
+      "longTasks": [
+        50,
+        115,
+        83,
+        78,
+        68,
+        67,
+        68,
+        68,
+        69,
+        71,
+        71,
+        67,
+        72,
+        95,
+        69,
+        67,
+        68
+      ]
+    },
+    {
+      "href": "/en",
+      "contentMs": 367,
+      "longTasks": [
+        65,
+        68,
+        102,
+        75,
+        68,
+        69,
+        151,
+        100,
+        105,
+        96,
+        94,
+        107,
+        94,
+        70,
+        106,
+        94
+      ]
+    }
+  ],
+  "topSelfMs": [
+    [
+      "dontForceLayout @ 0h2qsuyze9ds1.js",
+      213
+    ],
+    [
+      "forceContextLoss @ 2expg209krt28.js",
+      173
+    ],
+    [
+      "setSize @ 2expg209krt28.js",
+      124
+    ],
+    [
+      "getContext @ (native)",
+      33
+    ],
+    [
+      "getExtension @ (native)",
+      19
+    ],
+    [
+      "getPointAtLength @ (native)",
+      15
+    ],
+    [
+      "getScreenCTM @ (native)",
+      15
+    ],
+    [
+      "(anon) @ 3ggwmwn297vjl.js",
+      10
+    ],
+    [
+      "H @ turbopack-1d6lfk7ccru5m.js",
+      8
+    ],
+    [
+      "sy @ 3ggwmwn297vjl.js",
+      6
+    ],
+    [
+      "getProgramInfoLog @ (native)",
+      5
+    ],
+    [
+      "ug @ 3ggwmwn297vjl.js",
+      5
+    ],
+    [
+      "aS @ 3ggwmwn297vjl.js",
+      4
+    ],
+    [
+      "cu @ 3ggwmwn297vjl.js",
+      4
+    ],
+    [
+      "nC @ 2expg209krt28.js",
+      3
+    ],
+    [
+      "render @ 2expg209krt28.js",
+      3
+    ],
+    [
+      "(anon) @ 2expg209krt28.js",
+      3
+    ],
+    [
+      "tx @ 3ifocwxizmbuw.js",
+      3
+    ],
+    [
+      "uu @ 3ggwmwn297vjl.js",
+      3
+    ],
+    [
+      "(anon) @ 2l905kpyvocu3.js",
+      3
+    ],
+    [
+      "e @ 3jg84jwj6s1uj.js",
+      3
+    ],
+    [
+      "getPropertyValue @ (native)",
+      3
+    ],
+    [
+      "Y @ 2expg209krt28.js",
+      3
+    ],
+    [
+      "a @ 2l905kpyvocu3.js",
+      3
+    ],
+    [
+      "(anon) @ 0fsrcjxxjb5fp.js",
+      2
+    ]
+  ],
+  "byScriptMs": [
+    [
+      "(native)",
+      11202
+    ],
+    [
+      "2expg209krt28.js",
+      330
+    ],
+    [
+      "0h2qsuyze9ds1.js",
+      214
+    ],
+    [
+      "3ggwmwn297vjl.js",
+      62
+    ],
+    [
+      "3jg84jwj6s1uj.js",
+      16
+    ],
+    [
+      "3ifocwxizmbuw.js",
+      13
+    ],
+    [
+      "turbopack-1d6lfk7ccru5m.js",
+      10
+    ],
+    [
+      "2l905kpyvocu3.js",
+      8
+    ],
+    [
+      "0ttdxz4rtfkdt.js",
+      6
+    ],
+    [
+      "1_vyjr-43545u.js",
+      3
+    ],
+    [
+      "0fsrcjxxjb5fp.js",
+      2
+    ],
+    [
+      "1fnsiq_ufk7p5.js",
+      2
+    ],
+    [
+      "11jq0c2_zavac.js",
+      2
+    ],
+    [
+      "0ira-srjdm23i.js",
+      1
+    ],
+    [
+      "05865tmjswikd.js",
+      1
+    ]
+  ]
+}

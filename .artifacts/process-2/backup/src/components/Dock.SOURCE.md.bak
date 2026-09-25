@@ -1,0 +1,10 @@
+﻿# React Bits Dock
+
+Installed with `npx shadcn@latest add @react-bits/Dock-JS-CSS --yes` on 2026-09-10.
+Authority: https://reactbits.dev/r/Dock-JS-CSS.json
+Documentation: https://reactbits.dev/components/dock
+
+The installed JS-CSS variant is retained in `.artifacts/dock/Dock.registry.jsx` and `Dock.registry.css`, with the full registry response in `registry.json` and CLI output in `install.log`.
+
+Adapted to TypeScript because this repository disables allowJs. Preserves proximity-based size interpolation, Motion springs, item magnification and animated labels. Adaptations: Next.js links instead of button-role divs; native link keyboard semantics; focus magnification; reduced-motion support; viewport-based coordinates and measured item centers for RTL; persistent touch labels; scoped ELSHEIK token colors. The outer hover-height animation is omitted for a fixed bottom navigation so it cannot block page content. Magnification is restrained to 58px for five items on narrow screens. Motion was already installed. The CLI temporarily selected its declared major version, then the existing motion ^13.2.0 was restored and verified; no final dependency downgrade or second icon library was introduced.
+

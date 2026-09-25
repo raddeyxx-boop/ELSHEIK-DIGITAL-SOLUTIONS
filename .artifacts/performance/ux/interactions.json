@@ -1,0 +1,62 @@
+[
+  {
+    "scenario": "Home: wheel-scroll down and up",
+    "wallMs": 6904,
+    "jsMs": 142,
+    "gcMs": 28,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "maxLongTask": 0,
+    "topFiles": "0nk434_7l9tsv.js 49ms | 3ggwmwn297vjl.js 40ms | 02t764cv1xhcb.js 12ms | native:setAttribute 8ms"
+  },
+  {
+    "scenario": "Home: pointer moving over hero 3s",
+    "wallMs": 4131,
+    "jsMs": 44,
+    "gcMs": 1,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "maxLongTask": 0,
+    "topFiles": "3ggwmwn297vjl.js 24ms | 225pyz12n7b6c.js 10ms | native:requestAnimationFrame 2ms | 3ifocwxizmbuw.js 2ms"
+  },
+  {
+    "scenario": "Mobile menu open/close x3",
+    "wallMs": 1310,
+    "jsMs": 80,
+    "gcMs": 3,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "maxLongTask": 0,
+    "topFiles": "3ggwmwn297vjl.js 15ms | native:getTextAlternativeInternal 15ms | native: 7ms | 0gpuh00-wx325.js 4ms"
+  },
+  {
+    "scenario": "Case study hard load (hydration)",
+    "wallMs": 1560,
+    "jsMs": 221,
+    "gcMs": 4,
+    "longTasks": 1,
+    "longTaskMs": 127,
+    "maxLongTask": 127,
+    "topFiles": "turbopack-2c2ht_d5m3e5d.js 63ms | 225pyz12n7b6c.js 45ms | 3ggwmwn297vjl.js 43ms | 0gpuh00-wx325.js 27ms"
+  },
+  {
+    "scenario": "Case study: demo tabs x6 + booking dialog",
+    "wallMs": 3994,
+    "jsMs": 238,
+    "gcMs": 1,
+    "longTasks": 1,
+    "longTaskMs": 71,
+    "maxLongTask": 71,
+    "topFiles": "3jhzcm_0zp15u.js 76ms | 3ggwmwn297vjl.js 52ms | native: 20ms | native:previewNode 14ms"
+  },
+  {
+    "scenario": "Case study: wheel-scroll through page",
+    "wallMs": 4260,
+    "jsMs": 15,
+    "gcMs": 0,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "maxLongTask": 0,
+    "topFiles": "3ggwmwn297vjl.js 8ms | 225pyz12n7b6c.js 2ms | 0gpuh00-wx325.js 2ms | turbopack-2c2ht_d5m3e5d.js 1ms"
+  }
+]

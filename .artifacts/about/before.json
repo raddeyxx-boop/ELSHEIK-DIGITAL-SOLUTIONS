@@ -1,0 +1,54 @@
+[
+  {
+    "locale": "en",
+    "width": 1920,
+    "height": 1080,
+    "overflow": false,
+    "h1Size": "176px",
+    "headings": [
+      "Design judgment. Engineering discipline. Business context.",
+      "Beyond the interface",
+      "Built with intent",
+      "A practical partnership"
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "h1Size": "72px",
+    "headings": [
+      "Design judgment. Engineering discipline. Business context.",
+      "Beyond the interface",
+      "Built with intent",
+      "A practical partnership"
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1920,
+    "height": 1080,
+    "overflow": false,
+    "h1Size": "176px",
+    "headings": [
+      "حس تصميمي. انضباط هندسي. فهم للأعمال.",
+      "ما وراء الواجهة",
+      "كل قرار له سبب",
+      "شراكة عملية"
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "h1Size": "72px",
+    "headings": [
+      "حس تصميمي. انضباط هندسي. فهم للأعمال.",
+      "ما وراء الواجهة",
+      "كل قرار له سبب",
+      "شراكة عملية"
+    ]
+  }
+]

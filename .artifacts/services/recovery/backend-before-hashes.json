@@ -1,0 +1,174 @@
+[
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\server\\queries\\public-content.ts",
+        "Hash":  "6A66868F41B31A4959469E5152AE59DE988C1FBEF1BC77F7BD8561BBD83A0B60"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\layout.tsx",
+        "Hash":  "275BFB81556A7FD82245F7A67C1EC83ECCF11D381ABDDCA1E949138B1D64C07B"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\page.tsx",
+        "Hash":  "241870ECD611D880479CBA8D3A7D78E3AE0119569C36D6543D21C66EF8E28DA6"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\case-studies\\page.tsx",
+        "Hash":  "927718668547293A933F6DCC0B6076FD0BF6DDC65B803161264D2D169F0C7B00"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\cms\\actions.ts",
+        "Hash":  "2D680E528644FBD106942BA0618C2620772228958E9770A5213FF5F326FFF960"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\insights\\page.tsx",
+        "Hash":  "C7BBB6601085AEFC39B0D76365765F8CB9F79EF50CEE26F0F27B0CD55D880FA8"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\insights\\new\\page.tsx",
+        "Hash":  "A4280F1893A47885766C1E36F823425EA7B1CCD047AF296830B5105BA006478C"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\insights\\[id]\\page.tsx",
+        "Hash":  "3FB5F1C1EF37129957496D044B45BBB9C138AA8FBD20540ADB751411161FF3FC"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\leads\\page.tsx",
+        "Hash":  "CAAD060C0C28AA49AED5B8CF5F6FDED9E08673BEAC96ECE6B2224B28C3C178BE"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\login\\actions.ts",
+        "Hash":  "CEC3DBF73079313B369A78952B9A86BF6467026A90D56C7DE56DEAE56B508184"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\login\\page.tsx",
+        "Hash":  "651698F9AD8041D57A8DCD3D17A8A853AE3597C4E95F8C050466E9051A8F60A3"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\logout\\route.ts",
+        "Hash":  "761B291211E464A2E345AF946B894681382EDADF13C54BD03403ACE697CB71DD"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\media\\page.tsx",
+        "Hash":  "D78FB47C2B57A89ABCD0A54180D2CC41A9C8C0449428381DE4D451B8182EC06D"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\projects\\actions.ts",
+        "Hash":  "E37044D1F6A525348254D40D29560CFA2EBBBE5AA3202C9287978F159BC0B1DC"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\projects\\page.tsx",
+        "Hash":  "89A9C588F740A584F0BFB58BD8ECB0D0BE3919CC339B7D06D46DCAF43E7BB46E"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\projects\\new\\page.tsx",
+        "Hash":  "00B2793DA1A9FABC3CEA0AAD25DDF026E9FB1BA9D635D7567B58BC387C05C286"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\projects\\[id]\\page.tsx",
+        "Hash":  "2404722E89AD0B325528F8B8DACDF0A6346A959771392EA7847391AFEB47E02B"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\projects\\[id]\\preview\\page.tsx",
+        "Hash":  "0F620242708727479A7D6AE2EF16D5348E80D06D54D2812EE5F9CAE62E621713"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\projects\\[id]\\structure\\page.tsx",
+        "Hash":  "5D0E3C39F7CD4557A4FBD6EC0E7A928EB23DAF853ACF495C17AE3C8D4D52A7D8"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\services\\page.tsx",
+        "Hash":  "9F50315FF297062957963EC8D53C058D2C8CCA319276BA4019FA1893BAA14E8E"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\settings\\page.tsx",
+        "Hash":  "75649A97C842E5455E315FE9178935992CBEFE495198D567C14536035E63941D"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\technologies\\page.tsx",
+        "Hash":  "239C2FA3BC660EC5C54382E1D3683961A7BE623D967674F87C6296FC3CFC3C05"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\admin\\testimonials\\page.tsx",
+        "Hash":  "50FB101D8420396EAF5315F9E28BE0452D86E39080EA77B826D8E41AE4E443DF"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\.gitignore",
+        "Hash":  "507699EB91144818EDF61D3A079212CACF31D8DB520EAE428E3B48FCF0D6919C"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\config.toml",
+        "Hash":  "1117DF607D395EE24C9591732A29FD26C4F16EC866B0718554CFCAF222B8C2AF"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\seed.sql",
+        "Hash":  "F0DCECD7BB18EF7EC7A00FB167643EB0146CEB9A216EA1FC583BFCE470247084"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\.temp\\cli-latest",
+        "Hash":  "777FD6D651101226CF5D67775D803518C5E94912772C3F936A458353B58EC9D1"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\.temp\\gotrue-version",
+        "Hash":  "EDD7EC89EB825B9B493B8D50C805D706111F50B26F5245657C9CD2CAC643CB1D"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\.temp\\linked-project.json",
+        "Hash":  "A53A536E10A1A024E59335491B5A9334AB2B7CDF66767B8749650FCBB33716CE"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\.temp\\pooler-url",
+        "Hash":  "31E4993F8B41ECED29390DCAA419A52FA959E6FA6F693DCF5BEDF908B4BFA730"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\.temp\\postgres-version",
+        "Hash":  "CBE206566A93239F1B817730EE61CD39782FE3E29FABB54B6412EA86139A529D"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\.temp\\project-ref",
+        "Hash":  "1098CE35C581592D2B30D34D6FDA14C16482AB2F80E489CA28D598CFFD487AE3"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\.temp\\rest-version",
+        "Hash":  "B25DE4A023EEF82D4780A9F7816C5685CA35437308A9D457585EECE9945485DC"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\.temp\\storage-migration",
+        "Hash":  "406E7056BF17F39ABF84C29572D33403F904C2F5F3109A5E347D0A84084286C9"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\.temp\\storage-version",
+        "Hash":  "A0EC34274C004C0CCD8C24F5CD2419CC594D7713E03664AFF5817D670949BFF7"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\migrations\\202609040001_initial_schema.sql",
+        "Hash":  "2C7612230E96DDCD27FE415E1552498762B011095D698599D7A697EB1A0C465A"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\migrations\\202609040002_auth_storage_audit.sql",
+        "Hash":  "ABEDEA05BB7EFC328D8C1313423899DB06BC7C92C6CA5475E58E3E4F66058BDA"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\migrations\\202609040003_full_cms.sql",
+        "Hash":  "850F8A47F3B91732A66D80F0FB835DD210E61B58B63D48E523AC7EE5609DBD2E"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\migrations\\202609040004_cms_workflow_completion.sql",
+        "Hash":  "5D0FF0BF6CF0FACCB116111948010B8B3823F718F5E57CC3AD99E6A2750BE1BD"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\migrations\\202609040005_results_column_security.sql",
+        "Hash":  "08B128C1E2F9C4BD151DB786040E01D184B283158224523A0F0E13C565BA3B95"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\migrations\\202609040006_results_publishability_policy.sql",
+        "Hash":  "1B7BCBAAB09129ECCBCE5C15A80C825AB96E6743D0E3F8DB3D9131A74E749A2D"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\tests\\live_schema.sql",
+        "Hash":  "10567EB34F0BBA9738C0E942D740DDBDCFEFDF2B0559F52D986E4747F3BB8017"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\supabase\\tests\\rls_foundation.sql",
+        "Hash":  "2FFB7428A1431E07DE254DC9C014D4C83917F1E088FF9007B18B7FB8DC27402C"
+    }
+]

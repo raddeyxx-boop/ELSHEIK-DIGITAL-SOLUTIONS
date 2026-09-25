@@ -1,0 +1,30 @@
+[
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\components\\services\\preview-content.ts",
+        "Hash":  "474F312964A34DF3474A31384BC7AE8F52473A3B4104B7FAB97417EA0DAE4E6C"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\components\\services\\scene-content.ts",
+        "Hash":  "4222D24F3506C3D2BDA310F39F306F32D14B92C7A363742EBDC6033E8A7B2D5C"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\components\\services\\service-list.module.css",
+        "Hash":  "527317C2C7B7F89A24A1E6916FBA5003119529E49ED6E22FB47CFD06B1D91E18"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\components\\services\\service-list.tsx",
+        "Hash":  "90410A93143F00A1081EF983CD1F6379EE9B9B0836DA7EFBA2CECB811BD58CB2"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\components\\services\\service-preview.module.css",
+        "Hash":  "2E4F51C305862836656700FA888DEC9E9F4A48F6AA0A245A89AA05DD9501C733"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\components\\services\\service-preview.tsx",
+        "Hash":  "F4850091C7C853803A523285E61B5C40F3320F34946EA5F4AFB73E3A09DFD7D9"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\tests\\e2e\\services-preview.spec.ts",
+        "Hash":  "B171420818F54FCBFF03EF42880FC3AD26437F2A2906BA8B5C06DC196971B1E1"
+    }
+]

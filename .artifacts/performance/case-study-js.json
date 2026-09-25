@@ -1,0 +1,266 @@
+[
+  {
+    "route": "/en/work/relax-moon-spa-automation",
+    "width": 1440,
+    "viewportHeight": 900,
+    "lcp": 284,
+    "cls": 0,
+    "demoTop": 6935.78125,
+    "diagramTop": 9126.390625,
+    "scripts": [
+      {
+        "name": "3qq9fjtagffmo.js",
+        "bytes": 8788,
+        "decoded": 32897,
+        "start": 51,
+        "inInitialHtml": true
+      },
+      {
+        "name": "3ggwmwn297vjl.js",
+        "bytes": 73278,
+        "decoded": 234172,
+        "start": 51,
+        "inInitialHtml": true
+      },
+      {
+        "name": "0gpuh00-wx325.js",
+        "bytes": 44063,
+        "decoded": 161753,
+        "start": 51,
+        "inInitialHtml": true
+      },
+      {
+        "name": "turbopack-2c2ht_d5m3e5d.js",
+        "bytes": 4305,
+        "decoded": 10946,
+        "start": 51,
+        "inInitialHtml": true
+      },
+      {
+        "name": "1ofofcn0wu8jv.js",
+        "bytes": 690,
+        "decoded": 690,
+        "start": 51,
+        "inInitialHtml": true
+      },
+      {
+        "name": "0h2qsuyze9ds1.js",
+        "bytes": 3662,
+        "decoded": 14377,
+        "start": 51,
+        "inInitialHtml": true
+      },
+      {
+        "name": "1wtd9n7vjnbdy.js",
+        "bytes": 9683,
+        "decoded": 24588,
+        "start": 52,
+        "inInitialHtml": true
+      },
+      {
+        "name": "0nk434_7l9tsv.js",
+        "bytes": 44412,
+        "decoded": 134122,
+        "start": 52,
+        "inInitialHtml": true
+      },
+      {
+        "name": "3u86_c36755gu.js",
+        "bytes": 9259,
+        "decoded": 25713,
+        "start": 52,
+        "inInitialHtml": true
+      },
+      {
+        "name": "2l905kpyvocu3.js",
+        "bytes": 27577,
+        "decoded": 100615,
+        "start": 52,
+        "inInitialHtml": true
+      },
+      {
+        "name": "3jhzcm_0zp15u.js",
+        "bytes": 13937,
+        "decoded": 45564,
+        "start": 52,
+        "inInitialHtml": true
+      },
+      {
+        "name": "2wx0ew9a74qjs.js",
+        "bytes": 561,
+        "decoded": 561,
+        "start": 52,
+        "inInitialHtml": true
+      },
+      {
+        "name": "0i6cxivpn09ka.js",
+        "bytes": 215,
+        "decoded": 215,
+        "start": 401,
+        "inInitialHtml": false
+      },
+      {
+        "name": "3ifocwxizmbuw.js",
+        "bytes": 49871,
+        "decoded": 185747,
+        "start": 401,
+        "inInitialHtml": false
+      },
+      {
+        "name": "225pyz12n7b6c.js",
+        "bytes": 88436,
+        "decoded": 366820,
+        "start": 401,
+        "inInitialHtml": false
+      },
+      {
+        "name": "09z9le71uhwz8.js",
+        "bytes": 2601,
+        "decoded": 6964,
+        "start": 529,
+        "inInitialHtml": false
+      },
+      {
+        "name": "0ttdxz4rtfkdt.js",
+        "bytes": 12345,
+        "decoded": 35195,
+        "start": 558,
+        "inInitialHtml": false
+      }
+    ],
+    "js": 393683,
+    "initialHtmlJs": 240215
+  },
+  {
+    "route": "/en/work/relax-moon-spa-automation",
+    "width": 390,
+    "viewportHeight": 844,
+    "lcp": 272,
+    "cls": 0,
+    "demoTop": 7529.90625,
+    "diagramTop": 10079.34375,
+    "scripts": [
+      {
+        "name": "3qq9fjtagffmo.js",
+        "bytes": 8788,
+        "decoded": 32897,
+        "start": 40,
+        "inInitialHtml": true
+      },
+      {
+        "name": "3ggwmwn297vjl.js",
+        "bytes": 73278,
+        "decoded": 234172,
+        "start": 40,
+        "inInitialHtml": true
+      },
+      {
+        "name": "0gpuh00-wx325.js",
+        "bytes": 44063,
+        "decoded": 161753,
+        "start": 40,
+        "inInitialHtml": true
+      },
+      {
+        "name": "0h2qsuyze9ds1.js",
+        "bytes": 3662,
+        "decoded": 14377,
+        "start": 40,
+        "inInitialHtml": true
+      },
+      {
+        "name": "turbopack-2c2ht_d5m3e5d.js",
+        "bytes": 4305,
+        "decoded": 10946,
+        "start": 40,
+        "inInitialHtml": true
+      },
+      {
+        "name": "1ofofcn0wu8jv.js",
+        "bytes": 690,
+        "decoded": 690,
+        "start": 40,
+        "inInitialHtml": true
+      },
+      {
+        "name": "1wtd9n7vjnbdy.js",
+        "bytes": 9683,
+        "decoded": 24588,
+        "start": 40,
+        "inInitialHtml": true
+      },
+      {
+        "name": "3u86_c36755gu.js",
+        "bytes": 9259,
+        "decoded": 25713,
+        "start": 40,
+        "inInitialHtml": true
+      },
+      {
+        "name": "3jhzcm_0zp15u.js",
+        "bytes": 13937,
+        "decoded": 45564,
+        "start": 40,
+        "inInitialHtml": true
+      },
+      {
+        "name": "2l905kpyvocu3.js",
+        "bytes": 27577,
+        "decoded": 100615,
+        "start": 40,
+        "inInitialHtml": true
+      },
+      {
+        "name": "0nk434_7l9tsv.js",
+        "bytes": 44412,
+        "decoded": 134122,
+        "start": 40,
+        "inInitialHtml": true
+      },
+      {
+        "name": "2wx0ew9a74qjs.js",
+        "bytes": 561,
+        "decoded": 561,
+        "start": 40,
+        "inInitialHtml": true
+      },
+      {
+        "name": "0i6cxivpn09ka.js",
+        "bytes": 215,
+        "decoded": 215,
+        "start": 398,
+        "inInitialHtml": false
+      },
+      {
+        "name": "3ifocwxizmbuw.js",
+        "bytes": 49871,
+        "decoded": 185747,
+        "start": 399,
+        "inInitialHtml": false
+      },
+      {
+        "name": "225pyz12n7b6c.js",
+        "bytes": 88436,
+        "decoded": 366820,
+        "start": 399,
+        "inInitialHtml": false
+      },
+      {
+        "name": "09z9le71uhwz8.js",
+        "bytes": 2601,
+        "decoded": 6964,
+        "start": 440,
+        "inInitialHtml": false
+      },
+      {
+        "name": "0ttdxz4rtfkdt.js",
+        "bytes": 12345,
+        "decoded": 35195,
+        "start": 444,
+        "inInitialHtml": false
+      }
+    ],
+    "js": 393683,
+    "initialHtmlJs": 240215
+  }
+]

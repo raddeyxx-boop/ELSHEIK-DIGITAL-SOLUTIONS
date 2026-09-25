@@ -1,0 +1,983 @@
+[
+  {
+    "route": "/en",
+    "width": 1440,
+    "lcp": 7588,
+    "lcpElement": "SPAN: complexity",
+    "cls": 0.11888888888888889,
+    "longTasks": [
+      60,
+      197,
+      109,
+      103,
+      74,
+      104,
+      99,
+      99,
+      101,
+      92,
+      92,
+      125,
+      101,
+      92,
+      101,
+      120,
+      98,
+      99,
+      99,
+      125,
+      100
+    ],
+    "ttfb": 324.20000000298023,
+    "resources": [
+      {
+        "name": "06o9_7as_ttmx.css",
+        "type": "link",
+        "bytes": 4071,
+        "decoded": 14754
+      },
+      {
+        "name": "1beiyjrq7af1-.css",
+        "type": "link",
+        "bytes": 1837,
+        "decoded": 6792
+      },
+      {
+        "name": "32c2rpu328-ai.css",
+        "type": "link",
+        "bytes": 18954,
+        "decoded": 117807
+      },
+      {
+        "name": "3c43dtiq-uox7.css",
+        "type": "link",
+        "bytes": 5249,
+        "decoded": 30942
+      },
+      {
+        "name": "3_pz_xyhj63hd.js",
+        "type": "link",
+        "bytes": 348,
+        "decoded": 348
+      },
+      {
+        "name": "3qq9fjtagffmo.js",
+        "type": "script",
+        "bytes": 8788,
+        "decoded": 32897
+      },
+      {
+        "name": "3ggwmwn297vjl.js",
+        "type": "script",
+        "bytes": 73278,
+        "decoded": 234172
+      },
+      {
+        "name": "turbopack-2c2ht_d5m3e5d.js",
+        "type": "script",
+        "bytes": 4305,
+        "decoded": 10946
+      },
+      {
+        "name": "0h2qsuyze9ds1.js",
+        "type": "script",
+        "bytes": 3662,
+        "decoded": 14377
+      },
+      {
+        "name": "1ofofcn0wu8jv.js",
+        "type": "script",
+        "bytes": 690,
+        "decoded": 690
+      },
+      {
+        "name": "0gpuh00-wx325.js",
+        "type": "script",
+        "bytes": 44063,
+        "decoded": 161753
+      },
+      {
+        "name": "1wtd9n7vjnbdy.js",
+        "type": "script",
+        "bytes": 9683,
+        "decoded": 24588
+      },
+      {
+        "name": "0nk434_7l9tsv.js",
+        "type": "script",
+        "bytes": 44412,
+        "decoded": 134122
+      },
+      {
+        "name": "2yqxp5b-s1_gy.js",
+        "type": "script",
+        "bytes": 315,
+        "decoded": 315
+      },
+      {
+        "name": "1zuz3hmy-y0l3.js",
+        "type": "script",
+        "bytes": 18547,
+        "decoded": 59328
+      },
+      {
+        "name": "2wx0ew9a74qjs.js",
+        "type": "script",
+        "bytes": 561,
+        "decoded": 561
+      },
+      {
+        "name": "services?_rsc=ry-B8umWgNEV4JR9",
+        "type": "fetch",
+        "bytes": 196,
+        "decoded": 350
+      },
+      {
+        "name": "work?_rsc=ry-B8umWgNEV4JR9",
+        "type": "fetch",
+        "bytes": 194,
+        "decoded": 346
+      },
+      {
+        "name": "about?_rsc=ry-B8umWgNEV4JR9",
+        "type": "fetch",
+        "bytes": 287,
+        "decoded": 548
+      },
+      {
+        "name": "insights?_rsc=ry-B8umWgNEV4JR9",
+        "type": "fetch",
+        "bytes": 195,
+        "decoded": 350
+      },
+      {
+        "name": "contact?_rsc=ry-B8umWgNEV4JR9",
+        "type": "fetch",
+        "bytes": 300,
+        "decoded": 604
+      },
+      {
+        "name": "process?_rsc=ry-B8umWgNEV4JR9",
+        "type": "fetch",
+        "bytes": 289,
+        "decoded": 550
+      },
+      {
+        "name": "technologies?_rsc=ry-B8umWgNEV4JR9",
+        "type": "fetch",
+        "bytes": 198,
+        "decoded": 354
+      },
+      {
+        "name": "en?_rsc=1vwYfVB7_E9t4fEj",
+        "type": "fetch",
+        "bytes": 727,
+        "decoded": 1317
+      },
+      {
+        "name": "services?_rsc=1vwYfVB7_E9t4fEj",
+        "type": "fetch",
+        "bytes": 661,
+        "decoded": 1108
+      },
+      {
+        "name": "work?_rsc=1vwYfVB7_E9t4fEj",
+        "type": "fetch",
+        "bytes": 661,
+        "decoded": 1104
+      },
+      {
+        "name": "about?_rsc=FUh3Gxqryw1dTRX2",
+        "type": "fetch",
+        "bytes": 6273,
+        "decoded": 17725
+      },
+      {
+        "name": "2z4zhqmiabg0h.css",
+        "type": "link",
+        "bytes": 858,
+        "decoded": 2559
+      },
+      {
+        "name": "about?_rsc=14SDM1VKcJJY_7o-",
+        "type": "fetch",
+        "bytes": 3892,
+        "decoded": 19830
+      },
+      {
+        "name": "insights?_rsc=1vwYfVB7_E9t4fEj",
+        "type": "fetch",
+        "bytes": 758,
+        "decoded": 1397
+      },
+      {
+        "name": "contact?_rsc=Cse75bopPPckNhL1",
+        "type": "fetch",
+        "bytes": 5843,
+        "decoded": 16446
+      },
+      {
+        "name": "09z9le71uhwz8.js",
+        "type": "script",
+        "bytes": 2601,
+        "decoded": 6964
+      },
+      {
+        "name": "ar?_rsc=XPZblf8lYfAoJB6n",
+        "type": "fetch",
+        "bytes": 7755,
+        "decoded": 22361
+      },
+      {
+        "name": "process?_rsc=eAiCyTvuQFMI-Z74",
+        "type": "fetch",
+        "bytes": 1125,
+        "decoded": 2943
+      },
+      {
+        "name": "2bqea1wb93ezc.js",
+        "type": "script",
+        "bytes": 85500,
+        "decoded": 374751
+      },
+      {
+        "name": "1ldivij-eq9cm.js",
+        "type": "script",
+        "bytes": 12338,
+        "decoded": 35163
+      },
+      {
+        "name": "technologies?_rsc=1vwYfVB7_E9t4fEj",
+        "type": "fetch",
+        "bytes": 665,
+        "decoded": 1112
+      },
+      {
+        "name": "3ug6igr7d-4gw.js",
+        "type": "script",
+        "bytes": 2957,
+        "decoded": 7842
+      },
+      {
+        "name": "0i6cxivpn09ka.js",
+        "type": "script",
+        "bytes": 215,
+        "decoded": 215
+      },
+      {
+        "name": "3ifocwxizmbuw.js",
+        "type": "script",
+        "bytes": 49871,
+        "decoded": 185747
+      },
+      {
+        "name": "225pyz12n7b6c.js",
+        "type": "script",
+        "bytes": 88436,
+        "decoded": 366820
+      },
+      {
+        "name": "39bmry6riora0.css",
+        "type": "link",
+        "bytes": 161,
+        "decoded": 161
+      }
+    ],
+    "overflow": false,
+    "canvas": true
+  },
+  {
+    "route": "/en/contact",
+    "width": 1440,
+    "lcp": 140,
+    "lcpElement": "H1: Tell us what needs to work better.",
+    "cls": 0,
+    "longTasks": [
+      149,
+      79,
+      73,
+      67,
+      67,
+      82,
+      72,
+      65,
+      65,
+      67,
+      102,
+      75,
+      70,
+      65,
+      51,
+      66,
+      129,
+      80,
+      70,
+      66,
+      67,
+      69,
+      98,
+      80,
+      71,
+      67,
+      67
+    ],
+    "ttfb": 10,
+    "resources": [
+      {
+        "name": "06o9_7as_ttmx.css",
+        "type": "link",
+        "bytes": 4071,
+        "decoded": 14754
+      },
+      {
+        "name": "1beiyjrq7af1-.css",
+        "type": "link",
+        "bytes": 1837,
+        "decoded": 6792
+      },
+      {
+        "name": "2z4zhqmiabg0h.css",
+        "type": "link",
+        "bytes": 858,
+        "decoded": 2559
+      },
+      {
+        "name": "32c2rpu328-ai.css",
+        "type": "link",
+        "bytes": 18954,
+        "decoded": 117807
+      },
+      {
+        "name": "3_pz_xyhj63hd.js",
+        "type": "link",
+        "bytes": 348,
+        "decoded": 348
+      },
+      {
+        "name": "3qq9fjtagffmo.js",
+        "type": "script",
+        "bytes": 8788,
+        "decoded": 32897
+      },
+      {
+        "name": "turbopack-2c2ht_d5m3e5d.js",
+        "type": "script",
+        "bytes": 4305,
+        "decoded": 10946
+      },
+      {
+        "name": "0h2qsuyze9ds1.js",
+        "type": "script",
+        "bytes": 3662,
+        "decoded": 14377
+      },
+      {
+        "name": "0gpuh00-wx325.js",
+        "type": "script",
+        "bytes": 44063,
+        "decoded": 161753
+      },
+      {
+        "name": "3ggwmwn297vjl.js",
+        "type": "script",
+        "bytes": 73278,
+        "decoded": 234172
+      },
+      {
+        "name": "1ofofcn0wu8jv.js",
+        "type": "script",
+        "bytes": 690,
+        "decoded": 690
+      },
+      {
+        "name": "1wtd9n7vjnbdy.js",
+        "type": "script",
+        "bytes": 9683,
+        "decoded": 24588
+      },
+      {
+        "name": "2wx0ew9a74qjs.js",
+        "type": "script",
+        "bytes": 561,
+        "decoded": 561
+      },
+      {
+        "name": "09z9le71uhwz8.js",
+        "type": "script",
+        "bytes": 2601,
+        "decoded": 6964
+      },
+      {
+        "name": "0nk434_7l9tsv.js",
+        "type": "script",
+        "bytes": 44412,
+        "decoded": 134122
+      },
+      {
+        "name": "1ldivij-eq9cm.js",
+        "type": "script",
+        "bytes": 12338,
+        "decoded": 35163
+      },
+      {
+        "name": "2bqea1wb93ezc.js",
+        "type": "script",
+        "bytes": 85500,
+        "decoded": 374751
+      },
+      {
+        "name": "0i6cxivpn09ka.js",
+        "type": "script",
+        "bytes": 215,
+        "decoded": 215
+      },
+      {
+        "name": "3ifocwxizmbuw.js",
+        "type": "script",
+        "bytes": 49871,
+        "decoded": 185747
+      },
+      {
+        "name": "225pyz12n7b6c.js",
+        "type": "script",
+        "bytes": 88436,
+        "decoded": 366820
+      },
+      {
+        "name": "39bmry6riora0.css",
+        "type": "link",
+        "bytes": 161,
+        "decoded": 161
+      },
+      {
+        "name": "en?_rsc=0jGZgW6Ln_bTiVd1",
+        "type": "fetch",
+        "bytes": 186,
+        "decoded": 293
+      },
+      {
+        "name": "services?_rsc=0jGZgW6Ln_bTiVd1",
+        "type": "fetch",
+        "bytes": 196,
+        "decoded": 350
+      },
+      {
+        "name": "work?_rsc=0jGZgW6Ln_bTiVd1",
+        "type": "fetch",
+        "bytes": 194,
+        "decoded": 346
+      },
+      {
+        "name": "about?_rsc=0jGZgW6Ln_bTiVd1",
+        "type": "fetch",
+        "bytes": 287,
+        "decoded": 548
+      },
+      {
+        "name": "insights?_rsc=0jGZgW6Ln_bTiVd1",
+        "type": "fetch",
+        "bytes": 195,
+        "decoded": 350
+      },
+      {
+        "name": "contact?_rsc=0jGZgW6Ln_bTiVd1",
+        "type": "fetch",
+        "bytes": 300,
+        "decoded": 604
+      },
+      {
+        "name": "contact?_rsc=0jGZgW6Ln_bTiVd1",
+        "type": "fetch",
+        "bytes": 301,
+        "decoded": 604
+      },
+      {
+        "name": "en?_rsc=bQfaZETtmDBiuz93",
+        "type": "fetch",
+        "bytes": 724,
+        "decoded": 1317
+      },
+      {
+        "name": "services?_rsc=bQfaZETtmDBiuz93",
+        "type": "fetch",
+        "bytes": 662,
+        "decoded": 1108
+      },
+      {
+        "name": "work?_rsc=bQfaZETtmDBiuz93",
+        "type": "fetch",
+        "bytes": 658,
+        "decoded": 1104
+      },
+      {
+        "name": "about?_rsc=v6ldk5Q99EEhPR3R",
+        "type": "fetch",
+        "bytes": 6273,
+        "decoded": 17725
+      },
+      {
+        "name": "about?_rsc=zi3zsG0mdw_wbSUe",
+        "type": "fetch",
+        "bytes": 3892,
+        "decoded": 19830
+      },
+      {
+        "name": "insights?_rsc=bQfaZETtmDBiuz93",
+        "type": "fetch",
+        "bytes": 756,
+        "decoded": 1397
+      },
+      {
+        "name": "contact?_rsc=h9tJkLXdZk-F4QxV",
+        "type": "fetch",
+        "bytes": 5843,
+        "decoded": 16446
+      },
+      {
+        "name": "contact?_rsc=v6ldk5Q99EEhPR3R",
+        "type": "fetch",
+        "bytes": 7211,
+        "decoded": 22100
+      },
+      {
+        "name": "contact?_rsc=h9tJkLXdZk-F4QxV",
+        "type": "fetch",
+        "bytes": 6788,
+        "decoded": 20808
+      }
+    ],
+    "overflow": false,
+    "canvas": true
+  },
+  {
+    "route": "/en",
+    "width": 390,
+    "lcp": 7316,
+    "lcpElement": "H1: We turn business complexity into systems that move.",
+    "cls": 0.11137440758293839,
+    "longTasks": [
+      68,
+      92,
+      51,
+      50,
+      52
+    ],
+    "ttfb": 22.700000002980232,
+    "resources": [
+      {
+        "name": "06o9_7as_ttmx.css",
+        "type": "link",
+        "bytes": 4071,
+        "decoded": 14754
+      },
+      {
+        "name": "1beiyjrq7af1-.css",
+        "type": "link",
+        "bytes": 1837,
+        "decoded": 6792
+      },
+      {
+        "name": "3c43dtiq-uox7.css",
+        "type": "link",
+        "bytes": 5249,
+        "decoded": 30942
+      },
+      {
+        "name": "32c2rpu328-ai.css",
+        "type": "link",
+        "bytes": 18954,
+        "decoded": 117807
+      },
+      {
+        "name": "3_pz_xyhj63hd.js",
+        "type": "link",
+        "bytes": 348,
+        "decoded": 348
+      },
+      {
+        "name": "3qq9fjtagffmo.js",
+        "type": "script",
+        "bytes": 8788,
+        "decoded": 32897
+      },
+      {
+        "name": "3ggwmwn297vjl.js",
+        "type": "script",
+        "bytes": 73278,
+        "decoded": 234172
+      },
+      {
+        "name": "1ofofcn0wu8jv.js",
+        "type": "script",
+        "bytes": 690,
+        "decoded": 690
+      },
+      {
+        "name": "turbopack-2c2ht_d5m3e5d.js",
+        "type": "script",
+        "bytes": 4305,
+        "decoded": 10946
+      },
+      {
+        "name": "0h2qsuyze9ds1.js",
+        "type": "script",
+        "bytes": 3662,
+        "decoded": 14377
+      },
+      {
+        "name": "0gpuh00-wx325.js",
+        "type": "script",
+        "bytes": 44063,
+        "decoded": 161753
+      },
+      {
+        "name": "1wtd9n7vjnbdy.js",
+        "type": "script",
+        "bytes": 9683,
+        "decoded": 24588
+      },
+      {
+        "name": "2yqxp5b-s1_gy.js",
+        "type": "script",
+        "bytes": 315,
+        "decoded": 315
+      },
+      {
+        "name": "2wx0ew9a74qjs.js",
+        "type": "script",
+        "bytes": 561,
+        "decoded": 561
+      },
+      {
+        "name": "1zuz3hmy-y0l3.js",
+        "type": "script",
+        "bytes": 18547,
+        "decoded": 59328
+      },
+      {
+        "name": "0nk434_7l9tsv.js",
+        "type": "script",
+        "bytes": 44412,
+        "decoded": 134122
+      },
+      {
+        "name": "services?_rsc=ry-B8umWgNEV4JR9",
+        "type": "fetch",
+        "bytes": 196,
+        "decoded": 350
+      },
+      {
+        "name": "work?_rsc=ry-B8umWgNEV4JR9",
+        "type": "fetch",
+        "bytes": 194,
+        "decoded": 346
+      },
+      {
+        "name": "about?_rsc=ry-B8umWgNEV4JR9",
+        "type": "fetch",
+        "bytes": 287,
+        "decoded": 548
+      },
+      {
+        "name": "contact?_rsc=ry-B8umWgNEV4JR9",
+        "type": "fetch",
+        "bytes": 300,
+        "decoded": 604
+      },
+      {
+        "name": "en?_rsc=1vwYfVB7_E9t4fEj",
+        "type": "fetch",
+        "bytes": 728,
+        "decoded": 1317
+      },
+      {
+        "name": "services?_rsc=1vwYfVB7_E9t4fEj",
+        "type": "fetch",
+        "bytes": 659,
+        "decoded": 1108
+      },
+      {
+        "name": "work?_rsc=1vwYfVB7_E9t4fEj",
+        "type": "fetch",
+        "bytes": 661,
+        "decoded": 1104
+      },
+      {
+        "name": "2z4zhqmiabg0h.css",
+        "type": "link",
+        "bytes": 858,
+        "decoded": 2559
+      },
+      {
+        "name": "about?_rsc=FUh3Gxqryw1dTRX2",
+        "type": "fetch",
+        "bytes": 6273,
+        "decoded": 17725
+      },
+      {
+        "name": "09z9le71uhwz8.js",
+        "type": "script",
+        "bytes": 2601,
+        "decoded": 6964
+      },
+      {
+        "name": "about?_rsc=14SDM1VKcJJY_7o-",
+        "type": "fetch",
+        "bytes": 3892,
+        "decoded": 19830
+      },
+      {
+        "name": "contact?_rsc=Cse75bopPPckNhL1",
+        "type": "fetch",
+        "bytes": 5843,
+        "decoded": 16446
+      },
+      {
+        "name": "2bqea1wb93ezc.js",
+        "type": "script",
+        "bytes": 85500,
+        "decoded": 374751
+      },
+      {
+        "name": "1ldivij-eq9cm.js",
+        "type": "script",
+        "bytes": 12338,
+        "decoded": 35163
+      },
+      {
+        "name": "0i6cxivpn09ka.js",
+        "type": "script",
+        "bytes": 215,
+        "decoded": 215
+      },
+      {
+        "name": "3ifocwxizmbuw.js",
+        "type": "script",
+        "bytes": 49871,
+        "decoded": 185747
+      },
+      {
+        "name": "225pyz12n7b6c.js",
+        "type": "script",
+        "bytes": 88436,
+        "decoded": 366820
+      },
+      {
+        "name": "39bmry6riora0.css",
+        "type": "link",
+        "bytes": 161,
+        "decoded": 161
+      }
+    ],
+    "overflow": false,
+    "canvas": true
+  },
+  {
+    "route": "/ar/contact",
+    "width": 390,
+    "lcp": 124,
+    "lcpElement": "H1: أخبرنا بما يجب أن يعمل بصورة أفضل.",
+    "cls": 0,
+    "longTasks": [
+      64,
+      67
+    ],
+    "ttfb": 8.799999997019768,
+    "resources": [
+      {
+        "name": "06o9_7as_ttmx.css",
+        "type": "link",
+        "bytes": 4071,
+        "decoded": 14754
+      },
+      {
+        "name": "1beiyjrq7af1-.css",
+        "type": "link",
+        "bytes": 1837,
+        "decoded": 6792
+      },
+      {
+        "name": "32c2rpu328-ai.css",
+        "type": "link",
+        "bytes": 18954,
+        "decoded": 117807
+      },
+      {
+        "name": "2z4zhqmiabg0h.css",
+        "type": "link",
+        "bytes": 858,
+        "decoded": 2559
+      },
+      {
+        "name": "3_pz_xyhj63hd.js",
+        "type": "link",
+        "bytes": 348,
+        "decoded": 348
+      },
+      {
+        "name": "3qq9fjtagffmo.js",
+        "type": "script",
+        "bytes": 8788,
+        "decoded": 32897
+      },
+      {
+        "name": "3ggwmwn297vjl.js",
+        "type": "script",
+        "bytes": 73278,
+        "decoded": 234172
+      },
+      {
+        "name": "0gpuh00-wx325.js",
+        "type": "script",
+        "bytes": 44063,
+        "decoded": 161753
+      },
+      {
+        "name": "turbopack-2c2ht_d5m3e5d.js",
+        "type": "script",
+        "bytes": 4305,
+        "decoded": 10946
+      },
+      {
+        "name": "0h2qsuyze9ds1.js",
+        "type": "script",
+        "bytes": 3662,
+        "decoded": 14377
+      },
+      {
+        "name": "1ofofcn0wu8jv.js",
+        "type": "script",
+        "bytes": 690,
+        "decoded": 690
+      },
+      {
+        "name": "1wtd9n7vjnbdy.js",
+        "type": "script",
+        "bytes": 9683,
+        "decoded": 24588
+      },
+      {
+        "name": "2wx0ew9a74qjs.js",
+        "type": "script",
+        "bytes": 561,
+        "decoded": 561
+      },
+      {
+        "name": "0nk434_7l9tsv.js",
+        "type": "script",
+        "bytes": 44412,
+        "decoded": 134122
+      },
+      {
+        "name": "09z9le71uhwz8.js",
+        "type": "script",
+        "bytes": 2601,
+        "decoded": 6964
+      },
+      {
+        "name": "1ldivij-eq9cm.js",
+        "type": "script",
+        "bytes": 12338,
+        "decoded": 35163
+      },
+      {
+        "name": "2bqea1wb93ezc.js",
+        "type": "script",
+        "bytes": 85500,
+        "decoded": 374751
+      },
+      {
+        "name": "0i6cxivpn09ka.js",
+        "type": "script",
+        "bytes": 215,
+        "decoded": 215
+      },
+      {
+        "name": "3ifocwxizmbuw.js",
+        "type": "script",
+        "bytes": 49871,
+        "decoded": 185747
+      },
+      {
+        "name": "225pyz12n7b6c.js",
+        "type": "script",
+        "bytes": 88436,
+        "decoded": 366820
+      },
+      {
+        "name": "39bmry6riora0.css",
+        "type": "link",
+        "bytes": 161,
+        "decoded": 161
+      },
+      {
+        "name": "ar?_rsc=aSqzQzOG0hUFSARJ",
+        "type": "fetch",
+        "bytes": 187,
+        "decoded": 293
+      },
+      {
+        "name": "services?_rsc=aSqzQzOG0hUFSARJ",
+        "type": "fetch",
+        "bytes": 196,
+        "decoded": 350
+      },
+      {
+        "name": "work?_rsc=aSqzQzOG0hUFSARJ",
+        "type": "fetch",
+        "bytes": 194,
+        "decoded": 346
+      },
+      {
+        "name": "about?_rsc=aSqzQzOG0hUFSARJ",
+        "type": "fetch",
+        "bytes": 287,
+        "decoded": 548
+      },
+      {
+        "name": "contact?_rsc=aSqzQzOG0hUFSARJ",
+        "type": "fetch",
+        "bytes": 301,
+        "decoded": 604
+      },
+      {
+        "name": "ar?_rsc=9ok2CeFKR2p_b5bX",
+        "type": "fetch",
+        "bytes": 788,
+        "decoded": 1360
+      },
+      {
+        "name": "services?_rsc=9ok2CeFKR2p_b5bX",
+        "type": "fetch",
+        "bytes": 662,
+        "decoded": 1108
+      },
+      {
+        "name": "work?_rsc=9ok2CeFKR2p_b5bX",
+        "type": "fetch",
+        "bytes": 660,
+        "decoded": 1104
+      },
+      {
+        "name": "contact?_rsc=aG6qpWRbXxyyiFgX",
+        "type": "fetch",
+        "bytes": 7211,
+        "decoded": 22100
+      },
+      {
+        "name": "contact?_rsc=Xgb-Z8lrLFFGt5gy",
+        "type": "fetch",
+        "bytes": 6788,
+        "decoded": 20808
+      },
+      {
+        "name": "about?_rsc=2jmHJeyo8GkGkbIV",
+        "type": "fetch",
+        "bytes": 4510,
+        "decoded": 22307
+      }
+    ],
+    "overflow": false,
+    "canvas": true
+  }
+]

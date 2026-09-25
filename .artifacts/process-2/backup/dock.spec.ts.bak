@@ -1,0 +1,108 @@
+import { test, expect } from '@playwright/test';
+
+test.beforeEach(async ({page}) => {
+  await page.addInitScript(() => document.addEventListener('DOMContentLoaded', () => {
+    const style=document.createElement('style'); style.textContent='nextjs-portal { display: none !important; }'; document.head.append(style);
+  }));
+});
+
+for (const locale of ['en', 'ar']) {
+  for (const [width, height] of [[1920,1080],[1440,900],[1366,768],[1101,800],[1024,768],[901,800],[900,800],[768,1024],[600,900],[430,932],[390,844],[375,812],[360,800],[320,568]]) {
+    test(`${locale} navigation layout ${width}`, async ({ page }) => {
+      await page.setViewportSize({ width, height });
+      await page.goto(`/${locale}`);
+      const home = locale === 'en' ? 'Home' : 'الرئيسية';
+      const nav = page.locator('header nav[aria-label="Primary navigation"]');
+      const dock = page.locator('.elsheik-mobile-dock');
+      if (width > 900) {
+        await expect(nav).toBeVisible(); await expect(dock).toBeHidden();
+        await expect(nav.getByRole('link', { name: home, exact: true })).toHaveAttribute('href', `/${locale}`);
+        await expect(nav.getByRole('link', { name: home, exact: true })).toHaveAttribute('aria-current', 'page');
+        await expect(nav.getByRole('link', { name: home, exact: true }).locator('svg')).toHaveAttribute('aria-hidden', 'true');
+        await expect(nav.getByRole('link')).toHaveCount(6);
+        const bounds = await page.locator('body > header > div > *').evaluateAll(els => els.filter(el => getComputedStyle(el).display !== 'none').map(el => { const r=el.getBoundingClientRect(); return {left:r.left,right:r.right}; }).sort((a,b)=>a.left-b.left));
+        for(let i=1;i<bounds.length;i++) expect(bounds[i].left).toBeGreaterThanOrEqual(bounds[i-1].right);
+      } else {
+        await expect(nav).toBeHidden(); await expect(dock).toBeVisible();
+        await expect(dock.getByRole('link')).toHaveCount(5);
+        const homes = dock.getByRole('link', { name: home, exact: true });
+        await expect(homes).toHaveAttribute('aria-current', 'page');
+        const boxes = await dock.getByRole('link').evaluateAll(els => els.map(el => el.getBoundingClientRect().x));
+        expect(locale === 'ar' ? boxes[0] > boxes[4] : boxes[0] < boxes[4]).toBe(true);
+        await page.locator('header button[aria-controls="mobile-nav"]').click();
+        await expect(dock).toBeHidden();
+        await expect(page.locator('#mobile-nav').getByRole('link', { name: home, exact: true })).toBeVisible();
+        await expect(page.locator('#mobile-nav .language')).toBeVisible();
+        await expect(page.locator('#mobile-nav .button-primary')).toBeVisible();
+        await page.locator('header button[aria-controls="mobile-nav"]').click();
+      }
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    });
+  }
+
+  test(`${locale} dock routes, scroll, keyboard and reduced motion`, async ({ page }) => {
+    test.setTimeout(120000);
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto(`/${locale}`);
+    const dock = page.locator('.elsheik-mobile-dock');
+    for (const path of ['services','work','about','contact','']) {
+      const href = `/${locale}${path ? `/${path}` : ''}`;
+      await dock.locator(`a[href="${href}"]`).click();
+      await expect(page).toHaveURL(new RegExp(`${href}$`));
+      await expect(dock.locator(`a[href="${href}"]`)).toHaveAttribute('aria-current', 'page');
+      const before = await dock.boundingBox();
+      await page.evaluate(() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'instant' }));
+      const after = await dock.boundingBox(); expect(after?.y).toBe(before?.y);
+      const footer = await page.locator('body > footer').boundingBox();
+      expect(footer!.y + footer!.height).toBeLessThanOrEqual(after!.y);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    }
+    await page.goto(`/${locale}/insights`);
+    await expect(dock).toBeVisible();
+    await page.evaluate(() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'instant' }));
+    const footer = await page.locator('body > footer').boundingBox();
+    expect(footer!.y + footer!.height).toBeLessThanOrEqual((await dock.boundingBox())!.y);
+    const first = dock.locator('a').first();
+    await first.focus(); await expect(dock.locator('.dock-label')).toBeVisible();
+    await expect.poll(async () => (await first.boundingBox())!.width).toBeGreaterThan(54);
+    await page.keyboard.press('Enter'); await expect(page).toHaveURL(new RegExp(`/${locale}$`));
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await first.focus(); await expect(first).toHaveCSS('width', '50px');
+    await page.keyboard.press('Tab'); await page.keyboard.press('Enter');
+    await expect(page).toHaveURL(new RegExp(`/${locale}/services$`));
+    await page.goto(`/${locale}/contact`);
+    for(const selector of ['input[name="name"]','input[name="company"]','input[type="email"]','input[name="phone"]','input[name="country"]','input[name="budget"]','input[name="timeline"]','select','textarea']) {
+      await page.locator(selector).first().focus(); await expect(dock).toBeHidden();
+      await page.locator(selector).first().blur(); await expect(dock).toBeVisible();
+    }
+    const submit=page.locator('form button'); await submit.scrollIntoViewIfNeeded();
+    const submitBox=await submit.boundingBox(); expect(submitBox!.y+submitBox!.height).toBeLessThanOrEqual((await dock.boundingBox())!.y);
+    await page.goto(`/${locale}/work/relax-moon-spa-automation`);
+    await expect(dock.locator(`a[href="/${locale}/work"]`)).toHaveAttribute('aria-current','page');
+    await page.evaluate(() => window.scrollTo({top:document.body.scrollHeight,behavior:'instant'}));
+    const caseFooter=await page.locator('body > footer').boundingBox(); expect(caseFooter!.y+caseFooter!.height).toBeLessThanOrEqual((await dock.boundingBox())!.y);
+  });
+}
+
+test('dock mouse magnification fits narrow screen and desktop Home is keyboard reachable', async ({ page }) => {
+  await page.setViewportSize({ width: 375, height: 812 }); await page.goto('/ar');
+  const dock = page.locator('.elsheik-mobile-dock');
+  const item = dock.locator('a').nth(2); await item.hover();
+  await expect.poll(async () => (await item.boundingBox())!.width).toBeGreaterThan(54);
+  const panel = await page.locator('.dock-panel').boundingBox();
+  expect(panel!.x).toBeGreaterThanOrEqual(0); expect(panel!.x + panel!.width).toBeLessThanOrEqual(375);
+  await expect(dock.locator('.dock-label')).toHaveAttribute('dir', 'rtl');
+  await page.setViewportSize({width:320,height:568});
+  for(const index of [0,2,4]) {
+    await dock.locator('a').nth(index).hover(); await page.waitForTimeout(600);
+    const boxes=await page.locator('.dock-panel, .dock-label').evaluateAll(els=>els.map(el=>{const r=el.getBoundingClientRect();return {left:r.left,right:r.right};}));
+    for(const box of boxes) { expect(box.left).toBeGreaterThanOrEqual(0); expect(box.right).toBeLessThanOrEqual(320); }
+  }
+  await page.setViewportSize({ width: 1440, height: 900 }); await page.goto('/en/services');
+  for (let i = 0; i < 5; i++) {
+    await page.keyboard.press('Tab');
+    if (await page.locator('header nav a').first().evaluate(el => el === document.activeElement)) break;
+  }
+  await expect(page.locator('header nav a').first()).toBeFocused();
+  await page.keyboard.press('Enter'); await expect(page).toHaveURL(/\/en$/);
+});

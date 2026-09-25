@@ -1,0 +1,48 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "emptyInvalid": 3,
+    "invalidFields": 3,
+    "postsAfterInvalid": 0,
+    "postsAfterValid": 1,
+    "payload": {
+      "name": "Test Person",
+      "company": "",
+      "email": "person@example.com",
+      "phone": "",
+      "country": "",
+      "service": "unsure",
+      "budget": "",
+      "timeline": "",
+      "description": "We need a booking workflow that coordinates two branches.",
+      "website": ""
+    },
+    "formResetAfterOk": true,
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "emptyInvalid": 3,
+    "invalidFields": 3,
+    "postsAfterInvalid": 0,
+    "postsAfterValid": 1,
+    "payload": {
+      "name": "Test Person",
+      "company": "",
+      "email": "person@example.com",
+      "phone": "",
+      "country": "",
+      "service": "unsure",
+      "budget": "",
+      "timeline": "",
+      "description": "We need a booking workflow that coordinates two branches.",
+      "website": ""
+    },
+    "formResetAfterOk": true,
+    "errors": [],
+    "overflow": false
+  }
+]

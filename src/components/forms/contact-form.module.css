@@ -1,0 +1,113 @@
+.form {
+  border: 1px solid var(--border-bright);
+  border-radius: 0;
+  padding: clamp(1.2rem, 4vw, 3.5rem);
+  background: #15151a;
+  box-shadow: 0 35px 100px rgba(0, 0, 0, 0.3);
+  counter-reset: field;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.35rem 2rem;
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-bottom: 1.25rem;
+  counter-increment: field;
+}
+.form label > span {
+  font: 650 var(--text-label)/1.45 var(--font-mono);
+  letter-spacing: 0.06em;
+  color: var(--foreground-secondary);
+}
+.form label > span::before {
+  content: counter(field, decimal-leading-zero) " / ";
+  color: var(--accent);
+}
+.form label small {
+  color: var(--muted);
+  font-size: var(--text-meta);
+  font-weight: 400;
+  margin-inline-start: 0.5rem;
+}
+.form input,
+.form select,
+.form textarea {
+  width: 100%;
+  color: var(--foreground);
+  background: rgba(5, 9, 10, 0.65);
+  border: 1px solid var(--border);
+  border-radius: 0;
+  padding: 1rem 1.1rem;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s,
+    background 0.2s;
+}
+.form textarea {
+  min-height: 11rem;
+  resize: vertical;
+}
+.form select option {
+  background: var(--surface);
+}
+.form input:focus,
+.form select:focus,
+.form textarea:focus {
+  border-color: var(--accent);
+  background: #101014;
+  box-shadow: inset 4px 0 0 var(--accent);
+  outline: 0;
+}
+.form em {
+  color: var(--danger);
+  font-size: var(--text-meta);
+  font-style: normal;
+}
+.submit {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+}
+.submit p {
+  color: var(--success);
+  font-size: var(--text-small);
+  max-width: 35rem;
+}
+.submit p small {
+  display: block;
+  color: var(--muted);
+  margin-top: 0.4rem;
+}
+.submit .error {
+  color: var(--danger);
+}
+.honeypot {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+}
+.form button:disabled {
+  opacity: 0.55;
+  cursor: wait;
+}
+@media (max-width: 650px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .submit {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .form {
+    border-radius: 1rem;
+  }
+}

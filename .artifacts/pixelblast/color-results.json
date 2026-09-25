@@ -1,0 +1,82 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "key": "field-notes",
+    "background": "rgb(16, 16, 20)",
+    "color": "rgb(240, 238, 231)",
+    "title": "Thinking about how digital systems should be designed—and run.",
+    "headingFont": "86.4px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "key": "next-move",
+    "background": "rgb(22, 22, 27)",
+    "color": "rgb(240, 238, 231)",
+    "title": "Let’s build what your business needs next.",
+    "headingFont": "100.8px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "key": "field-notes",
+    "background": "rgb(16, 16, 20)",
+    "color": "rgb(240, 238, 231)",
+    "title": "Thinking about how digital systems should be designed—and run.",
+    "headingFont": "49.6px",
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "key": "next-move",
+    "background": "rgb(22, 22, 27)",
+    "color": "rgb(240, 238, 231)",
+    "title": "Let’s build what your business needs next.",
+    "headingFont": "59.2px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "key": "field-notes",
+    "background": "rgb(16, 16, 20)",
+    "color": "rgb(240, 238, 231)",
+    "title": "أفكار حول تصميم وتشغيل الأنظمة الرقمية.",
+    "headingFont": "86.4px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "key": "next-move",
+    "background": "rgb(22, 22, 27)",
+    "color": "rgb(240, 238, 231)",
+    "title": "لنبنِ النظام الذي يحتاجه عملك الآن.",
+    "headingFont": "100.8px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "key": "field-notes",
+    "background": "rgb(16, 16, 20)",
+    "color": "rgb(240, 238, 231)",
+    "title": "أفكار حول تصميم وتشغيل الأنظمة الرقمية.",
+    "headingFont": "49.6px",
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "key": "next-move",
+    "background": "rgb(22, 22, 27)",
+    "color": "rgb(240, 238, 231)",
+    "title": "لنبنِ النظام الذي يحتاجه عملك الآن.",
+    "headingFont": "59.2px",
+    "overflow": false
+  }
+]

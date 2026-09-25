@@ -1,0 +1,3 @@
+import { describe,expect,it } from "vitest";import { inquirySchema } from "@/lib/validation/inquiry";
+describe("inquiry validation",()=>{const valid={name:"A client",email:"client@example.com",service:"automation",description:"We need a reliable booking workflow for our operation."};it("accepts a valid minimal brief",()=>expect(inquirySchema.safeParse(valid).success).toBe(true));it("rejects an invalid email",()=>expect(inquirySchema.safeParse({...valid,email:"invalid"}).success).toBe(false));it("rejects an inadequate description",()=>expect(inquirySchema.safeParse({...valid,description:"Too short"}).success).toBe(false))});
+

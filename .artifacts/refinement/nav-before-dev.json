@@ -1,0 +1,217 @@
+{
+  "label": "before-dev",
+  "base": "http://localhost:3000",
+  "locale": "en",
+  "mobile": false,
+  "steps": [
+    {
+      "name": "lap1 /en -> /en/services",
+      "urlMs": 106,
+      "contentMs": 473,
+      "rsc": [
+        "/en/services 151ms"
+      ]
+    },
+    {
+      "name": "lap1 /en/services -> /en/work",
+      "urlMs": 97,
+      "contentMs": 445,
+      "rsc": [
+        "/en/work 174ms"
+      ]
+    },
+    {
+      "name": "lap1 /en/work -> /en/process",
+      "urlMs": 435,
+      "contentMs": 435,
+      "rsc": [
+        "/en/process 227ms"
+      ]
+    },
+    {
+      "name": "lap1 /en/process -> /en/about",
+      "urlMs": 170,
+      "contentMs": 170,
+      "rsc": [
+        "/en/about 91ms"
+      ]
+    },
+    {
+      "name": "lap1 /en/about -> /en/insights",
+      "urlMs": 96,
+      "contentMs": 454,
+      "rsc": [
+        "/en/insights 150ms"
+      ]
+    },
+    {
+      "name": "lap1 /en/insights -> /en/contact",
+      "urlMs": 92,
+      "contentMs": 446,
+      "rsc": [
+        "/en/contact 74ms"
+      ]
+    },
+    {
+      "name": "lap1 /en/contact -> /en",
+      "urlMs": 129,
+      "contentMs": 413,
+      "rsc": [
+        "/en 170ms"
+      ]
+    },
+    {
+      "name": "lap1 Home -> Work",
+      "urlMs": 28,
+      "contentMs": 363,
+      "rsc": [
+        "/en/work 135ms"
+      ]
+    },
+    {
+      "name": "lap1 Work -> case study",
+      "urlMs": 199,
+      "contentMs": 392,
+      "rsc": [
+        "/en/work/relax-moon-spa-automation 153ms"
+      ]
+    },
+    {
+      "name": "lap1 case study -> Work",
+      "urlMs": 104,
+      "contentMs": 104,
+      "rsc": [
+        "/en/work 81ms"
+      ]
+    },
+    {
+      "name": "lap1 Work -> case study (2)",
+      "urlMs": 214,
+      "contentMs": 214,
+      "rsc": [
+        "/en/work/relax-moon-spa-automation 137ms"
+      ]
+    },
+    {
+      "name": "lap1 case study -> Start a project",
+      "urlMs": 30,
+      "contentMs": 126,
+      "rsc": [
+        "/en/contact 66ms"
+      ]
+    },
+    {
+      "name": "lap1 Contact -> Home",
+      "urlMs": 122,
+      "contentMs": 412,
+      "rsc": [
+        "/en 148ms"
+      ]
+    },
+    {
+      "name": "lap2 /en -> /en/services",
+      "urlMs": 29,
+      "contentMs": 102,
+      "rsc": [
+        "/en/services 74ms"
+      ]
+    },
+    {
+      "name": "lap2 /en/services -> /en/work",
+      "urlMs": 29,
+      "contentMs": 359,
+      "rsc": [
+        "/en/work 85ms"
+      ]
+    },
+    {
+      "name": "lap2 /en/work -> /en/process",
+      "urlMs": 31,
+      "contentMs": 296,
+      "rsc": [
+        "/en/process 218ms"
+      ]
+    },
+    {
+      "name": "lap2 /en/process -> /en/about",
+      "urlMs": 28,
+      "contentMs": 160,
+      "rsc": [
+        "/en/about 99ms"
+      ]
+    },
+    {
+      "name": "lap2 /en/about -> /en/insights",
+      "urlMs": 30,
+      "contentMs": 368,
+      "rsc": [
+        "/en/insights 181ms"
+      ]
+    },
+    {
+      "name": "lap2 /en/insights -> /en/contact",
+      "urlMs": 28,
+      "contentMs": 115,
+      "rsc": [
+        "/en/contact 62ms"
+      ]
+    },
+    {
+      "name": "lap2 /en/contact -> /en",
+      "urlMs": 176,
+      "contentMs": 176,
+      "rsc": [
+        "/en 102ms"
+      ]
+    },
+    {
+      "name": "lap2 Home -> Work",
+      "urlMs": 26,
+      "contentMs": 375,
+      "rsc": [
+        "/en/work 158ms"
+      ]
+    },
+    {
+      "name": "lap2 Work -> case study",
+      "urlMs": 211,
+      "contentMs": 211,
+      "rsc": [
+        "/en/work/relax-moon-spa-automation 130ms"
+      ]
+    },
+    {
+      "name": "lap2 case study -> Work",
+      "urlMs": 114,
+      "contentMs": 114,
+      "rsc": [
+        "/en/work 89ms"
+      ]
+    },
+    {
+      "name": "lap2 Work -> case study (2)",
+      "urlMs": 210,
+      "contentMs": 210,
+      "rsc": [
+        "/en/work/relax-moon-spa-automation 126ms"
+      ]
+    },
+    {
+      "name": "lap2 case study -> Start a project",
+      "urlMs": 31,
+      "contentMs": 113,
+      "rsc": [
+        "/en/contact 64ms"
+      ]
+    },
+    {
+      "name": "lap2 Contact -> Home",
+      "urlMs": 113,
+      "contentMs": 414,
+      "rsc": [
+        "/en 183ms"
+      ]
+    }
+  ],
+  "errors": []
+}

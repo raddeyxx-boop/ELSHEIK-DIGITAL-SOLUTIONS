@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const p='src/components/motion/system-field.tsx';
+let s=fs.readFileSync(p,'utf8').replace('motion, useReducedMotion','useReducedMotion');
+s=s.replace('export function SystemField', 'const arabicModules = [["التجربة", "أنظمة الواجهات"], ["الأتمتة", "منطق التشغيل"], ["البيانات", "ذاكرة منظمة"], ["الذكاء", "طبقة القرار"]] as const;\nexport function SystemField');
+s=s.replace('<path d="M360 40V480"/></svg>', '<path d="M360 40V480"/>{!reduce && <circle className={styles.packet} r="3"><animateMotion dur="4.6s" repeatCount="indefinite" path="M30 260H170C225 260 212 96 285 96H440C500 96 495 260 548 260H690"/></circle>}</svg>');
+s=s.replace('<div className={styles.core}>','<div className={styles.core} lang={locale}>');
+s=s.replace('<button key={title}', '<button type="button" lang={locale} key={title}');
+s=s.replace('<strong>{title}</strong><small>{meta}</small>', '<strong>{locale==="ar"?arabicModules[item][0]:title}</strong><small>{locale==="ar"?arabicModules[item][1]:meta}</small>');
+s=s.slice(0,s.indexOf('<motion.i'))+s.slice(s.indexOf('<div className={styles.readout}'));
+fs.writeFileSync(p,s);

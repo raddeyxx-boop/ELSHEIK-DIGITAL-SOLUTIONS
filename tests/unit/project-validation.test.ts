@@ -1,0 +1,4 @@
+import { describe,expect,it } from "vitest";import { projectSchema } from "@/lib/validation/project";
+const project={slug:"operations-platform",title_en:"Operations Platform",title_ar:"منصة العمليات",summary_en:"A complete operational platform designed around a verified business workflow.",summary_ar:"منصة تشغيلية متكاملة مصممة حول سير عمل حقيقي تم التحقق منه.",industry_en:"Services",industry_ar:"الخدمات",year:"2026",status:"draft",featured:false,sort_order:0};
+describe("project validation",()=>{it("accepts bilingual draft content",()=>expect(projectSchema.safeParse(project).success).toBe(true));it("rejects unsafe slugs",()=>expect(projectSchema.safeParse({...project,slug:"Invalid Slug"}).success).toBe(false));it("restricts publication states",()=>expect(projectSchema.safeParse({...project,status:"private"}).success).toBe(false))});
+

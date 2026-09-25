@@ -1,0 +1,242 @@
+[
+  {
+    "locale": "en",
+    "width": 1920,
+    "label": "Home",
+    "href": "/en",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "en",
+    "width": 1600,
+    "label": "Home",
+    "href": "/en",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "label": "Home",
+    "href": "/en",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "en",
+    "width": 1366,
+    "label": "Home",
+    "href": "/en",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "label": "Home",
+    "href": "/en",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "en",
+    "width": 1100,
+    "label": "Home",
+    "href": "/en",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "label": "Home",
+    "href": "/en",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "en",
+    "width": 901,
+    "label": "Home",
+    "href": "/en",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "ar",
+    "width": 1920,
+    "label": "الرئيسية",
+    "href": "/ar",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "ar",
+    "width": 1600,
+    "label": "الرئيسية",
+    "href": "/ar",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "label": "الرئيسية",
+    "href": "/ar",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "ar",
+    "width": 1366,
+    "label": "الرئيسية",
+    "href": "/ar",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "label": "الرئيسية",
+    "href": "/ar",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "ar",
+    "width": 1100,
+    "label": "الرئيسية",
+    "href": "/ar",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "label": "الرئيسية",
+    "href": "/ar",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  },
+  {
+    "locale": "ar",
+    "width": 901,
+    "label": "الرئيسية",
+    "href": "/ar",
+    "active": "page",
+    "visible": true,
+    "icon": {
+      "width": 15,
+      "height": 15,
+      "stroke": "rgb(240, 238, 231)",
+      "visibility": "visible"
+    },
+    "zoom": 1
+  }
+]
