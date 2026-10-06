@@ -1,0 +1,25 @@
+{
+  "latencyPerReadMs": 150,
+  "samples": [
+    {
+      "ms": 832.1898,
+      "status": 200,
+      "hasTitle": true
+    },
+    {
+      "ms": 481.9039999999999,
+      "status": 200,
+      "hasTitle": true
+    },
+    {
+      "ms": 483.1710999999998,
+      "status": 200,
+      "hasTitle": true
+    },
+    {
+      "ms": 480.14239999999995,
+      "status": 200,
+      "hasTitle": true
+    }
+  ]
+}

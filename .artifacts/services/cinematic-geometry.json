@@ -1,0 +1,1896 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "kind": "web",
+    "row": {
+      "x": 44,
+      "y": 421.28125,
+      "width": 1352,
+      "height": 479
+    },
+    "preview": {
+      "x": 800,
+      "y": 457.28125,
+      "width": 576,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": [
+      {
+        "cls": "service-preview-module__y2jela__architectureArt",
+        "text": "01 / 03"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "kind": "apps",
+    "row": {
+      "x": 44,
+      "y": 344.0625,
+      "width": 1352,
+      "height": 479
+    },
+    "preview": {
+      "x": 800,
+      "y": 380.0625,
+      "width": 576,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "kind": "mobile",
+    "row": {
+      "x": 44,
+      "y": 343.84375,
+      "width": 1352,
+      "height": 479
+    },
+    "preview": {
+      "x": 800,
+      "y": 379.84375,
+      "width": 576,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "kind": "automation",
+    "row": {
+      "x": 44,
+      "y": 420.625,
+      "width": 1352,
+      "height": 479
+    },
+    "preview": {
+      "x": 800,
+      "y": 456.625,
+      "width": 576,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "kind": "ai",
+    "row": {
+      "x": 44,
+      "y": 421.40625,
+      "width": 1352,
+      "height": 479
+    },
+    "preview": {
+      "x": 800,
+      "y": 457.40625,
+      "width": 576,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "kind": "software",
+    "row": {
+      "x": 44,
+      "y": 344.03125,
+      "width": 1352,
+      "height": 479
+    },
+    "preview": {
+      "x": 800,
+      "y": 380.03125,
+      "width": 576,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 1920,
+    "kind": "web",
+    "row": {
+      "x": 256,
+      "y": 601.1875,
+      "width": 1408,
+      "height": 479
+    },
+    "preview": {
+      "x": 1040,
+      "y": 637.1875,
+      "width": 580,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": [
+      {
+        "cls": "service-preview-module__y2jela__architectureArt",
+        "text": "01 / 03"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1920,
+    "kind": "apps",
+    "row": {
+      "x": 256,
+      "y": 432.375,
+      "width": 1408,
+      "height": 479
+    },
+    "preview": {
+      "x": 1040,
+      "y": 468.375,
+      "width": 580,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 1920,
+    "kind": "mobile",
+    "row": {
+      "x": 256,
+      "y": 432.5625,
+      "width": 1408,
+      "height": 479
+    },
+    "preview": {
+      "x": 1040,
+      "y": 468.5625,
+      "width": 580,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 1920,
+    "kind": "automation",
+    "row": {
+      "x": 256,
+      "y": 600.75,
+      "width": 1408,
+      "height": 479
+    },
+    "preview": {
+      "x": 1040,
+      "y": 636.75,
+      "width": 580,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "en",
+    "width": 1920,
+    "kind": "ai",
+    "row": {
+      "x": 256,
+      "y": 600.9375,
+      "width": 1408,
+      "height": 479
+    },
+    "preview": {
+      "x": 1040,
+      "y": 636.9375,
+      "width": 580,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "en",
+    "width": 1920,
+    "kind": "software",
+    "row": {
+      "x": 256,
+      "y": 431.9375,
+      "width": 1408,
+      "height": 479
+    },
+    "preview": {
+      "x": 1040,
+      "y": 467.9375,
+      "width": 580,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "kind": "web",
+    "row": {
+      "x": 44,
+      "y": 321.046875,
+      "width": 1192,
+      "height": 479
+    },
+    "preview": {
+      "x": 720,
+      "y": 357.046875,
+      "width": 496,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": [
+      {
+        "cls": "service-preview-module__y2jela__architectureArt",
+        "text": "01 / 03"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "kind": "apps",
+    "row": {
+      "x": 44,
+      "y": 293.828125,
+      "width": 1192,
+      "height": 479
+    },
+    "preview": {
+      "x": 720,
+      "y": 329.828125,
+      "width": 496,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "kind": "mobile",
+    "row": {
+      "x": 44,
+      "y": 293.609375,
+      "width": 1192,
+      "height": 479
+    },
+    "preview": {
+      "x": 720,
+      "y": 329.609375,
+      "width": 496,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "kind": "automation",
+    "row": {
+      "x": 44,
+      "y": 321.390625,
+      "width": 1192,
+      "height": 479
+    },
+    "preview": {
+      "x": 720,
+      "y": 357.390625,
+      "width": 496,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "kind": "ai",
+    "row": {
+      "x": 44,
+      "y": 321.171875,
+      "width": 1192,
+      "height": 479
+    },
+    "preview": {
+      "x": 720,
+      "y": 357.171875,
+      "width": 496,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "kind": "software",
+    "row": {
+      "x": 44,
+      "y": 293.828125,
+      "width": 1192,
+      "height": 479
+    },
+    "preview": {
+      "x": 720,
+      "y": 329.828125,
+      "width": 496,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "kind": "web",
+    "row": {
+      "x": 16,
+      "y": 288.75,
+      "width": 992,
+      "height": 479
+    },
+    "preview": {
+      "x": 592,
+      "y": 324.75,
+      "width": 396,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": [
+      {
+        "cls": "service-preview-module__y2jela__architectureArt",
+        "text": "01 / 03"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "kind": "apps",
+    "row": {
+      "x": 16,
+      "y": 278.53125,
+      "width": 992,
+      "height": 479
+    },
+    "preview": {
+      "x": 592,
+      "y": 314.53125,
+      "width": 396,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "kind": "mobile",
+    "row": {
+      "x": 16,
+      "y": 278.3125,
+      "width": 992,
+      "height": 479
+    },
+    "preview": {
+      "x": 592,
+      "y": 314.3125,
+      "width": 396,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "kind": "automation",
+    "row": {
+      "x": 16,
+      "y": 289.09375,
+      "width": 992,
+      "height": 479
+    },
+    "preview": {
+      "x": 592,
+      "y": 325.09375,
+      "width": 396,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "kind": "ai",
+    "row": {
+      "x": 16,
+      "y": 288.875,
+      "width": 992,
+      "height": 479
+    },
+    "preview": {
+      "x": 592,
+      "y": 324.875,
+      "width": 396,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "kind": "software",
+    "row": {
+      "x": 16,
+      "y": 277.8125,
+      "width": 992,
+      "height": 479
+    },
+    "preview": {
+      "x": 592,
+      "y": 313.8125,
+      "width": 396,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 430,
+    "kind": "web",
+    "row": {
+      "x": 10,
+      "y": 177.125,
+      "width": 410,
+      "height": 754.890625
+    },
+    "preview": {
+      "x": 10,
+      "y": 436.015625,
+      "width": 410,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": [
+      {
+        "cls": "service-preview-module__y2jela__architectureArt",
+        "text": "01 / 03"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 430,
+    "kind": "apps",
+    "row": {
+      "x": 10,
+      "y": 177.015625,
+      "width": 410,
+      "height": 754.890625
+    },
+    "preview": {
+      "x": 10,
+      "y": 435.90625,
+      "width": 410,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 430,
+    "kind": "mobile",
+    "row": {
+      "x": 10,
+      "y": 149.90625,
+      "width": 410,
+      "height": 782.078125
+    },
+    "preview": {
+      "x": 10,
+      "y": 435.984375,
+      "width": 410,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 430,
+    "kind": "automation",
+    "row": {
+      "x": 10,
+      "y": 176.984375,
+      "width": 410,
+      "height": 754.890625
+    },
+    "preview": {
+      "x": 10,
+      "y": 435.875,
+      "width": 410,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "en",
+    "width": 430,
+    "kind": "ai",
+    "row": {
+      "x": 10,
+      "y": 176.875,
+      "width": 410,
+      "height": 754.890625
+    },
+    "preview": {
+      "x": 10,
+      "y": 435.765625,
+      "width": 410,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "en",
+    "width": 430,
+    "kind": "software",
+    "row": {
+      "x": 10,
+      "y": 176.765625,
+      "width": 410,
+      "height": 754.890625
+    },
+    "preview": {
+      "x": 10,
+      "y": 435.65625,
+      "width": 410,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "kind": "web",
+    "row": {
+      "x": 10,
+      "y": 89.15625,
+      "width": 370,
+      "height": 754.890625
+    },
+    "preview": {
+      "x": 10,
+      "y": 348.046875,
+      "width": 370,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": [
+      {
+        "cls": "service-preview-module__y2jela__architectureArt",
+        "text": "01 / 03"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "kind": "apps",
+    "row": {
+      "x": 10,
+      "y": 62.046875,
+      "width": 370,
+      "height": 782.078125
+    },
+    "preview": {
+      "x": 10,
+      "y": 348.125,
+      "width": 370,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "kind": "mobile",
+    "row": {
+      "x": 10,
+      "y": 62.125,
+      "width": 370,
+      "height": 782.078125
+    },
+    "preview": {
+      "x": 10,
+      "y": 348.203125,
+      "width": 370,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "kind": "automation",
+    "row": {
+      "x": 10,
+      "y": 62.203125,
+      "width": 370,
+      "height": 782.078125
+    },
+    "preview": {
+      "x": 10,
+      "y": 348.28125,
+      "width": 370,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "kind": "ai",
+    "row": {
+      "x": 10,
+      "y": 29.28125,
+      "width": 370,
+      "height": 815.1875
+    },
+    "preview": {
+      "x": 10,
+      "y": 348.46875,
+      "width": 370,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "kind": "software",
+    "row": {
+      "x": 10,
+      "y": 61.46875,
+      "width": 370,
+      "height": 782.078125
+    },
+    "preview": {
+      "x": 10,
+      "y": 347.546875,
+      "width": 370,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "kind": "web",
+    "row": {
+      "x": 10,
+      "y": 57.15625,
+      "width": 355,
+      "height": 754.890625
+    },
+    "preview": {
+      "x": 10,
+      "y": 316.046875,
+      "width": 355,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": [
+      {
+        "cls": "service-preview-module__y2jela__architectureArt",
+        "text": "01 / 03"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "kind": "apps",
+    "row": {
+      "x": 10,
+      "y": 30.046875,
+      "width": 355,
+      "height": 782.078125
+    },
+    "preview": {
+      "x": 10,
+      "y": 316.125,
+      "width": 355,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "kind": "mobile",
+    "row": {
+      "x": 10,
+      "y": 30.125,
+      "width": 355,
+      "height": 782.078125
+    },
+    "preview": {
+      "x": 10,
+      "y": 316.203125,
+      "width": 355,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "kind": "automation",
+    "row": {
+      "x": 10,
+      "y": 30.203125,
+      "width": 355,
+      "height": 782.078125
+    },
+    "preview": {
+      "x": 10,
+      "y": 316.28125,
+      "width": 355,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "kind": "ai",
+    "row": {
+      "x": 10,
+      "y": 0.28125,
+      "width": 355,
+      "height": 815.1875
+    },
+    "preview": {
+      "x": 10,
+      "y": 319.46875,
+      "width": 355,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "en",
+    "width": 375,
+    "kind": "software",
+    "row": {
+      "x": 10,
+      "y": 29.46875,
+      "width": 355,
+      "height": 782.078125
+    },
+    "preview": {
+      "x": 10,
+      "y": 315.546875,
+      "width": 355,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "kind": "web",
+    "row": {
+      "x": 44,
+      "y": 342.921875,
+      "width": 1352,
+      "height": 479
+    },
+    "preview": {
+      "x": 64,
+      "y": 378.921875,
+      "width": 576,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": [
+      {
+        "cls": "service-preview-module__y2jela__architectureArt",
+        "text": "01 / 03"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "kind": "apps",
+    "row": {
+      "x": 44,
+      "y": 342.8125,
+      "width": 1352,
+      "height": 479
+    },
+    "preview": {
+      "x": 64,
+      "y": 378.8125,
+      "width": 576,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "kind": "mobile",
+    "row": {
+      "x": 44,
+      "y": 342.703125,
+      "width": 1352,
+      "height": 479
+    },
+    "preview": {
+      "x": 64,
+      "y": 378.703125,
+      "width": 576,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "kind": "automation",
+    "row": {
+      "x": 44,
+      "y": 420.59375,
+      "width": 1352,
+      "height": 479
+    },
+    "preview": {
+      "x": 64,
+      "y": 456.59375,
+      "width": 576,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "kind": "ai",
+    "row": {
+      "x": 44,
+      "y": 421.484375,
+      "width": 1352,
+      "height": 479
+    },
+    "preview": {
+      "x": 64,
+      "y": 457.484375,
+      "width": 576,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "kind": "software",
+    "row": {
+      "x": 44,
+      "y": 343.109375,
+      "width": 1352,
+      "height": 479
+    },
+    "preview": {
+      "x": 64,
+      "y": 379.109375,
+      "width": 576,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 1920,
+    "kind": "web",
+    "row": {
+      "x": 256,
+      "y": 430.0625,
+      "width": 1408,
+      "height": 479
+    },
+    "preview": {
+      "x": 300,
+      "y": 466.0625,
+      "width": 580,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": [
+      {
+        "cls": "service-preview-module__y2jela__architectureArt",
+        "text": "01 / 03"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1920,
+    "kind": "apps",
+    "row": {
+      "x": 256,
+      "y": 430.109375,
+      "width": 1408,
+      "height": 479
+    },
+    "preview": {
+      "x": 300,
+      "y": 466.109375,
+      "width": 580,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 1920,
+    "kind": "mobile",
+    "row": {
+      "x": 256,
+      "y": 430.15625,
+      "width": 1408,
+      "height": 479
+    },
+    "preview": {
+      "x": 300,
+      "y": 466.15625,
+      "width": 580,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 1920,
+    "kind": "automation",
+    "row": {
+      "x": 256,
+      "y": 601.203125,
+      "width": 1408,
+      "height": 479
+    },
+    "preview": {
+      "x": 300,
+      "y": 637.203125,
+      "width": 580,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "ar",
+    "width": 1920,
+    "kind": "ai",
+    "row": {
+      "x": 256,
+      "y": 601.25,
+      "width": 1408,
+      "height": 479
+    },
+    "preview": {
+      "x": 300,
+      "y": 637.25,
+      "width": 580,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "ar",
+    "width": 1920,
+    "kind": "software",
+    "row": {
+      "x": 256,
+      "y": 402.25,
+      "width": 1408,
+      "height": 479
+    },
+    "preview": {
+      "x": 300,
+      "y": 438.25,
+      "width": 580,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "kind": "web",
+    "row": {
+      "x": 44,
+      "y": 292.703125,
+      "width": 1192,
+      "height": 479
+    },
+    "preview": {
+      "x": 64,
+      "y": 328.703125,
+      "width": 496,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": [
+      {
+        "cls": "service-preview-module__y2jela__architectureArt",
+        "text": "01 / 03"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "kind": "apps",
+    "row": {
+      "x": 44,
+      "y": 292.59375,
+      "width": 1192,
+      "height": 479
+    },
+    "preview": {
+      "x": 64,
+      "y": 328.59375,
+      "width": 496,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "kind": "mobile",
+    "row": {
+      "x": 44,
+      "y": 293.484375,
+      "width": 1192,
+      "height": 479
+    },
+    "preview": {
+      "x": 64,
+      "y": 329.484375,
+      "width": 496,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "kind": "automation",
+    "row": {
+      "x": 44,
+      "y": 321.375,
+      "width": 1192,
+      "height": 479
+    },
+    "preview": {
+      "x": 64,
+      "y": 357.375,
+      "width": 496,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "kind": "ai",
+    "row": {
+      "x": 44,
+      "y": 321.265625,
+      "width": 1192,
+      "height": 479
+    },
+    "preview": {
+      "x": 64,
+      "y": 357.265625,
+      "width": 496,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "kind": "software",
+    "row": {
+      "x": 44,
+      "y": 292.921875,
+      "width": 1192,
+      "height": 479
+    },
+    "preview": {
+      "x": 64,
+      "y": 328.921875,
+      "width": 496,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "kind": "web",
+    "row": {
+      "x": 16,
+      "y": 276.96875,
+      "width": 992,
+      "height": 479
+    },
+    "preview": {
+      "x": 36,
+      "y": 312.96875,
+      "width": 396,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": [
+      {
+        "cls": "service-preview-module__y2jela__architectureArt",
+        "text": "01 / 03"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "kind": "apps",
+    "row": {
+      "x": 16,
+      "y": 276.859375,
+      "width": 992,
+      "height": 479
+    },
+    "preview": {
+      "x": 36,
+      "y": 312.859375,
+      "width": 396,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "kind": "mobile",
+    "row": {
+      "x": 16,
+      "y": 276.75,
+      "width": 992,
+      "height": 479
+    },
+    "preview": {
+      "x": 36,
+      "y": 312.75,
+      "width": 396,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "kind": "automation",
+    "row": {
+      "x": 16,
+      "y": 288.640625,
+      "width": 992,
+      "height": 479
+    },
+    "preview": {
+      "x": 36,
+      "y": 324.640625,
+      "width": 396,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "kind": "ai",
+    "row": {
+      "x": 16,
+      "y": 288.53125,
+      "width": 992,
+      "height": 479
+    },
+    "preview": {
+      "x": 36,
+      "y": 324.53125,
+      "width": 396,
+      "height": 406
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "kind": "software",
+    "row": {
+      "x": 16,
+      "y": 277.46875,
+      "width": 992,
+      "height": 479
+    },
+    "preview": {
+      "x": 36,
+      "y": 313.46875,
+      "width": 396,
+      "height": 406
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 430,
+    "kind": "web",
+    "row": {
+      "x": 10,
+      "y": 175.28125,
+      "width": 410,
+      "height": 757
+    },
+    "preview": {
+      "x": 10,
+      "y": 436.28125,
+      "width": 410,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": [
+      {
+        "cls": "service-preview-module__y2jela__architectureArt",
+        "text": "01 / 03"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 430,
+    "kind": "apps",
+    "row": {
+      "x": 10,
+      "y": 175.28125,
+      "width": 410,
+      "height": 757
+    },
+    "preview": {
+      "x": 10,
+      "y": 436.28125,
+      "width": 410,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 430,
+    "kind": "mobile",
+    "row": {
+      "x": 10,
+      "y": 175.28125,
+      "width": 410,
+      "height": 757
+    },
+    "preview": {
+      "x": 10,
+      "y": 436.28125,
+      "width": 410,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 430,
+    "kind": "automation",
+    "row": {
+      "x": 10,
+      "y": 175.28125,
+      "width": 410,
+      "height": 757
+    },
+    "preview": {
+      "x": 10,
+      "y": 436.28125,
+      "width": 410,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "ar",
+    "width": 430,
+    "kind": "ai",
+    "row": {
+      "x": 10,
+      "y": 142.28125,
+      "width": 410,
+      "height": 790.109375
+    },
+    "preview": {
+      "x": 10,
+      "y": 436.390625,
+      "width": 410,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "ar",
+    "width": 430,
+    "kind": "software",
+    "row": {
+      "x": 10,
+      "y": 175.390625,
+      "width": 410,
+      "height": 757
+    },
+    "preview": {
+      "x": 10,
+      "y": 436.390625,
+      "width": 410,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "kind": "web",
+    "row": {
+      "x": 10,
+      "y": 87.28125,
+      "width": 370,
+      "height": 757
+    },
+    "preview": {
+      "x": 10,
+      "y": 348.28125,
+      "width": 370,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": [
+      {
+        "cls": "service-preview-module__y2jela__architectureArt",
+        "text": "01 / 03"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "kind": "apps",
+    "row": {
+      "x": 10,
+      "y": 87.28125,
+      "width": 370,
+      "height": 757
+    },
+    "preview": {
+      "x": 10,
+      "y": 348.28125,
+      "width": 370,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "kind": "mobile",
+    "row": {
+      "x": 10,
+      "y": 87.28125,
+      "width": 370,
+      "height": 757
+    },
+    "preview": {
+      "x": 10,
+      "y": 348.28125,
+      "width": 370,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "kind": "automation",
+    "row": {
+      "x": 10,
+      "y": 87.28125,
+      "width": 370,
+      "height": 757
+    },
+    "preview": {
+      "x": 10,
+      "y": 348.28125,
+      "width": 370,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "kind": "ai",
+    "row": {
+      "x": 10,
+      "y": 54.28125,
+      "width": 370,
+      "height": 790.109375
+    },
+    "preview": {
+      "x": 10,
+      "y": 348.390625,
+      "width": 370,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "kind": "software",
+    "row": {
+      "x": 10,
+      "y": 58.390625,
+      "width": 370,
+      "height": 785.890625
+    },
+    "preview": {
+      "x": 10,
+      "y": 348.28125,
+      "width": 370,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "kind": "web",
+    "row": {
+      "x": 10,
+      "y": 55.28125,
+      "width": 355,
+      "height": 757
+    },
+    "preview": {
+      "x": 10,
+      "y": 316.28125,
+      "width": 355,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": [
+      {
+        "cls": "service-preview-module__y2jela__architectureArt",
+        "text": "01 / 03"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "kind": "apps",
+    "row": {
+      "x": 10,
+      "y": 55.28125,
+      "width": 355,
+      "height": 757
+    },
+    "preview": {
+      "x": 10,
+      "y": 316.28125,
+      "width": 355,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "kind": "mobile",
+    "row": {
+      "x": 10,
+      "y": 55.28125,
+      "width": 355,
+      "height": 757
+    },
+    "preview": {
+      "x": 10,
+      "y": 316.28125,
+      "width": 355,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "kind": "automation",
+    "row": {
+      "x": 10,
+      "y": 55.28125,
+      "width": 355,
+      "height": 757
+    },
+    "preview": {
+      "x": 10,
+      "y": 316.28125,
+      "width": 355,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "kind": "ai",
+    "row": {
+      "x": 10,
+      "y": 22.28125,
+      "width": 355,
+      "height": 790.109375
+    },
+    "preview": {
+      "x": 10,
+      "y": 316.390625,
+      "width": 355,
+      "height": 450
+    },
+    "overflow": false,
+    "clipped": []
+  },
+  {
+    "locale": "ar",
+    "width": 375,
+    "kind": "software",
+    "row": {
+      "x": 10,
+      "y": 0.390625,
+      "width": 355,
+      "height": 819
+    },
+    "preview": {
+      "x": 10,
+      "y": 323.390625,
+      "width": 355,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "kind": "web",
+    "row": {
+      "x": 16,
+      "y": 269.0625,
+      "width": 736,
+      "height": 754.890625
+    },
+    "preview": {
+      "x": 94,
+      "y": 527.953125,
+      "width": 580,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "kind": "apps",
+    "row": {
+      "x": 16,
+      "y": 268.953125,
+      "width": 736,
+      "height": 754.890625
+    },
+    "preview": {
+      "x": 94,
+      "y": 527.84375,
+      "width": 580,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "kind": "mobile",
+    "row": {
+      "x": 16,
+      "y": 268.84375,
+      "width": 736,
+      "height": 754.890625
+    },
+    "preview": {
+      "x": 94,
+      "y": 527.734375,
+      "width": 580,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "kind": "automation",
+    "row": {
+      "x": 16,
+      "y": 268.734375,
+      "width": 736,
+      "height": 754.890625
+    },
+    "preview": {
+      "x": 94,
+      "y": 527.625,
+      "width": 580,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "kind": "ai",
+    "row": {
+      "x": 16,
+      "y": 268.625,
+      "width": 736,
+      "height": 754.890625
+    },
+    "preview": {
+      "x": 94,
+      "y": 527.515625,
+      "width": 580,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "kind": "software",
+    "row": {
+      "x": 16,
+      "y": 269.515625,
+      "width": 736,
+      "height": 754.890625
+    },
+    "preview": {
+      "x": 94,
+      "y": 528.40625,
+      "width": 580,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "kind": "web",
+    "row": {
+      "x": 16,
+      "y": 267.40625,
+      "width": 736,
+      "height": 757
+    },
+    "preview": {
+      "x": 94,
+      "y": 528.40625,
+      "width": 580,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "kind": "apps",
+    "row": {
+      "x": 16,
+      "y": 267.40625,
+      "width": 736,
+      "height": 757
+    },
+    "preview": {
+      "x": 94,
+      "y": 528.40625,
+      "width": 580,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "kind": "mobile",
+    "row": {
+      "x": 16,
+      "y": 267.40625,
+      "width": 736,
+      "height": 757
+    },
+    "preview": {
+      "x": 94,
+      "y": 528.40625,
+      "width": 580,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "kind": "automation",
+    "row": {
+      "x": 16,
+      "y": 267.40625,
+      "width": 736,
+      "height": 757
+    },
+    "preview": {
+      "x": 94,
+      "y": 528.40625,
+      "width": 580,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "kind": "ai",
+    "row": {
+      "x": 16,
+      "y": 267.40625,
+      "width": 736,
+      "height": 757
+    },
+    "preview": {
+      "x": 94,
+      "y": 528.40625,
+      "width": 580,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "kind": "software",
+    "row": {
+      "x": 16,
+      "y": 267.40625,
+      "width": 736,
+      "height": 757
+    },
+    "preview": {
+      "x": 94,
+      "y": 528.40625,
+      "width": 580,
+      "height": 450
+    },
+    "overflow": false,
+    "sceneClipped": false
+  }
+]

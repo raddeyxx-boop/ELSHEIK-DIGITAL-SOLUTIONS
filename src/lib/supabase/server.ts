@@ -1,0 +1,3 @@
+import "server-only";import { createServerClient } from "@supabase/ssr";import type { SupabaseClientOptions } from "@supabase/supabase-js";import { cookies } from "next/headers";import { getPublicSupabaseEnv } from "./env";
+export async function createClient(options:Pick<SupabaseClientOptions<"public">,"db"|"global">={}){const env=getPublicSupabaseEnv();if(!env)return null;const store=await cookies();return createServerClient(env.url,env.anonKey,{...options,cookies:{getAll:()=>store.getAll(),setAll(values){try{values.forEach(({name,value,options})=>store.set(name,value,options));}catch{}}}});}
+

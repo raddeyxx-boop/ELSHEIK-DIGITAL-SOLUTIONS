@@ -1,0 +1,30 @@
+[
+  {
+    "locale": "en",
+    "width": 1440,
+    "geometryUnchanged": true,
+    "overflow": false,
+    "identicalPixels": true,
+    "identicalText": true
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "geometryUnchanged": true,
+    "overflow": false,
+    "identicalPixels": true,
+    "identicalText": true
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "geometryUnchanged": true,
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "geometryUnchanged": true,
+    "overflow": false
+  }
+]

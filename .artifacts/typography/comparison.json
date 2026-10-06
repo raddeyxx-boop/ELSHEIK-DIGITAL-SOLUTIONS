@@ -1,0 +1,121 @@
+{
+  "states": 140,
+  "pageOverflow": [],
+  "headingIssues": [],
+  "changed": [
+    {
+      "locale": "en",
+      "route": "work",
+      "width": 1920,
+      "before": "176px",
+      "after": "144px"
+    },
+    {
+      "locale": "en",
+      "route": "work",
+      "width": 390,
+      "before": "72px",
+      "after": "46.8px"
+    },
+    {
+      "locale": "en",
+      "route": "services",
+      "width": 1920,
+      "before": "176px",
+      "after": "144px"
+    },
+    {
+      "locale": "en",
+      "route": "services",
+      "width": 390,
+      "before": "72px",
+      "after": "46.8px"
+    },
+    {
+      "locale": "en",
+      "route": "contact",
+      "width": 1920,
+      "before": "176px",
+      "after": "144px"
+    },
+    {
+      "locale": "en",
+      "route": "contact",
+      "width": 390,
+      "before": "72px",
+      "after": "46.8px"
+    },
+    {
+      "locale": "en",
+      "route": "work/relax-moon-spa-automation",
+      "width": 1920,
+      "before": "176px",
+      "after": "144px"
+    },
+    {
+      "locale": "en",
+      "route": "work/relax-moon-spa-automation",
+      "width": 390,
+      "before": "70.2px",
+      "after": "46.8px"
+    },
+    {
+      "locale": "ar",
+      "route": "work",
+      "width": 1920,
+      "before": "176px",
+      "after": "136px"
+    },
+    {
+      "locale": "ar",
+      "route": "work",
+      "width": 390,
+      "before": "72px",
+      "after": "44.85px"
+    },
+    {
+      "locale": "ar",
+      "route": "services",
+      "width": 1920,
+      "before": "176px",
+      "after": "136px"
+    },
+    {
+      "locale": "ar",
+      "route": "services",
+      "width": 390,
+      "before": "72px",
+      "after": "44.85px"
+    },
+    {
+      "locale": "ar",
+      "route": "contact",
+      "width": 1920,
+      "before": "176px",
+      "after": "136px"
+    },
+    {
+      "locale": "ar",
+      "route": "contact",
+      "width": 390,
+      "before": "72px",
+      "after": "44.85px"
+    },
+    {
+      "locale": "ar",
+      "route": "work/relax-moon-spa-automation",
+      "width": 1920,
+      "before": "176px",
+      "after": "136px"
+    },
+    {
+      "locale": "ar",
+      "route": "work/relax-moon-spa-automation",
+      "width": 390,
+      "before": "70.2px",
+      "after": "44.85px"
+    }
+  ],
+  "normalTextUnchanged": true,
+  "protectedHeadingsUnchanged": true
+}

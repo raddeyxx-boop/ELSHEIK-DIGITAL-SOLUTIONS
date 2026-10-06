@@ -1,0 +1,51 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { Homepage } from "@/components/sections/homepage";
+import { getDictionary } from "@/content/dictionaries";
+import { isLocale } from "@/lib/i18n/config";
+import {
+  getPublishedProjects,
+  getPublishedServices,
+} from "@/server/queries/public-content";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title:
+      locale === "ar"
+        ? "شركة الشيخ للحلول الرقمية"
+        : "Alsheikh Digital Solutions",
+    description:
+      locale === "ar"
+        ? "مواقع وتطبيقات وأتمتة وأنظمة رقمية ذكية مصممة لأعمال حقيقية."
+        : "Websites, applications, automation, and intelligent systems engineered for real business.",
+    alternates: {
+      canonical: `/${locale}`,
+      languages: { en: "/en", ar: "/ar" },
+    },
+  };
+}
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  if (!isLocale(locale)) notFound();
+  const [projects, services] = await Promise.all([
+    getPublishedProjects(locale),
+    getPublishedServices(locale),
+  ]);
+  return (
+    <Homepage
+      locale={locale}
+      dictionary={getDictionary(locale)}
+      projects={projects || []}
+      services={services || []}
+    />
+  );
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "route": "/en",
+    "status": 200,
+    "heroAt": 117,
+    "lowerContentStreamedAt": 7349,
+    "streamEnd": 7359
+  },
+  {
+    "route": "/ar",
+    "status": 200,
+    "heroAt": 33,
+    "lowerContentStreamedAt": 7142,
+    "streamEnd": 7144
+  }
+]

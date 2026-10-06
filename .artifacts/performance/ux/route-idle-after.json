@@ -1,0 +1,98 @@
+[
+  {
+    "route": "/en",
+    "position": "top",
+    "animations": "as shipped",
+    "gpuProcessCpuPct": 16.2,
+    "rendererCpuPct": 17.9,
+    "running": 1
+  },
+  {
+    "route": "/en",
+    "position": "top",
+    "animations": "all paused",
+    "gpuProcessCpuPct": 7.7,
+    "rendererCpuPct": 7.8,
+    "running": 0
+  },
+  {
+    "route": "/en",
+    "position": "middle",
+    "animations": "as shipped",
+    "gpuProcessCpuPct": 1,
+    "rendererCpuPct": 4.7,
+    "running": 15
+  },
+  {
+    "route": "/ar",
+    "position": "top",
+    "animations": "as shipped",
+    "gpuProcessCpuPct": 17,
+    "rendererCpuPct": 17.7,
+    "running": 1
+  },
+  {
+    "route": "/ar",
+    "position": "top",
+    "animations": "all paused",
+    "gpuProcessCpuPct": 7.7,
+    "rendererCpuPct": 7.9,
+    "running": 0
+  },
+  {
+    "route": "/ar",
+    "position": "middle",
+    "animations": "as shipped",
+    "gpuProcessCpuPct": 1,
+    "rendererCpuPct": 4.3,
+    "running": 15
+  },
+  {
+    "route": "/en/work/relax-moon-spa-automation",
+    "position": "top",
+    "animations": "as shipped",
+    "gpuProcessCpuPct": 5.8,
+    "rendererCpuPct": 5.4,
+    "running": 6
+  },
+  {
+    "route": "/en/work/relax-moon-spa-automation",
+    "position": "top",
+    "animations": "all paused",
+    "gpuProcessCpuPct": 3.8,
+    "rendererCpuPct": 4.4,
+    "running": 0
+  },
+  {
+    "route": "/en/work/relax-moon-spa-automation",
+    "position": "middle",
+    "animations": "as shipped",
+    "gpuProcessCpuPct": 0.9,
+    "rendererCpuPct": 1.8,
+    "running": 6
+  },
+  {
+    "route": "/en/technologies",
+    "position": "top",
+    "animations": "as shipped",
+    "gpuProcessCpuPct": 5.5,
+    "rendererCpuPct": 3.8,
+    "running": 19
+  },
+  {
+    "route": "/en/technologies",
+    "position": "top",
+    "animations": "all paused",
+    "gpuProcessCpuPct": 0.1,
+    "rendererCpuPct": 0,
+    "running": 0
+  },
+  {
+    "route": "/en/technologies",
+    "position": "middle",
+    "animations": "as shipped",
+    "gpuProcessCpuPct": 10.7,
+    "rendererCpuPct": 4.1,
+    "running": 19
+  }
+]

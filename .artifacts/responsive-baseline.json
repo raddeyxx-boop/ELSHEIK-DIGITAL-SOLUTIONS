@@ -1,0 +1,1490 @@
+[
+  [
+    "en 1920 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "en 1440 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": [
+          {
+            "tag": "H3",
+            "cls": "",
+            "text": "Relax Moon Spa Automation",
+            "width": 310.5,
+            "scroll": 334
+          }
+        ]
+      },
+      {
+        "route": "about",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "en 1366 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": [
+          {
+            "tag": "H3",
+            "cls": "",
+            "text": "Relax Moon Spa Automation",
+            "width": 294.53125,
+            "scroll": 317
+          }
+        ]
+      },
+      {
+        "route": "about",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "en 1024 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "en 820 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 820,
+        "scroll": 820,
+        "clipped": [
+          {
+            "tag": "H3",
+            "cls": "",
+            "text": "Relax Moon Spa Automation",
+            "width": 176.8125,
+            "scroll": 190
+          }
+        ]
+      },
+      {
+        "route": "about",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "en 768 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 768,
+        "scroll": 768,
+        "clipped": [
+          {
+            "tag": "H3",
+            "cls": "",
+            "text": "Relax Moon Spa Automation",
+            "width": 172.5,
+            "scroll": 186
+          }
+        ]
+      },
+      {
+        "route": "about",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "en 430 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 430,
+        "scroll": 430,
+        "clipped": [
+          {
+            "tag": "H3",
+            "cls": "",
+            "text": "Relax Moon Spa Automation",
+            "width": 172.5,
+            "scroll": 186
+          }
+        ]
+      },
+      {
+        "route": "about",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "en 412 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "en 390 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 390,
+        "scroll": 390,
+        "clipped": [
+          {
+            "tag": "H3",
+            "cls": "",
+            "text": "Relax Moon Spa Automation",
+            "width": 172.5,
+            "scroll": 186
+          }
+        ]
+      },
+      {
+        "route": "about",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "en 375 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 375,
+        "scroll": 375,
+        "clipped": [
+          {
+            "tag": "H3",
+            "cls": "",
+            "text": "Relax Moon Spa Automation",
+            "width": 172.5,
+            "scroll": 186
+          }
+        ]
+      },
+      {
+        "route": "about",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "en 360 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 360,
+        "scroll": 360,
+        "clipped": [
+          {
+            "tag": "H3",
+            "cls": "",
+            "text": "Relax Moon Spa Automation",
+            "width": 172.5,
+            "scroll": 186
+          }
+        ]
+      },
+      {
+        "route": "about",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "en 320 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 320,
+        "scroll": 320,
+        "clipped": [
+          {
+            "tag": "H3",
+            "cls": "",
+            "text": "Relax Moon Spa Automation",
+            "width": 172.5,
+            "scroll": 186
+          }
+        ]
+      },
+      {
+        "route": "about",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "ar 1920 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 1920,
+        "scroll": 1920,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "ar 1440 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 1440,
+        "scroll": 1440,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "ar 1366 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 1366,
+        "scroll": 1366,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "ar 1024 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 1024,
+        "scroll": 1024,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "ar 820 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 820,
+        "scroll": 820,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "ar 768 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 768,
+        "scroll": 768,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "ar 430 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 430,
+        "scroll": 430,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "ar 412 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 412,
+        "scroll": 412,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "ar 390 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 390,
+        "scroll": 390,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "ar 375 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 375,
+        "scroll": 375,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "ar 360 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 360,
+        "scroll": 360,
+        "clipped": []
+      }
+    ]
+  ],
+  [
+    "ar 320 public responsive matrix",
+    [
+      {
+        "route": "",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "about",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "services",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "technologies",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "work",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "insights",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "contact",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "process",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      },
+      {
+        "route": "work/relax-moon-spa-automation",
+        "width": 320,
+        "scroll": 320,
+        "clipped": []
+      }
+    ]
+  ]
+]

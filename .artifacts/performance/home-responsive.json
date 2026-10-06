@@ -1,0 +1,542 @@
+[
+  {
+    "locale": "en",
+    "width": 360,
+    "early": {
+      "time": 232.19999998807907,
+      "hero": {
+        "x": 0,
+        "y": 74.59375,
+        "width": 360,
+        "height": 1234.59375,
+        "top": 74.59375,
+        "right": 360,
+        "bottom": 1309.1875,
+        "left": 0
+      },
+      "loading": true
+    },
+    "final": {
+      "hero": {
+        "x": 0,
+        "y": 74.59375,
+        "width": 360,
+        "height": 1234.59375,
+        "top": 74.59375,
+        "right": 360,
+        "bottom": 1309.1875,
+        "left": 0
+      },
+      "footer": {
+        "x": 0,
+        "y": 6554.71875,
+        "width": 360,
+        "height": 764.546875,
+        "top": 6554.71875,
+        "right": 360,
+        "bottom": 7319.265625,
+        "left": 0
+      },
+      "cls": 0,
+      "overflow": false,
+      "headings": [
+        "We turn business complexity into systems that move.",
+        "Capabilities that become outcomes.",
+        "Systems shaped around real work.",
+        "From request to outcome, state by state.",
+        "One process. A system that evolves.",
+        "Thinking about how digital systems should be designed—and run.",
+        "Let’s build what your business needs next."
+      ],
+      "heroCount": 1,
+      "canvas": true
+    },
+    "errors": []
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "early": {
+      "time": 242.39999997615814,
+      "hero": {
+        "x": 0,
+        "y": 74.59375,
+        "width": 390,
+        "height": 1254.125,
+        "top": 74.59375,
+        "right": 390,
+        "bottom": 1328.71875,
+        "left": 0
+      },
+      "loading": true
+    },
+    "final": {
+      "hero": {
+        "x": 0,
+        "y": 74.59375,
+        "width": 390,
+        "height": 1254.125,
+        "top": 74.59375,
+        "right": 390,
+        "bottom": 1328.71875,
+        "left": 0
+      },
+      "footer": {
+        "x": 0,
+        "y": 6636.96875,
+        "width": 390,
+        "height": 764.546875,
+        "top": 6636.96875,
+        "right": 390,
+        "bottom": 7401.515625,
+        "left": 0
+      },
+      "cls": 0.00002543031813865147,
+      "overflow": false,
+      "headings": [
+        "We turn business complexity into systems that move.",
+        "Capabilities that become outcomes.",
+        "Systems shaped around real work.",
+        "From request to outcome, state by state.",
+        "One process. A system that evolves.",
+        "Thinking about how digital systems should be designed—and run.",
+        "Let’s build what your business needs next."
+      ],
+      "heroCount": 1,
+      "canvas": true
+    },
+    "errors": []
+  },
+  {
+    "locale": "en",
+    "width": 768,
+    "early": {
+      "time": 205.80000001192093,
+      "hero": {
+        "x": 0,
+        "y": 74.59375,
+        "width": 768,
+        "height": 1118.546875,
+        "top": 74.59375,
+        "right": 768,
+        "bottom": 1193.140625,
+        "left": 0
+      },
+      "loading": true
+    },
+    "final": {
+      "hero": {
+        "x": 0,
+        "y": 74.59375,
+        "width": 768,
+        "height": 1118.546875,
+        "top": 74.59375,
+        "right": 768,
+        "bottom": 1193.140625,
+        "left": 0
+      },
+      "footer": {
+        "x": 0,
+        "y": 5981.484375,
+        "width": 768,
+        "height": 779.5,
+        "top": 5981.484375,
+        "right": 768,
+        "bottom": 6760.984375,
+        "left": 0
+      },
+      "cls": 0,
+      "overflow": false,
+      "headings": [
+        "We turn business complexity into systems that move.",
+        "Capabilities that become outcomes.",
+        "Systems shaped around real work.",
+        "From request to outcome, state by state.",
+        "One process. A system that evolves.",
+        "Thinking about how digital systems should be designed—and run.",
+        "Let’s build what your business needs next."
+      ],
+      "heroCount": 1,
+      "canvas": true
+    },
+    "errors": []
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "early": {
+      "time": 208.09999999403954,
+      "hero": {
+        "x": 0,
+        "y": 73,
+        "width": 1280,
+        "height": 826.390625,
+        "top": 73,
+        "right": 1280,
+        "bottom": 899.390625,
+        "left": 0
+      },
+      "loading": true
+    },
+    "final": {
+      "hero": {
+        "x": 0,
+        "y": 73,
+        "width": 1280,
+        "height": 826.390625,
+        "top": 73,
+        "right": 1280,
+        "bottom": 899.390625,
+        "left": 0
+      },
+      "footer": {
+        "x": 0,
+        "y": 6065.09375,
+        "width": 1280,
+        "height": 551.1875,
+        "top": 6065.09375,
+        "right": 1280,
+        "bottom": 6616.28125,
+        "left": 0
+      },
+      "cls": 0,
+      "overflow": false,
+      "headings": [
+        "We turn business complexity into systems that move.",
+        "Capabilities that become outcomes.",
+        "Systems shaped around real work.",
+        "From request to outcome, state by state.",
+        "One process. A system that evolves.",
+        "Thinking about how digital systems should be designed—and run.",
+        "Let’s build what your business needs next."
+      ],
+      "heroCount": 1,
+      "canvas": true
+    },
+    "errors": []
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "early": {
+      "time": 379.09999999403954,
+      "hero": {
+        "x": 0,
+        "y": 73,
+        "width": 1440,
+        "height": 849.71875,
+        "top": 73,
+        "right": 1440,
+        "bottom": 922.71875,
+        "left": 0
+      },
+      "loading": true
+    },
+    "final": {
+      "hero": {
+        "x": 0,
+        "y": 73,
+        "width": 1440,
+        "height": 849.71875,
+        "top": 73,
+        "right": 1440,
+        "bottom": 922.71875,
+        "left": 0
+      },
+      "footer": {
+        "x": 0,
+        "y": 6392.84375,
+        "width": 1440,
+        "height": 589.21875,
+        "top": 6392.84375,
+        "right": 1440,
+        "bottom": 6982.0625,
+        "left": 0
+      },
+      "cls": 0.0004019570767961248,
+      "overflow": false,
+      "headings": [
+        "We turn business complexity into systems that move.",
+        "Capabilities that become outcomes.",
+        "Systems shaped around real work.",
+        "From request to outcome, state by state.",
+        "One process. A system that evolves.",
+        "Thinking about how digital systems should be designed—and run.",
+        "Let’s build what your business needs next."
+      ],
+      "heroCount": 1,
+      "canvas": true
+    },
+    "errors": []
+  },
+  {
+    "locale": "ar",
+    "width": 360,
+    "early": {
+      "time": 508.90000000596046,
+      "hero": {
+        "x": 0,
+        "y": 74.59375,
+        "width": 360,
+        "height": 1118.421875,
+        "top": 74.59375,
+        "right": 360,
+        "bottom": 1193.015625,
+        "left": 0
+      },
+      "loading": true
+    },
+    "final": {
+      "hero": {
+        "x": 0,
+        "y": 74.59375,
+        "width": 360,
+        "height": 1118.421875,
+        "top": 74.59375,
+        "right": 360,
+        "bottom": 1193.015625,
+        "left": 0
+      },
+      "footer": {
+        "x": 0,
+        "y": 6350.421875,
+        "width": 360,
+        "height": 794.953125,
+        "top": 6350.421875,
+        "right": 360,
+        "bottom": 7145.375,
+        "left": 0
+      },
+      "cls": 0.0004644479809670782,
+      "overflow": false,
+      "headings": [
+        "نحوّل تعقيد الأعمال إلى أنظمة تتحرك.",
+        "قدرات تتحول إلى نتائج.",
+        "أنظمة صُممت حول العمل الحقيقي.",
+        "من طلب إلى نتيجة، خطوة بخطوة.",
+        "عملية واحدة. نظام يتطور.",
+        "أفكار حول تصميم وتشغيل الأنظمة الرقمية.",
+        "لنبنِ النظام الذي يحتاجه عملك الآن."
+      ],
+      "heroCount": 1,
+      "canvas": true
+    },
+    "errors": []
+  },
+  {
+    "locale": "ar",
+    "width": 390,
+    "early": {
+      "time": 265.2999999821186,
+      "hero": {
+        "x": 0,
+        "y": 74.59375,
+        "width": 390,
+        "height": 1101.3125,
+        "top": 74.59375,
+        "right": 390,
+        "bottom": 1175.90625,
+        "left": 0
+      },
+      "loading": true
+    },
+    "final": {
+      "hero": {
+        "x": 0,
+        "y": 74.59375,
+        "width": 390,
+        "height": 1101.3125,
+        "top": 74.59375,
+        "right": 390,
+        "bottom": 1175.90625,
+        "left": 0
+      },
+      "footer": {
+        "x": 0,
+        "y": 6367.984375,
+        "width": 390,
+        "height": 794.953125,
+        "top": 6367.984375,
+        "right": 390,
+        "bottom": 7162.9375,
+        "left": 0
+      },
+      "cls": 0,
+      "overflow": false,
+      "headings": [
+        "نحوّل تعقيد الأعمال إلى أنظمة تتحرك.",
+        "قدرات تتحول إلى نتائج.",
+        "أنظمة صُممت حول العمل الحقيقي.",
+        "من طلب إلى نتيجة، خطوة بخطوة.",
+        "عملية واحدة. نظام يتطور.",
+        "أفكار حول تصميم وتشغيل الأنظمة الرقمية.",
+        "لنبنِ النظام الذي يحتاجه عملك الآن."
+      ],
+      "heroCount": 1,
+      "canvas": true
+    },
+    "errors": []
+  },
+  {
+    "locale": "ar",
+    "width": 768,
+    "early": {
+      "time": 257.90000000596046,
+      "hero": {
+        "x": 0,
+        "y": 74.59375,
+        "width": 768,
+        "height": 1062.625,
+        "top": 74.59375,
+        "right": 768,
+        "bottom": 1137.21875,
+        "left": 0
+      },
+      "loading": true
+    },
+    "final": {
+      "hero": {
+        "x": 0,
+        "y": 74.59375,
+        "width": 768,
+        "height": 1062.625,
+        "top": 74.59375,
+        "right": 768,
+        "bottom": 1137.21875,
+        "left": 0
+      },
+      "footer": {
+        "x": 0,
+        "y": 5891.46875,
+        "width": 768,
+        "height": 809.90625,
+        "top": 5891.46875,
+        "right": 768,
+        "bottom": 6701.375,
+        "left": 0
+      },
+      "cls": 0,
+      "overflow": false,
+      "headings": [
+        "نحوّل تعقيد الأعمال إلى أنظمة تتحرك.",
+        "قدرات تتحول إلى نتائج.",
+        "أنظمة صُممت حول العمل الحقيقي.",
+        "من طلب إلى نتيجة، خطوة بخطوة.",
+        "عملية واحدة. نظام يتطور.",
+        "أفكار حول تصميم وتشغيل الأنظمة الرقمية.",
+        "لنبنِ النظام الذي يحتاجه عملك الآن."
+      ],
+      "heroCount": 1,
+      "canvas": true
+    },
+    "errors": []
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "early": {
+      "time": 220.90000000596046,
+      "hero": {
+        "x": 0,
+        "y": 73,
+        "width": 1280,
+        "height": 826.390625,
+        "top": 73,
+        "right": 1280,
+        "bottom": 899.390625,
+        "left": 0
+      },
+      "loading": true
+    },
+    "final": {
+      "hero": {
+        "x": 0,
+        "y": 73,
+        "width": 1280,
+        "height": 826.390625,
+        "top": 73,
+        "right": 1280,
+        "bottom": 899.390625,
+        "left": 0
+      },
+      "footer": {
+        "x": 0,
+        "y": 5986.765625,
+        "width": 1280,
+        "height": 554.28125,
+        "top": 5986.765625,
+        "right": 1280,
+        "bottom": 6541.046875,
+        "left": 0
+      },
+      "cls": 0,
+      "overflow": false,
+      "headings": [
+        "نحوّل تعقيد الأعمال إلى أنظمة تتحرك.",
+        "قدرات تتحول إلى نتائج.",
+        "أنظمة صُممت حول العمل الحقيقي.",
+        "من طلب إلى نتيجة، خطوة بخطوة.",
+        "عملية واحدة. نظام يتطور.",
+        "أفكار حول تصميم وتشغيل الأنظمة الرقمية.",
+        "لنبنِ النظام الذي يحتاجه عملك الآن."
+      ],
+      "heroCount": 1,
+      "canvas": true
+    },
+    "errors": []
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "early": {
+      "time": 265.30000001192093,
+      "hero": {
+        "x": 0,
+        "y": 73,
+        "width": 1440,
+        "height": 826.390625,
+        "top": 73,
+        "right": 1440,
+        "bottom": 899.390625,
+        "left": 0
+      },
+      "loading": true
+    },
+    "final": {
+      "hero": {
+        "x": 0,
+        "y": 73,
+        "width": 1440,
+        "height": 826.390625,
+        "top": 73,
+        "right": 1440,
+        "bottom": 899.390625,
+        "left": 0
+      },
+      "footer": {
+        "x": 0,
+        "y": 6268.140625,
+        "width": 1440,
+        "height": 592.3125,
+        "top": 6268.140625,
+        "right": 1440,
+        "bottom": 6860.453125,
+        "left": 0
+      },
+      "cls": 0,
+      "overflow": false,
+      "headings": [
+        "نحوّل تعقيد الأعمال إلى أنظمة تتحرك.",
+        "قدرات تتحول إلى نتائج.",
+        "أنظمة صُممت حول العمل الحقيقي.",
+        "من طلب إلى نتيجة، خطوة بخطوة.",
+        "عملية واحدة. نظام يتطور.",
+        "أفكار حول تصميم وتشغيل الأنظمة الرقمية.",
+        "لنبنِ النظام الذي يحتاجه عملك الآن."
+      ],
+      "heroCount": 1,
+      "canvas": true
+    },
+    "errors": []
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "section": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 778.375
+  },
+  "panels": [
+    {
+      "x": 1058,
+      "y": 110,
+      "width": 338,
+      "height": 557.375
+    },
+    {
+      "x": 720,
+      "y": 197.375,
+      "width": 338,
+      "height": 470
+    },
+    {
+      "x": 487.625,
+      "y": 110,
+      "width": 232.375,
+      "height": 557.375
+    },
+    {
+      "x": 44.015625,
+      "y": 110,
+      "width": 443.609375,
+      "height": 557.375
+    }
+  ],
+  "stages": [
+    {
+      "box": {
+        "x": 506.625,
+        "y": 172.78125,
+        "width": 194.375,
+        "height": 61.6875
+      },
+      "dot": {
+        "left": "-4px",
+        "top": "15px"
+      },
+      "border": "1px"
+    },
+    {
+      "box": {
+        "x": 506.625,
+        "y": 234.46875,
+        "width": 194.375,
+        "height": 61.6875
+      },
+      "dot": {
+        "left": "-4px",
+        "top": "15px"
+      },
+      "border": "1px"
+    },
+    {
+      "box": {
+        "x": 506.625,
+        "y": 296.15625,
+        "width": 194.375,
+        "height": 61.6875
+      },
+      "dot": {
+        "left": "-4px",
+        "top": "15px"
+      },
+      "border": "1px"
+    },
+    {
+      "box": {
+        "x": 506.625,
+        "y": 357.84375,
+        "width": 194.375,
+        "height": 61.6875
+      },
+      "dot": {
+        "left": "-4px",
+        "top": "15px"
+      },
+      "border": "1px"
+    },
+    {
+      "box": {
+        "x": 506.625,
+        "y": 419.53125,
+        "width": 194.375,
+        "height": 61.6875
+      },
+      "dot": {
+        "left": "-4px",
+        "top": "15px"
+      },
+      "border": "1px"
+    },
+    {
+      "box": {
+        "x": 506.625,
+        "y": 481.21875,
+        "width": 194.375,
+        "height": 61.6875
+      },
+      "dot": {
+        "left": "-4px",
+        "top": "15px"
+      },
+      "border": "1px"
+    },
+    {
+      "box": {
+        "x": 506.625,
+        "y": 542.90625,
+        "width": 194.375,
+        "height": 61.6875
+      },
+      "dot": {
+        "left": "-4px",
+        "top": "15px"
+      },
+      "border": "1px"
+    }
+  ],
+  "cta": {
+    "x": 1098,
+    "y": 573.375,
+    "width": 258,
+    "height": 54
+  },
+  "overflow": false,
+  "text": "دراسة حالة مميزة\nأتمتة ريلاكس مون سبا\nحجز واتساب وأتمتة العمليات\nالرياض + الشرقية، المملكة العربية السعودية\n\nنموذج مبسّط للحجز بالمحادثة وتنسيق العمليات.\n\nعرض دراسة الحالة\n‹\nRelax Moon Spa\nBusiness Account\n\nHello! I'd like to book an appointment.\n\nWhat service would you like?\n\nMassage Therapy\n\nGreat. When would you like to come?\n\nTomorrow at 5 PM\n\nYour appointment is confirmed.\n\n01\nCustomer request\n02\nWhatsApp\n03\nAutomation engine\n04\nCheck availability\n05\nAssign specialist\n06\nCalendar & database\n07\nConfirmation sent\nWELLNESS\nMEETS\nAUTOMATION.\n01 / 01"
+}

@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "en: semantic heading, CTA destinations, keyboard/focus, module hover, ambient signal, module cycle, reduced motion passed",
+    "ar: semantic heading, CTA destinations, keyboard/focus, module hover, ambient signal, module cycle, reduced motion passed"
+  ],
+  "errors": []
+}

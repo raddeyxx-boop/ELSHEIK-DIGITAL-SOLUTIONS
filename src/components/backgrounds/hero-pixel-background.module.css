@@ -1,0 +1,28 @@
+.background {
+  --field-x: 86%;
+  --field-direction: to right;
+  --field-mask: radial-gradient(ellipse at var(--field-x) 46%,#000 0%,#000b 30%,#0002 63%,transparent 88%);
+  display:block; position:absolute; inset:0; z-index:0; overflow:hidden;
+  pointer-events:none; opacity:var(--pixel-opacity);
+  mask-image:linear-gradient(var(--field-direction),transparent 0%,#0001 40%,#000a 70%,#000 100%),var(--field-mask);
+  mask-composite:intersect;
+}
+:global(html[dir="rtl"]) .background { --field-x:14%; --field-direction:to left; }
+.background[data-mask="system"] { --field-mask:radial-gradient(ellipse at var(--field-x) 55%,#000 5%,#000c 35%,#0001 70%,transparent 95%); }
+.background[data-mask="data"] { --field-mask:radial-gradient(ellipse at var(--field-x) 68%,#000 0%,#0009 28%,transparent 75%); }
+.background[data-mask="signal"] { --field-mask:radial-gradient(ellipse at var(--field-x) 48%,#000 0%,#000b 28%,#0002 65%,transparent 95%); }
+.fallback { display:block; position:absolute; inset:0; color:var(--accent);
+  background-image:radial-gradient(circle,currentColor 1px,transparent 1.4px),radial-gradient(ellipse at var(--field-x) 50%,color-mix(in srgb,var(--accent) 9%,transparent),transparent 65%);
+  background-size:22px 22px,100% 100%; opacity:.35;
+}
+.background:has([data-state="running"]) .fallback,
+.background:has([data-state="paused"]) .fallback { visibility:hidden; }
+@media(max-width:700px) {
+  .background { mask-image:linear-gradient(165deg,#0007 5%,#0009 35%,#000 100%); }
+  .background[data-mask] { mask-image:linear-gradient(165deg,#0007 5%,#0009 35%,#000 100%); }
+  :global(html[dir="rtl"]) .background[data-mask] { mask-image:linear-gradient(195deg,#0007 5%,#0009 35%,#000 100%); }
+  .fallback { background-size:28px 28px,100% 100%; }
+  .background:has([data-state="running"]) .fallback,
+  .background:has([data-state="paused"]) .fallback { visibility:visible; opacity:.25; }
+}
+@media(prefers-reduced-motion:reduce) { .background canvas { display:none; } .background .fallback { visibility:visible; } }

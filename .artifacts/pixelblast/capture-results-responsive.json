@@ -1,0 +1,341 @@
+{
+  "rows": [
+    {
+      "locale": "en",
+      "preset": "home",
+      "width": 390,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "We turn business complexity into systems that move."
+    },
+    {
+      "locale": "en",
+      "preset": "home",
+      "width": 430,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "We turn business complexity into systems that move."
+    },
+    {
+      "locale": "en",
+      "preset": "home",
+      "width": 375,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "We turn business complexity into systems that move."
+    },
+    {
+      "locale": "en",
+      "preset": "services",
+      "width": 390,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "One engineering practice. Six ways to create leverage."
+    },
+    {
+      "locale": "en",
+      "preset": "services",
+      "width": 430,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "One engineering practice. Six ways to create leverage."
+    },
+    {
+      "locale": "en",
+      "preset": "services",
+      "width": 375,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "One engineering practice. Six ways to create leverage."
+    },
+    {
+      "locale": "en",
+      "preset": "work",
+      "width": 390,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Systems explained through the work they improve."
+    },
+    {
+      "locale": "en",
+      "preset": "work",
+      "width": 430,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Systems explained through the work they improve."
+    },
+    {
+      "locale": "en",
+      "preset": "work",
+      "width": 375,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Systems explained through the work they improve."
+    },
+    {
+      "locale": "en",
+      "preset": "about",
+      "width": 390,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Design sense. Engineering discipline. Business understanding. "
+    },
+    {
+      "locale": "en",
+      "preset": "about",
+      "width": 430,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Design sense. Engineering discipline. Business understanding. "
+    },
+    {
+      "locale": "en",
+      "preset": "about",
+      "width": 375,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Design sense. Engineering discipline. Business understanding. "
+    },
+    {
+      "locale": "en",
+      "preset": "insights",
+      "width": 390,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Ideas for better digital systems."
+    },
+    {
+      "locale": "en",
+      "preset": "insights",
+      "width": 430,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Ideas for better digital systems."
+    },
+    {
+      "locale": "en",
+      "preset": "insights",
+      "width": 375,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Ideas for better digital systems."
+    },
+    {
+      "locale": "en",
+      "preset": "contact",
+      "width": 390,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Tell us what needs to work better."
+    },
+    {
+      "locale": "en",
+      "preset": "contact",
+      "width": 430,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Tell us what needs to work better."
+    },
+    {
+      "locale": "en",
+      "preset": "contact",
+      "width": 375,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Tell us what needs to work better."
+    },
+    {
+      "locale": "en",
+      "preset": "caseStudy",
+      "width": 390,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Relax Moon Spa Automation"
+    },
+    {
+      "locale": "en",
+      "preset": "caseStudy",
+      "width": 430,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Relax Moon Spa Automation"
+    },
+    {
+      "locale": "en",
+      "preset": "caseStudy",
+      "width": 375,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "Relax Moon Spa Automation"
+    },
+    {
+      "locale": "ar",
+      "preset": "home",
+      "width": 390,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "نحوّل تعقيد الأعمال إلى أنظمة تتحرك."
+    },
+    {
+      "locale": "ar",
+      "preset": "home",
+      "width": 430,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "نحوّل تعقيد الأعمال إلى أنظمة تتحرك."
+    },
+    {
+      "locale": "ar",
+      "preset": "home",
+      "width": 375,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "نحوّل تعقيد الأعمال إلى أنظمة تتحرك."
+    },
+    {
+      "locale": "ar",
+      "preset": "services",
+      "width": 390,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "منهج هندسي واحد. ستة مسارات لصناعة أثر حقيقي."
+    },
+    {
+      "locale": "ar",
+      "preset": "services",
+      "width": 430,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "منهج هندسي واحد. ستة مسارات لصناعة أثر حقيقي."
+    },
+    {
+      "locale": "ar",
+      "preset": "services",
+      "width": 375,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "منهج هندسي واحد. ستة مسارات لصناعة أثر حقيقي."
+    },
+    {
+      "locale": "ar",
+      "preset": "work",
+      "width": 390,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "أنظمة نشرحها من خلال العمل الذي تطوّره."
+    },
+    {
+      "locale": "ar",
+      "preset": "work",
+      "width": 430,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "أنظمة نشرحها من خلال العمل الذي تطوّره."
+    },
+    {
+      "locale": "ar",
+      "preset": "work",
+      "width": 375,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "أنظمة نشرحها من خلال العمل الذي تطوّره."
+    },
+    {
+      "locale": "ar",
+      "preset": "about",
+      "width": 390,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "حس تصميمي. انضباط هندسي. وفهم للأعمال. "
+    },
+    {
+      "locale": "ar",
+      "preset": "about",
+      "width": 430,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "حس تصميمي. انضباط هندسي. وفهم للأعمال. "
+    },
+    {
+      "locale": "ar",
+      "preset": "about",
+      "width": 375,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "حس تصميمي. انضباط هندسي. وفهم للأعمال. "
+    },
+    {
+      "locale": "ar",
+      "preset": "insights",
+      "width": 390,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "أفكار تبني أنظمة رقمية أفضل."
+    },
+    {
+      "locale": "ar",
+      "preset": "insights",
+      "width": 430,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "أفكار تبني أنظمة رقمية أفضل."
+    },
+    {
+      "locale": "ar",
+      "preset": "insights",
+      "width": 375,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "أفكار تبني أنظمة رقمية أفضل."
+    },
+    {
+      "locale": "ar",
+      "preset": "contact",
+      "width": 390,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "أخبرنا بما يجب أن يعمل بصورة أفضل."
+    },
+    {
+      "locale": "ar",
+      "preset": "contact",
+      "width": 430,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "أخبرنا بما يجب أن يعمل بصورة أفضل."
+    },
+    {
+      "locale": "ar",
+      "preset": "contact",
+      "width": 375,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "أخبرنا بما يجب أن يعمل بصورة أفضل."
+    },
+    {
+      "locale": "ar",
+      "preset": "caseStudy",
+      "width": 390,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "أتمتة ريلاكس مون سبا"
+    },
+    {
+      "locale": "ar",
+      "preset": "caseStudy",
+      "width": 430,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "أتمتة ريلاكس مون سبا"
+    },
+    {
+      "locale": "ar",
+      "preset": "caseStudy",
+      "width": 375,
+      "canvas": 1,
+      "overflow": false,
+      "heading": "أتمتة ريلاكس مون سبا"
+    }
+  ],
+  "errors": []
+}

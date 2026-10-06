@@ -1,0 +1,61 @@
+.form {
+  margin-block: 2rem;
+  background: white;
+  border: 1px solid #deded8;
+  border-radius: 0.65rem;
+  padding: clamp(1rem, 3vw, 2rem);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  color: #48504f;
+  font-size: 0.75rem;
+}
+.form input,
+.form textarea,
+.form select {
+  border: 1px solid #cfd3d1;
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+  background: white;
+  color: #171b1c;
+}
+.controls {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+  margin-block-start: 1rem;
+}
+.controls label {
+  min-width: 10rem;
+}
+.controls .check {
+  flex-direction: row;
+  align-items: center;
+  padding: 0.8rem;
+}
+.controls button {
+  margin-inline-start: auto;
+}
+.form :global(.button-primary) {
+  background: #16675d;
+  color: white;
+}
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .controls {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .controls button {
+    margin: 0;
+  }
+}

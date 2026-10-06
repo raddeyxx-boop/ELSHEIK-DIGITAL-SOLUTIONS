@@ -1,0 +1,205 @@
+{
+  "label": "final-swiftshader",
+  "gpu": false,
+  "mobile": false,
+  "cpu": 1,
+  "navs": [
+    {
+      "href": "/en/services",
+      "contentMs": 30,
+      "longTasks": []
+    },
+    {
+      "href": "/en/work",
+      "contentMs": 29,
+      "longTasks": []
+    },
+    {
+      "href": "/en/process",
+      "contentMs": 88,
+      "longTasks": [
+        76
+      ]
+    },
+    {
+      "href": "/en/about",
+      "contentMs": 29,
+      "longTasks": []
+    },
+    {
+      "href": "/en/insights",
+      "contentMs": 29,
+      "longTasks": []
+    },
+    {
+      "href": "/en/contact",
+      "contentMs": 37,
+      "longTasks": []
+    },
+    {
+      "href": "/en",
+      "contentMs": 21,
+      "longTasks": []
+    }
+  ],
+  "topSelfMs": [
+    [
+      "dontForceLayout @ 0h2qsuyze9ds1.js",
+      170
+    ],
+    [
+      "getContext @ (native)",
+      33
+    ],
+    [
+      "getScreenCTM @ (native)",
+      9
+    ],
+    [
+      "H @ turbopack-1d6lfk7ccru5m.js",
+      9
+    ],
+    [
+      "loseContext @ (native)",
+      5
+    ],
+    [
+      "(anon) @ 3ggwmwn297vjl.js",
+      5
+    ],
+    [
+      "removeChild @ (native)",
+      3
+    ],
+    [
+      "es @ 3jg84jwj6s1uj.js",
+      3
+    ],
+    [
+      "(anon) @ 2l905kpyvocu3.js",
+      3
+    ],
+    [
+      "uu @ 3ggwmwn297vjl.js",
+      3
+    ],
+    [
+      "aS @ 3ggwmwn297vjl.js",
+      2
+    ],
+    [
+      "decode @ (native)",
+      2
+    ],
+    [
+      "matchMedia @ (native)",
+      2
+    ],
+    [
+      "setAttribute @ (native)",
+      2
+    ],
+    [
+      "id @ 3ggwmwn297vjl.js",
+      2
+    ],
+    [
+      "T @ 3ggwmwn297vjl.js",
+      2
+    ],
+    [
+      "createElement @ (native)",
+      2
+    ],
+    [
+      "co @ 3ggwmwn297vjl.js",
+      2
+    ],
+    [
+      "createElementNS @ (native)",
+      2
+    ],
+    [
+      "cu @ 3ggwmwn297vjl.js",
+      1
+    ],
+    [
+      "e @ 3jg84jwj6s1uj.js",
+      1
+    ],
+    [
+      "un @ 3ggwmwn297vjl.js",
+      1
+    ],
+    [
+      "O @ 3jg84jwj6s1uj.js",
+      1
+    ],
+    [
+      "L @ 3ggwmwn297vjl.js",
+      1
+    ],
+    [
+      "(anon) @ 2t-5swxw_f0lk.js",
+      1
+    ]
+  ],
+  "byScriptMs": [
+    [
+      "(native)",
+      8603
+    ],
+    [
+      "0h2qsuyze9ds1.js",
+      171
+    ],
+    [
+      "3ggwmwn297vjl.js",
+      36
+    ],
+    [
+      "3jg84jwj6s1uj.js",
+      14
+    ],
+    [
+      "turbopack-1d6lfk7ccru5m.js",
+      9
+    ],
+    [
+      "2l905kpyvocu3.js",
+      6
+    ],
+    [
+      "0ttdxz4rtfkdt.js",
+      5
+    ],
+    [
+      "0z5wwo8q9z57l.js",
+      2
+    ],
+    [
+      "2t-5swxw_f0lk.js",
+      2
+    ],
+    [
+      "11jq0c2_zavac.js",
+      1
+    ],
+    [
+      "0ira-srjdm23i.js",
+      1
+    ],
+    [
+      "2jahgx8ulhe_s.js",
+      1
+    ],
+    [
+      "1sd5zb57mbbd1.js",
+      1
+    ],
+    [
+      "1_vyjr-43545u.js",
+      0
+    ]
+  ]
+}

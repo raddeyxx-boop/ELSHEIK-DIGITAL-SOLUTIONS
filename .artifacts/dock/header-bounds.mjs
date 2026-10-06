@@ -1,0 +1,2 @@
+﻿import {chromium} from '@playwright/test';
+const b=await chromium.launch();const p=await b.newPage();for(const w of [901,1024,1101,1366,1920]){await p.setViewportSize({width:w,height:900});await p.goto('http://localhost:3000/en');console.log(w,await p.locator('body > header > div > *').evaluateAll(es=>es.filter(e=>getComputedStyle(e).display!=='none').map(e=>({name:e.tagName,left:e.getBoundingClientRect().left,right:e.getBoundingClientRect().right}))));}await b.close();

@@ -1,0 +1,406 @@
+﻿.journal {
+  padding-block: clamp(2.5rem, 5vw, 5rem) 0;
+}
+.kicker {
+  font: 700 0.85rem/1.6 var(--font-mono);
+  letter-spacing: 0.09em;
+  color: var(--accent);
+}
+.hero {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 2rem;
+  padding-bottom: clamp(2.5rem, 5vw, 5rem);
+}
+.hero > div {
+  grid-column: span 9;
+}
+.hero h1 {
+  font-size: clamp(2.8rem, 6.3vw, 6.7rem);
+  line-height: 1.02;
+  letter-spacing: -0.065em;
+  max-width: 16ch;
+  margin: 1.4rem 0 1.5rem;
+  font-weight: 550;
+  text-wrap: balance;
+}
+.hero p {
+  font-size: clamp(1.0625rem, 1.4vw, 1.25rem);
+  line-height: 1.7;
+  color: var(--foreground-secondary);
+  max-width: 57ch;
+}
+.hero aside {
+  grid-column: span 3;
+  align-self: end;
+  padding-inline-start: 1.5rem;
+  border-inline-start: 1px solid var(--border);
+}
+.hero aside p {
+  font-size: 1rem;
+}
+.signal {
+  display: block;
+  width: 0.55rem;
+  height: 0.55rem;
+  background: var(--accent);
+}
+.disciplines {
+  font: 0.8125rem/2 var(--font-mono);
+  color: var(--muted);
+}
+.empty {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  background: var(--foreground);
+  color: var(--background);
+  min-height: 24rem;
+}
+.empty > div:first-child {
+  padding: clamp(1.5rem, 4vw, 4rem);
+}
+.empty .kicker {
+  color: #525748;
+}
+.empty h2 {
+  font-size: clamp(2rem, 3.5vw, 3.8rem);
+  line-height: 1.1;
+  letter-spacing: -0.045em;
+  max-width: 19ch;
+  margin: 1.5rem 0;
+}
+.empty p {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #50514b;
+}
+.empty a,
+.cta a {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.5rem;
+  min-height: 48px;
+  border-bottom: 1px solid currentColor;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.emptyArt {
+  position: relative;
+  overflow: hidden;
+  background: var(--accent);
+  border-inline-start: 1px solid #10101433;
+  min-height: 18rem;
+}
+.emptyArt > span {
+  position: absolute;
+  inset: 2rem auto auto 2rem;
+  font: 0.8125rem var(--font-mono);
+}
+.emptyArt i {
+  position: absolute;
+  width: 72%;
+  aspect-ratio: 1;
+  border: 1px solid #16161b66;
+  inset: 22% auto auto 25%;
+  transform: rotate(45deg);
+}
+.emptyArt i:nth-of-type(2) {
+  translate: -25% 25%;
+}
+.emptyArt i:nth-of-type(3) {
+  translate: 25% -25%;
+}
+.emptyArt b {
+  position: absolute;
+  inset: auto 2rem 1rem auto;
+  font-size: 6rem;
+  font-weight: 400;
+}
+.cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  padding-block: clamp(4rem, 7vw, 7rem);
+  border-bottom: 1px solid var(--border);
+}
+.cta h2 {
+  font-size: clamp(2rem, 3.8vw, 4rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+  margin: 1rem 0;
+}
+.cta p {
+  color: var(--foreground-secondary);
+  max-width: 53ch;
+  line-height: 1.7;
+}
+.cta a {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+.visual,
+.cover {
+  min-height: 22rem;
+  position: relative;
+  overflow: hidden;
+}
+.cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+}
+.visual {
+  background: var(--accent);
+  color: #11120b;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.visual > span {
+  font: 0.8125rem/1.6 var(--font-mono);
+  z-index: 1;
+}
+.visual > b {
+  font-size: clamp(1.5rem, 3vw, 3rem);
+  overflow-wrap: anywhere;
+  z-index: 1;
+}
+.geometry {
+  position: absolute;
+  inset: 20% -20% 5% 20%;
+  transform: rotate(-25deg);
+}
+.geometry i {
+  position: absolute;
+  inset: 0;
+  border: 1px solid #11120b80;
+}
+.geometry i:nth-child(2) {
+  inset: 15%;
+}
+.geometry i:nth-child(3) {
+  inset: 30%;
+}
+.geometry i:nth-child(4) {
+  inset: 45%;
+  background: #11120b;
+}
+.readerHeader {
+  max-width: 72rem;
+  padding-block: 2rem 3rem;
+}
+.back {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  color: var(--accent);
+  font-size: 0.9375rem;
+}
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: var(--muted);
+  font: 0.875rem/1.7 var(--font-mono);
+  margin-block: 2rem;
+}
+.meta span:first-child {
+  color: var(--accent);
+}
+.readerHeader h1 {
+  font-size: clamp(2.6rem, 5.8vw, 6rem);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+  margin: 1.5rem 0;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+.deck {
+  font-size: clamp(1.125rem, 1.8vw, 1.5rem);
+  line-height: 1.7;
+  max-width: 65ch;
+  color: var(--foreground-secondary);
+}
+.readerVisual {
+  max-height: 36rem;
+  overflow: hidden;
+}
+.readerVisual > div {
+  min-height: clamp(17rem, 35vw, 34rem);
+}
+.body {
+  max-width: 74ch;
+  margin: clamp(3rem, 6vw, 6rem) auto;
+  font-size: clamp(1.0625rem, 1.4vw, 1.1875rem);
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+.body p {
+  margin: 0 0 1.5em;
+  white-space: pre-line;
+}
+.body h2 {
+  font-size: clamp(2rem, 3vw, 3rem);
+  line-height: 1.25;
+  margin: 1.8em 0 0.7em;
+  letter-spacing: -0.035em;
+}
+.body h3 {
+  font-size: clamp(1.5rem, 2.4vw, 2rem);
+  line-height: 1.35;
+  margin: 1.5em 0 0.7em;
+}
+.body pre {
+  direction: ltr;
+  text-align: left;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  font-size: 1rem;
+  white-space: pre;
+}
+.body blockquote {
+  border-inline-start: 3px solid var(--accent);
+  padding-inline-start: 1.5rem;
+  margin-inline: 0;
+  color: var(--foreground-secondary);
+}
+.body li {
+  margin-block: 0.5rem;
+}
+.body ul {
+  list-style: disc;
+  padding-inline-start: 1.5rem;
+}
+.related {
+  padding-block: 2rem;
+  border-top: 1px solid var(--border);
+}
+.related h2 {
+  font-size: 2rem;
+}
+.related a {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  padding-block: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.journal a:hover svg {
+  translate: 3px -3px;
+}
+.journal svg {
+  flex-shrink: 0;
+  transition: translate 0.2s;
+}
+.journal[dir="rtl"] svg {
+  transform: scaleX(-1);
+}
+.journal[dir="rtl"] h1,
+.journal[dir="rtl"] h2,
+.journal[dir="rtl"] h3 {
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+.journal[dir="rtl"] .hero h1 {
+  max-width: 19ch;
+}
+.journal[dir="rtl"] .body {
+  line-height: 1.85;
+}
+.journal[dir="rtl"] .kicker,
+.journal[dir="rtl"] .disciplines {
+  letter-spacing: 0;
+}
+@media (max-width: 900px) {
+  .hero > div {
+    grid-column: span 8;
+  }
+  .hero aside {
+    grid-column: span 4;
+  }
+  .empty {
+    grid-template-columns: 1.5fr 1fr;
+  }
+  .cta {
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .hero > div,
+  .hero aside {
+    grid-column: auto;
+  }
+  .hero aside {
+    padding-inline-start: 0;
+    border: 0;
+  }
+  .hero aside p,
+  .signal {
+    display: none;
+  }
+  .hero h1 {
+    margin-top: 1rem;
+  }
+  .empty {
+    grid-template-columns: 1fr;
+  }
+  .emptyArt {
+    min-height: 13rem;
+  }
+  .emptyArt i {
+    width: 50%;
+    inset-block-start: 0;
+  }
+  .emptyArt b {
+    font-size: 4rem;
+  }
+  .readerHeader {
+    padding-top: 0;
+  }
+  .meta {
+    gap: 0.7rem;
+  }
+  .journal {
+    padding-top: 2rem;
+  }
+  .cta a {
+    flex-shrink: 1;
+  }
+  .visual,
+  .cover {
+    min-height: 16rem;
+  }
+}
+
+/* Arabic-text labels use Tajawal: Arabic words in the mono stack take the mono
+   face's wide space. Latin technical labels keep the mono face. */
+:global(html[lang="ar"]) :is(.kicker, .disciplines) { font-family: var(--font-arabic); letter-spacing: 0; }
+
+/* Journal positioning and topic map (topics, not articles). */
+.positioning { margin: 0 0 1rem !important; color: var(--accent) !important; font-weight: 600; }
+.topics { padding-block: clamp(3rem, 6vw, 5rem); border-top: 1px solid var(--border); }
+.topics h2 { margin: 0 0 1.5rem; color: var(--accent); font: 700 var(--text-label)/1.45 var(--font-mono); letter-spacing: .09em; }
+/* Hairlines belong to the cells, so a short last row ends after its final topic and
+   the page shows through (no empty grey cells from a gap-coloured background). */
+.topics ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr)); border-block-start: 1px solid var(--border); border-inline-start: 1px solid var(--border); }
+.topics li { padding: 1.4rem; display: grid; gap: .6rem; align-content: start; border-inline-end: 1px solid var(--border); border-block-end: 1px solid var(--border); }
+.topics li > span { color: var(--accent); font: var(--text-meta)/1.4 var(--font-mono); }
+.topics strong { font-size: var(--text-body); line-height: 1.4; }
+.topics p { margin: 0; color: var(--muted); font-size: var(--text-small); line-height: 1.65; }
+:global(html[lang="ar"]) .topics h2 { font-family: var(--font-arabic); letter-spacing: 0; }
+:global(html[lang="ar"]) .topics p { line-height: 1.8; }

@@ -1,0 +1,37 @@
+[
+  {
+    "variant": "nothing hidden",
+    "gpuProcessCpuPct": 30.9,
+    "rendererCpuPct": 14.6
+  },
+  {
+    "variant": "header hidden",
+    "gpuProcessCpuPct": 26.4,
+    "rendererCpuPct": 13.8
+  },
+  {
+    "variant": "hero hidden",
+    "gpuProcessCpuPct": 0.1,
+    "rendererCpuPct": 0.2
+  },
+  {
+    "variant": "main after hero hidden",
+    "gpuProcessCpuPct": 30.4,
+    "rendererCpuPct": 13
+  },
+  {
+    "variant": "footer hidden",
+    "gpuProcessCpuPct": 30.9,
+    "rendererCpuPct": 14.8
+  },
+  {
+    "variant": "main hidden",
+    "gpuProcessCpuPct": 0.1,
+    "rendererCpuPct": 0.2
+  },
+  {
+    "variant": "mobile dock hidden",
+    "gpuProcessCpuPct": 32.3,
+    "rendererCpuPct": 15.8
+  }
+]

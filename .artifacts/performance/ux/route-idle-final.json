@@ -1,0 +1,50 @@
+[
+  {
+    "route": "/en",
+    "position": "top",
+    "animations": "as shipped",
+    "gpuProcessCpuPct": 13.9,
+    "rendererCpuPct": 10.3,
+    "running": 2
+  },
+  {
+    "route": "/en",
+    "position": "top",
+    "animations": "all paused",
+    "gpuProcessCpuPct": 8.9,
+    "rendererCpuPct": 8,
+    "running": 0
+  },
+  {
+    "route": "/en",
+    "position": "middle",
+    "animations": "as shipped",
+    "gpuProcessCpuPct": 1.1,
+    "rendererCpuPct": 4.8,
+    "running": 1
+  },
+  {
+    "route": "/ar",
+    "position": "top",
+    "animations": "as shipped",
+    "gpuProcessCpuPct": 15.6,
+    "rendererCpuPct": 11.5,
+    "running": 2
+  },
+  {
+    "route": "/ar",
+    "position": "top",
+    "animations": "all paused",
+    "gpuProcessCpuPct": 9.2,
+    "rendererCpuPct": 8.2,
+    "running": 0
+  },
+  {
+    "route": "/ar",
+    "position": "middle",
+    "animations": "as shipped",
+    "gpuProcessCpuPct": 1,
+    "rendererCpuPct": 4.7,
+    "running": 1
+  }
+]

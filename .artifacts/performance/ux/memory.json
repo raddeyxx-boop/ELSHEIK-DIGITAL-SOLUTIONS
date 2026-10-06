@@ -1,0 +1,65 @@
+[
+  {
+    "cycle": 0,
+    "where": "Home loaded",
+    "heapMB": 5.5,
+    "domNodes": 795,
+    "listeners": 377,
+    "documents": 1,
+    "liveWebGL": 1
+  },
+  {
+    "cycle": 1,
+    "where": "case study + 5 dialogs",
+    "heapMB": 8.3,
+    "domNodes": 1717,
+    "listeners": 459,
+    "documents": 1,
+    "liveWebGL": 1
+  },
+  {
+    "cycle": 1,
+    "where": "back on Home",
+    "heapMB": 8.9,
+    "domNodes": 813,
+    "listeners": 430,
+    "documents": 1,
+    "liveWebGL": 1
+  },
+  {
+    "cycle": 2,
+    "where": "case study + 5 dialogs",
+    "heapMB": 9.5,
+    "domNodes": 1734,
+    "listeners": 469,
+    "documents": 1,
+    "liveWebGL": 1
+  },
+  {
+    "cycle": 2,
+    "where": "back on Home",
+    "heapMB": 9.5,
+    "domNodes": 820,
+    "listeners": 430,
+    "documents": 1,
+    "liveWebGL": 1
+  },
+  {
+    "cycle": 3,
+    "where": "case study + 5 dialogs",
+    "heapMB": 9.7,
+    "domNodes": 1741,
+    "listeners": 469,
+    "documents": 1,
+    "liveWebGL": 1
+  },
+  {
+    "cycle": 3,
+    "where": "back on Home",
+    "heapMB": 9.7,
+    "domNodes": 827,
+    "listeners": 430,
+    "documents": 1,
+    "liveWebGL": 1
+  }
+]

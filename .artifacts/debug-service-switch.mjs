@@ -1,0 +1,5 @@
+﻿import {chromium} from '@playwright/test';
+const b=await chromium.launch({headless:true});const p=await b.newPage();
+await p.goto('http://127.0.0.1:3000/en/services');
+await p.evaluate(()=>{window.events=[];for(const type of ['pointerenter','pointerleave','pointermove'])document.addEventListener(type,e=>{if(e.target.matches?.('[data-service-row]'))window.events.push({type,id:e.target.dataset.serviceRow,x:e.clientX,y:e.clientY,t:performance.now()})},true);new MutationObserver(ms=>ms.forEach(m=>window.events.push({type:'active',id:m.target.dataset.serviceRow,active:m.target.dataset.active,t:performance.now()}))).observe(document.querySelector('[data-service-list]'),{subtree:true,attributes:true,attributeFilter:['data-active']});});
+const rows=p.locator('[data-service-row]');await rows.first().scrollIntoViewIfNeeded();await rows.first().hover();await p.waitForTimeout(200);await rows.nth(1).hover();await p.waitForTimeout(1500);console.log(await p.evaluate(()=>window.events));await b.close();

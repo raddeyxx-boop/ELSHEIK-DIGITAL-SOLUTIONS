@@ -1,0 +1,180 @@
+import {
+  act,
+  cleanup,
+  fireEvent,
+  render,
+  screen,
+} from "@testing-library/react";
+import { afterEach, beforeEach, expect, it, vi } from "vitest";
+import { ServiceList } from "@/components/services/service-list";
+
+// Isolate interaction timers from the optional scene's loading and animations.
+vi.mock("next/dynamic", () => ({
+  default: () => () => (
+    <div data-service-preview="web">
+      <Link href="/en/contact">Panel link</Link>
+    </div>
+  ),
+}));
+vi.mock("motion/react", () => ({
+  AnimatePresence: ({ children }: { children: React.ReactNode }) => children,
+}));
+vi.mock("next/link", () => ({
+  default: ({ children, ...props }: React.ComponentProps<"a">) => (
+    <a {...props}>{children}</a>
+  ),
+}));
+const services = [
+  {
+    id: "web",
+    title: "Web Development",
+    body: "Existing body",
+    outcome: "Existing outcome",
+    tech: "Next.js",
+  },
+];
+beforeEach(() => {
+  vi.useFakeTimers();
+  vi.stubGlobal(
+    "IntersectionObserver",
+    class {
+      observe() {}
+      disconnect() {}
+    },
+  );
+  vi.stubGlobal("matchMedia", () => ({ matches: false }));
+  // jsdom does not implement pointer events; retain pointerType in fireEvent.
+  vi.stubGlobal(
+    "PointerEvent",
+    class extends MouseEvent {
+      pointerType: string;
+      constructor(type: string, init: PointerEventInit) {
+        super(type, init);
+        this.pointerType = init.pointerType || "mouse";
+      }
+    },
+  );
+});
+afterEach(() => {
+  cleanup();
+  vi.useRealTimers();
+  vi.unstubAllGlobals();
+});
+const advance = (ms: number) => act(() => vi.advanceTimersByTime(ms));
+function setup(variant: "compact" | "detail" = "compact") {
+  const view = render(
+    <ServiceList
+      services={services}
+      locale="en"
+      variant={variant}
+      contactLabel="Start a project"
+    />,
+  );
+  const row = view.container.querySelector<HTMLElement>("[data-service-row]")!;
+  const panel = view.container.querySelector<HTMLElement>(
+    "[data-preview-slot]",
+  )!;
+  return { ...view, row, panel };
+}
+
+it("requires 1500 ms continuously, cancels early exit and restarts on entry", () => {
+  const { row } = setup();
+  fireEvent.pointerEnter(row, { pointerType: "mouse" });
+  advance(1499);
+  expect(row).toHaveAttribute("data-active", "false");
+  fireEvent.pointerLeave(row, {
+    pointerType: "mouse",
+    relatedTarget: document.body,
+  });
+  advance(2000);
+  expect(row).toHaveAttribute("data-active", "false");
+  fireEvent.pointerEnter(row, { pointerType: "mouse" });
+  advance(1499);
+  expect(row).toHaveAttribute("data-active", "false");
+  advance(1);
+  expect(row).toHaveAttribute("data-active", "true");
+});
+
+it("keeps the panel accessible, cancels closing on reentry and closes after grace", () => {
+  const { row, panel } = setup();
+  fireEvent.pointerEnter(row, { pointerType: "mouse" });
+  advance(1500);
+  fireEvent.pointerLeave(row, { pointerType: "mouse", relatedTarget: panel });
+  advance(500);
+  expect(screen.getByRole("link", { name: "Panel link" })).toHaveAttribute(
+    "href",
+    "/en/contact",
+  );
+  expect(panel).toHaveAttribute("aria-hidden", "false");
+  expect(panel).not.toHaveAttribute("inert");
+  fireEvent.pointerLeave(row, {
+    pointerType: "mouse",
+    relatedTarget: document.body,
+  });
+  advance(100);
+  fireEvent.pointerEnter(row, { pointerType: "mouse" });
+  advance(200);
+  expect(row).toHaveAttribute("data-active", "true");
+  fireEvent.pointerLeave(row, {
+    pointerType: "mouse",
+    relatedTarget: document.body,
+  });
+  advance(179);
+  expect(row).toHaveAttribute("data-active", "true");
+  advance(1);
+  expect(row).toHaveAttribute("data-active", "false");
+});
+
+it("Escape cancels opening anywhere in the document and closes an open panel", () => {
+  const { row } = setup();
+  fireEvent.pointerEnter(row, { pointerType: "mouse" });
+  advance(1000);
+  fireEvent.keyDown(document, { key: "Escape" });
+  advance(1000);
+  expect(row).toHaveAttribute("data-active", "false");
+  fireEvent.pointerEnter(row, { pointerType: "mouse" });
+  advance(1500);
+  fireEvent.keyDown(document, { key: "Escape" });
+  expect(row).toHaveAttribute("data-active", "false");
+});
+
+it("uses tap toggling without hover or closing when the panel itself is touched", () => {
+  const { row, panel } = setup();
+  fireEvent.pointerEnter(row, { pointerType: "touch" });
+  advance(2000);
+  expect(row).toHaveAttribute("data-active", "false");
+  fireEvent.pointerUp(row, { pointerType: "touch" });
+  expect(row).toHaveAttribute("data-active", "true");
+  fireEvent.pointerUp(panel, { pointerType: "touch" });
+  expect(row).toHaveAttribute("data-active", "true");
+  const button = screen.getByRole("button", { name: /Close preview:/ });
+  fireEvent.pointerDown(panel, { pointerType: "touch" });
+  fireEvent.blur(button, { relatedTarget: null });
+  advance(500);
+  expect(row).toHaveAttribute("data-active", "true");
+  fireEvent.pointerUp(row, { pointerType: "touch" });
+  expect(row).toHaveAttribute("data-active", "false");
+});
+
+it("supports keyboard focus, controls attributes and native CTA links", () => {
+  const { row, panel } = setup("detail");
+  const trigger = screen.getByRole("button", { name: "Web Development" });
+  fireEvent.focus(trigger);
+  expect(trigger).toHaveAttribute("aria-expanded", "true");
+  expect(trigger).toHaveAttribute("aria-controls", panel.id);
+  expect(screen.getByRole("link", { name: "Start a project" })).toHaveAttribute(
+    "href",
+    "/en/contact",
+  );
+  fireEvent.keyDown(trigger, { key: "Escape" });
+  expect(row).toHaveAttribute("data-active", "false");
+});
+
+it("owns one interaction timeout and clears it on unmount", () => {
+  const { row, unmount } = setup();
+  fireEvent.pointerEnter(row, { pointerType: "mouse" });
+  expect(vi.getTimerCount()).toBe(1);
+  unmount();
+  expect(vi.getTimerCount()).toBe(0);
+});
+import Link from "next/link";

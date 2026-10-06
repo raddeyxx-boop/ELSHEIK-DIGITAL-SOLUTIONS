@@ -1,0 +1,2 @@
+export default function Loading(){return <div className="shell" aria-label="Loading content" style={{minHeight:"80vh",paddingBlock:"8rem"}}><div style={{width:"9rem",height:".7rem",background:"var(--surface)",marginBottom:"2rem"}}/><div style={{width:"80%",height:"clamp(4rem,12vw,10rem)",background:"var(--surface)",borderRadius:"var(--radius-md)"}}/></div>}
+

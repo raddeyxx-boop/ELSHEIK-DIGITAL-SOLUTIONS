@@ -1,0 +1,42 @@
+[
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\globals.css",
+        "Hash":  "5C60566AD70FBBBC6D8346FD5884CCEE933D8954619DAB67F26C4F499F0F6AD6"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\[locale]\\about\\page.tsx",
+        "Hash":  "3A3E2CD0E4A902362454B9A5A6DF4965587EDF456F82ABCFF26960E8416B24BF"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\[locale]\\contact\\page.tsx",
+        "Hash":  "034182CD12AF1276C1961E3713C28D470A4BA7971A24DBFADA45D47E56243388"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\[locale]\\insights\\page.tsx",
+        "Hash":  "027E2ED0B85F47417CF096DC5EBDE46AF31774C849DE25193B2F7F86A47AE3AA"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\[locale]\\services\\page.tsx",
+        "Hash":  "0323006F5A0E8C4DCC39D0E54113C25EA10DD1671FB879EA70C9DA8632C10664"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\[locale]\\work\\page.tsx",
+        "Hash":  "0B2F2867CB2D4C0D2626153207ADC4297612EB8CCEFCE3F2CEF2CFCBAE79FD82"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\app\\[locale]\\work\\[slug]\\page.tsx",
+        "Hash":  "EF2EEEA55EB5CAB7CCC998A26A478CA248A630601E665BEC11CECA50C5863E8B"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\components\\sections\\homepage.module.css",
+        "Hash":  "7EDB3CBC17CC1DCB622FD038CD470414DFA5901BABCFA217B9E6AED2FB423E1F"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\components\\sections\\homepage.tsx",
+        "Hash":  "8766F3D7C8880A244D647AD2E2FB37B8E14EA5CC9F45F3C5EA895A6AF61C29CC"
+    },
+    {
+        "Path":  "C:\\Users\\3iwa\\ELSHEIK  DIGITAL SOLUTIONS\\src\\components\\sections\\page-hero.tsx",
+        "Hash":  "6C32BB32470A15FEEBD93B21E3AA27CD93F7B89340FBA9271A3D643C3E76E120"
+    }
+]

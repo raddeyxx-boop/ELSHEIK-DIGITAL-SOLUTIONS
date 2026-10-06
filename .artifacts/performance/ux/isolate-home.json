@@ -1,0 +1,37 @@
+[
+  {
+    "route": "/en",
+    "variant": "baseline",
+    "gpuProcessCpuPct": 33.1,
+    "rendererCpuPct": 18.6,
+    "runningAnimations": 15
+  },
+  {
+    "route": "/en",
+    "variant": "ticker paused",
+    "gpuProcessCpuPct": 31.4,
+    "rendererCpuPct": 17.1,
+    "runningAnimations": 14
+  },
+  {
+    "route": "/en",
+    "variant": "WebGL unavailable (PixelBlast fallback)",
+    "gpuProcessCpuPct": 31.7,
+    "rendererCpuPct": 16.5,
+    "runningAnimations": 15
+  },
+  {
+    "route": "/en",
+    "variant": "ticker paused + WebGL unavailable",
+    "gpuProcessCpuPct": 31.1,
+    "rendererCpuPct": 15.3,
+    "runningAnimations": 14
+  },
+  {
+    "route": "/en",
+    "variant": "all CSS animations paused",
+    "gpuProcessCpuPct": 32.1,
+    "rendererCpuPct": 16.9,
+    "runningAnimations": 14
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "label": "prod-final-throttled",
+  "base": "http://localhost:3200",
+  "mobile": false,
+  "cpu": 4,
+  "net": "slow4g",
+  "homeHeroMs": 553,
+  "homeLoadMs": 1933,
+  "steps": [
+    {
+      "name": "idle on Home",
+      "idleMs": 4000,
+      "prefetchRsc": [
+        "/en/about",
+        "/en/services",
+        "/en/work",
+        "/en/insights",
+        "/en/contact",
+        "/en/work",
+        "/en",
+        "/en/services",
+        "/en/contact",
+        "/en/about",
+        "/en/contact",
+        "/en/insights",
+        "/ar"
+      ],
+      "scripts": 6,
+      "bytes": 210383
+    },
+    {
+      "name": "Home -> Work",
+      "target": "/en/work",
+      "responseMs": 34,
+      "urlMs": 215,
+      "headingMs": 569,
+      "completeMs": 569,
+      "heading": "Systems explained through the work they improve.",
+      "notFound": false,
+      "longTasks": 3,
+      "longTaskMs": 443,
+      "maxLongTask": 233,
+      "rsc": [
+        "/en/work 185ms"
+      ],
+      "scripts": 0,
+      "scriptBytes": 0
+    },
+    {
+      "name": "idle on Work",
+      "idleMs": 2000,
+      "prefetchRsc": [],
+      "scripts": 0,
+      "bytes": 0
+    },
+    {
+      "name": "Work -> case study",
+      "target": "/en/work/relax-moon-spa-automation",
+      "responseMs": 18,
+      "urlMs": 352,
+      "headingMs": 819,
+      "completeMs": 819,
+      "heading": "Relax Moon Spa Automation",
+      "notFound": false,
+      "longTasks": 2,
+      "longTaskMs": 817,
+      "maxLongTask": 692,
+      "rsc": [
+        "/en/work/relax-moon-spa-automation 223ms"
+      ],
+      "scripts": 3,
+      "scriptBytes": 26206
+    },
+    {
+      "name": "back -> Work",
+      "target": "/en/work",
+      "urlMs": 9,
+      "headingMs": 9,
+      "completeMs": 9,
+      "heading": "Systems explained through the work they improve.",
+      "notFound": false,
+      "longTasks": 1,
+      "longTaskMs": 99,
+      "maxLongTask": 99,
+      "rsc": [],
+      "scripts": 0,
+      "scriptBytes": 0
+    },
+    {
+      "name": "Work -> Contact",
+      "target": "/en/contact",
+      "responseMs": 280,
+      "urlMs": 287,
+      "headingMs": 287,
+      "completeMs": 287,
+      "heading": "Tell us what needs to work better.",
+      "notFound": false,
+      "longTasks": 2,
+      "longTaskMs": 201,
+      "maxLongTask": 135,
+      "rsc": [],
+      "scripts": 0,
+      "scriptBytes": 0
+    },
+    {
+      "name": "Contact -> Home",
+      "target": "/en",
+      "responseMs": 20,
+      "urlMs": 118,
+      "headingMs": 646,
+      "completeMs": 646,
+      "heading": "We turn business complexity into systems that move.",
+      "notFound": false,
+      "longTasks": 3,
+      "longTaskMs": 450,
+      "maxLongTask": 227,
+      "rsc": [
+        "/en 196ms"
+      ],
+      "scripts": 0,
+      "scriptBytes": 0
+    }
+  ],
+  "errors": []
+}

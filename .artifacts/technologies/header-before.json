@@ -1,0 +1,226 @@
+[
+  {
+    "locale": "en",
+    "width": 1920,
+    "labels": "HomeServicesWorkAboutInsightsContact",
+    "homeHref": "/en",
+    "homeBounds": {
+      "x": 730.390625,
+      "y": 24,
+      "width": 63.484375,
+      "height": 24
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1600,
+    "labels": "HomeServicesWorkAboutInsightsContact",
+    "homeHref": "/en",
+    "homeBounds": {
+      "x": 570.390625,
+      "y": 24,
+      "width": 63.484375,
+      "height": 24
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "labels": "HomeServicesWorkAboutInsightsContact",
+    "homeHref": "/en",
+    "homeBounds": {
+      "x": 504.3125,
+      "y": 24.75,
+      "width": 60.796875,
+      "height": 22.5
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1366,
+    "labels": "HomeServicesWorkAboutInsightsContact",
+    "homeHref": "/en",
+    "homeBounds": {
+      "x": 467.3125,
+      "y": 24.75,
+      "width": 60.796875,
+      "height": 22.5
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1280,
+    "labels": "HomeServicesWorkAboutInsightsContact",
+    "homeHref": "/en",
+    "homeBounds": {
+      "x": 424.3125,
+      "y": 24.75,
+      "width": 60.796875,
+      "height": 22.5
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1100,
+    "labels": "HomeServicesWorkAboutInsightsContact",
+    "homeHref": "/en",
+    "homeBounds": {
+      "x": 351.765625,
+      "y": 25.546875,
+      "width": 60.796875,
+      "height": 22.5
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 1024,
+    "labels": "HomeServicesWorkAboutInsightsContact",
+    "homeHref": "/en",
+    "homeBounds": {
+      "x": 313.765625,
+      "y": 25.546875,
+      "width": 60.796875,
+      "height": 22.5
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "width": 901,
+    "labels": "HomeServicesWorkAboutInsightsContact",
+    "homeHref": "/en",
+    "homeBounds": {
+      "x": 252.265625,
+      "y": 25.546875,
+      "width": 60.796875,
+      "height": 22.5
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1920,
+    "labels": "الرئيسيةالخدماتأعمالنامن نحنرؤىتواصل معنا",
+    "homeHref": "/ar",
+    "homeBounds": {
+      "x": 1125.9375,
+      "y": 21.125,
+      "width": 81.0625,
+      "height": 29.75
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1600,
+    "labels": "الرئيسيةالخدماتأعمالنامن نحنرؤىتواصل معنا",
+    "homeHref": "/ar",
+    "homeBounds": {
+      "x": 963.703125,
+      "y": 21.296875,
+      "width": 80.3125,
+      "height": 29.390625
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "labels": "الرئيسيةالخدماتأعمالنامن نحنرؤىتواصل معنا",
+    "homeHref": "/ar",
+    "homeBounds": {
+      "x": 875.359375,
+      "y": 22,
+      "width": 77.5,
+      "height": 28
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1366,
+    "labels": "الرئيسيةالخدماتأعمالنامن نحنرؤىتواصل معنا",
+    "homeHref": "/ar",
+    "homeBounds": {
+      "x": 838.359375,
+      "y": 22,
+      "width": 77.5,
+      "height": 28
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1280,
+    "labels": "الرئيسيةالخدماتأعمالنامن نحنرؤىتواصل معنا",
+    "homeHref": "/ar",
+    "homeBounds": {
+      "x": 795.359375,
+      "y": 22,
+      "width": 77.5,
+      "height": 28
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1100,
+    "labels": "الرئيسيةالخدماتأعمالنامن نحنرؤىتواصل معنا",
+    "homeHref": "/ar",
+    "homeBounds": {
+      "x": 687.90625,
+      "y": 22.796875,
+      "width": 77.5,
+      "height": 28
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 1024,
+    "labels": "الرئيسيةالخدماتأعمالنامن نحنرؤىتواصل معنا",
+    "homeHref": "/ar",
+    "homeBounds": {
+      "x": 649.90625,
+      "y": 22.796875,
+      "width": 77.5,
+      "height": 28
+    },
+    "zoom": 1,
+    "overflow": false
+  },
+  {
+    "locale": "ar",
+    "width": 901,
+    "labels": "الرئيسيةالخدماتأعمالنامن نحنرؤىتواصل معنا",
+    "homeHref": "/ar",
+    "homeBounds": {
+      "x": 588.40625,
+      "y": 22.796875,
+      "width": 77.5,
+      "height": 28
+    },
+    "zoom": 1,
+    "overflow": false
+  }
+]

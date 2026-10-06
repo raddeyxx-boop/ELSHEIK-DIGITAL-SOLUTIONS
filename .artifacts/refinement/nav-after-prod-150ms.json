@@ -1,0 +1,169 @@
+{
+  "label": "after-prod-150ms",
+  "base": "http://127.0.0.1:3100",
+  "locale": "en",
+  "mobile": false,
+  "steps": [
+    {
+      "name": "lap1 /en -> /en/services",
+      "urlMs": 48,
+      "contentMs": 48,
+      "rsc": []
+    },
+    {
+      "name": "lap1 /en/services -> /en/work",
+      "urlMs": 37,
+      "contentMs": 37,
+      "rsc": []
+    },
+    {
+      "name": "lap1 /en/work -> /en/process",
+      "urlMs": 123,
+      "contentMs": 123,
+      "rsc": []
+    },
+    {
+      "name": "lap1 /en/process -> /en/about",
+      "urlMs": 42,
+      "contentMs": 42,
+      "rsc": []
+    },
+    {
+      "name": "lap1 /en/about -> /en/insights",
+      "urlMs": 34,
+      "contentMs": 34,
+      "rsc": []
+    },
+    {
+      "name": "lap1 /en/insights -> /en/contact",
+      "urlMs": 54,
+      "contentMs": 54,
+      "rsc": []
+    },
+    {
+      "name": "lap1 /en/contact -> /en",
+      "urlMs": 41,
+      "contentMs": 41,
+      "rsc": []
+    },
+    {
+      "name": "lap1 Home -> Work",
+      "urlMs": 41,
+      "contentMs": 41,
+      "rsc": []
+    },
+    {
+      "name": "lap1 Work -> case study",
+      "urlMs": 37,
+      "contentMs": 176,
+      "rsc": [
+        "/en/work/relax-moon-spa-automation 11ms"
+      ]
+    },
+    {
+      "name": "lap1 case study -> Work",
+      "urlMs": 35,
+      "contentMs": 35,
+      "rsc": []
+    },
+    {
+      "name": "lap1 Work -> case study (2)",
+      "urlMs": 51,
+      "contentMs": 51,
+      "rsc": [
+        "/en/work/relax-moon-spa-automation 6ms"
+      ]
+    },
+    {
+      "name": "lap1 case study -> Start a project",
+      "urlMs": 42,
+      "contentMs": 42,
+      "rsc": []
+    },
+    {
+      "name": "lap1 Contact -> Home",
+      "urlMs": 45,
+      "contentMs": 45,
+      "rsc": []
+    },
+    {
+      "name": "lap2 /en -> /en/services",
+      "urlMs": 42,
+      "contentMs": 42,
+      "rsc": []
+    },
+    {
+      "name": "lap2 /en/services -> /en/work",
+      "urlMs": 38,
+      "contentMs": 38,
+      "rsc": []
+    },
+    {
+      "name": "lap2 /en/work -> /en/process",
+      "urlMs": 35,
+      "contentMs": 35,
+      "rsc": []
+    },
+    {
+      "name": "lap2 /en/process -> /en/about",
+      "urlMs": 39,
+      "contentMs": 39,
+      "rsc": []
+    },
+    {
+      "name": "lap2 /en/about -> /en/insights",
+      "urlMs": 39,
+      "contentMs": 39,
+      "rsc": []
+    },
+    {
+      "name": "lap2 /en/insights -> /en/contact",
+      "urlMs": 35,
+      "contentMs": 35,
+      "rsc": []
+    },
+    {
+      "name": "lap2 /en/contact -> /en",
+      "urlMs": 40,
+      "contentMs": 40,
+      "rsc": []
+    },
+    {
+      "name": "lap2 Home -> Work",
+      "urlMs": 37,
+      "contentMs": 37,
+      "rsc": []
+    },
+    {
+      "name": "lap2 Work -> case study",
+      "urlMs": 45,
+      "contentMs": 45,
+      "rsc": []
+    },
+    {
+      "name": "lap2 case study -> Work",
+      "urlMs": 33,
+      "contentMs": 33,
+      "rsc": []
+    },
+    {
+      "name": "lap2 Work -> case study (2)",
+      "urlMs": 36,
+      "contentMs": 36,
+      "rsc": []
+    },
+    {
+      "name": "lap2 case study -> Start a project",
+      "urlMs": 45,
+      "contentMs": 45,
+      "rsc": []
+    },
+    {
+      "name": "lap2 Contact -> Home",
+      "urlMs": 43,
+      "contentMs": 43,
+      "rsc": []
+    }
+  ],
+  "errors": []
+}

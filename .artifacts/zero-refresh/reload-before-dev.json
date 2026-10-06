@@ -1,0 +1,209 @@
+{
+  "label": "before-dev",
+  "mobile": false,
+  "results": [
+    {
+      "name": "lap1 header /en/services",
+      "path": "/en/services",
+      "ms": 1314,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "lap1 header /en/work",
+      "path": "/en/work",
+      "ms": 1667,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "lap1 header /en/process",
+      "path": "/en/process",
+      "ms": 2355,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "lap1 header /en/about",
+      "path": "/en/about",
+      "ms": 1646,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "lap1 header /en/insights",
+      "path": "/en/insights",
+      "ms": 2564,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "lap1 header /en/contact",
+      "path": "/en/contact",
+      "ms": 1047,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "lap1 header /en",
+      "path": "/en",
+      "ms": 1652,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "lap2 header /en/services",
+      "path": "/en/services",
+      "ms": 1254,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "lap2 header /en/work",
+      "path": "/en/work",
+      "ms": 1378,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "lap2 header /en/process",
+      "path": "/en/process",
+      "ms": 1531,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "lap2 header /en/about",
+      "path": "/en/about",
+      "ms": 1456,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "lap2 header /en/insights",
+      "path": "/en/insights",
+      "ms": 1013,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "lap2 header /en/contact",
+      "path": "/en/contact",
+      "ms": 481,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "lap2 header /en",
+      "path": "/en",
+      "ms": 1760,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "work card -> case study",
+      "path": "/en/work/relax-moon-spa-automation",
+      "ms": 1133,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": [
+        "/en/work"
+      ]
+    },
+    {
+      "name": "case study CTA -> contact",
+      "path": "/en/contact",
+      "ms": 1051,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "footer -> technologies",
+      "path": "/en/technologies",
+      "ms": 920,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "logo -> home",
+      "path": "/en",
+      "ms": 969,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "home CTA -> start a project",
+      "path": "/en/contact",
+      "ms": 1243,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "language en -> ar",
+      "path": "/ar/contact",
+      "ms": 1367,
+      "soft": true,
+      "headerKept": false,
+      "documentRequests": []
+    },
+    {
+      "name": "ar header -> work",
+      "path": "/ar/work",
+      "ms": 1267,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "language ar -> en",
+      "path": "/en/work",
+      "ms": 1359,
+      "soft": true,
+      "headerKept": false,
+      "documentRequests": []
+    },
+    {
+      "name": "back",
+      "path": "/ar/work",
+      "ms": 403,
+      "soft": true,
+      "headerKept": false,
+      "documentRequests": []
+    },
+    {
+      "name": "back again",
+      "path": "/ar/contact",
+      "ms": 361,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    },
+    {
+      "name": "forward",
+      "path": "/ar/work",
+      "ms": 326,
+      "soft": true,
+      "headerKept": true,
+      "documentRequests": []
+    }
+  ],
+  "errors": []
+}

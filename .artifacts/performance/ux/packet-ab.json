@@ -1,0 +1,27 @@
+[
+  {
+    "variant": "baseline (WebGL off, ticker paused)",
+    "gpuProcessCpuPct": 27.7,
+    "rendererCpuPct": 15.8
+  },
+  {
+    "variant": "SMIL paused (svg.pauseAnimations)",
+    "gpuProcessCpuPct": 8.7,
+    "rendererCpuPct": 3.4
+  },
+  {
+    "variant": "packet drop-shadow removed",
+    "gpuProcessCpuPct": 21,
+    "rendererCpuPct": 14
+  },
+  {
+    "variant": "field clip-path removed",
+    "gpuProcessCpuPct": 23.3,
+    "rendererCpuPct": 12.4
+  },
+  {
+    "variant": "diagram svg on its own layer",
+    "gpuProcessCpuPct": 11.1,
+    "rendererCpuPct": 12.5
+  }
+]

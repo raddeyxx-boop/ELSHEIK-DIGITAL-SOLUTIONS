@@ -1,0 +1,269 @@
+﻿.connected {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 28px;
+  align-items: center;
+  direction: ltr;
+}
+.canvas {
+  min-width: 0;
+}
+.map {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.mobile {
+  display: none;
+}
+.connection {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 1.6;
+  stroke-dasharray: 3 5;
+  opacity: 0.65;
+}
+.node {
+  color: var(--accent);
+}
+.ring {
+  fill: #101210;
+  stroke: var(--accent);
+  stroke-width: 2;
+  opacity: 0.55;
+  transition:
+    opacity 0.25s,
+    filter 0.25s;
+}
+.icon {
+  position: static;
+  display: block;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-dasharray: none;
+  opacity: 0.7;
+  overflow: visible;
+}
+.label {
+  fill: var(--foreground);
+  font-size: 14px;
+  font-weight: 750;
+}
+.meta {
+  fill: var(--foreground-secondary);
+  font-size: 11px;
+}
+.label,
+.meta {
+  paint-order: stroke;
+  stroke: var(--background);
+  stroke-width: 5px;
+  stroke-linejoin: round;
+}
+.lit .ring {
+  opacity: 1;
+  filter: drop-shadow(0 0 5px #caff4a80);
+}
+.lit .icon {
+  opacity: 1;
+}
+.signal {
+  fill: var(--accent);
+  filter: drop-shadow(0 0 5px var(--accent)) drop-shadow(0 0 10px #caff4a99);
+}
+.pulse {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 3;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: arrivalWave 0.7s ease-out both;
+  pointer-events: none;
+}
+.ring.impact {
+  animation: arrivalGlow 0.7s ease-out both;
+  stroke-width: 3;
+}
+.simulation {
+  border: 1px solid var(--border-bright);
+  padding: 24px;
+  background: #111114;
+  direction: ltr;
+}
+.simulation > strong {
+  font: 700 13px/1.5 var(--font-mono);
+  color: var(--accent);
+  letter-spacing: 0.06em;
+}
+.simulation ol {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+.simulation li {
+  display: grid;
+  grid-template-columns: 23px minmax(0, 1fr) 15px;
+  gap: 9px;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.simulation li > span {
+  display: grid;
+  place-items: center;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: #1b292b;
+  color: var(--foreground);
+}
+.simulation li > svg {
+  width: 15px;
+  height: 15px;
+  color: #72d6a5;
+  opacity: 0;
+}
+.simulation li.done {
+  color: var(--foreground);
+}
+.simulation li.done > svg {
+  opacity: 1;
+}
+.simulation li.current {
+  color: var(--accent);
+}
+.simulation li.current > span {
+  background: var(--accent);
+  color: #11130b;
+  box-shadow: 0 0 18px #caff4a65;
+}
+.simulation button {
+  width: 100%;
+  min-height: 46px;
+  border: 1px solid var(--accent);
+  border-radius: 99px;
+  background: transparent;
+  color: var(--foreground);
+  font: 650 12px/1.5 var(--font-mono);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+}
+.simulation button:hover {
+  background: #caff4a12;
+}
+.simulation button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+.simulation button span {
+  color: var(--accent);
+}
+:global(html[lang="ar"]) .simulation {
+  direction: rtl;
+}
+:global(html[lang="ar"]) .simulation > strong {
+  letter-spacing: 0;
+}
+:global(html[lang="ar"]) .simulation li {
+  font-size: 14px;
+}
+@keyframes arrivalWave {
+  0% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.9);
+  }
+}
+@keyframes arrivalGlow {
+  0%,
+  22% {
+    filter: drop-shadow(0 0 9px #dfff80) drop-shadow(0 0 20px #caff4acc);
+    stroke: #e2ff9c;
+  }
+  100% {
+    filter: drop-shadow(0 0 5px #caff4a80);
+    stroke: var(--accent);
+  }
+}
+@media (min-width: 1500px) {
+  .connected {
+    grid-template-columns: 280px minmax(0, 1fr);
+  }
+}
+@media (max-width: 1000px) {
+  .connected {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .canvas {
+    grid-row: 1;
+  }
+  .simulation {
+    max-width: 550px;
+    width: 100%;
+    justify-self: center;
+  }
+  .label {
+    font-size: 15px;
+  }
+  .meta {
+    font-size: 12px;
+  }
+}
+@media (max-width: 560px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .connected {
+    gap: 12px;
+  }
+  .canvas {
+    max-width: 390px;
+    width: 100%;
+    justify-self: center;
+  }
+  .simulation {
+    padding: 22px;
+  }
+  .label {
+    font-size: 15px;
+  }
+  .meta {
+    font-size: 12px;
+  }
+  .simulation li {
+    font-size: 14px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pulse {
+    display: none;
+  }
+  .ring.impact {
+    animation: none;
+  }
+  .ring {
+    transition: none;
+  }
+  .signal {
+    display: none;
+  }
+}
+
+/* Arabic-text labels use Tajawal: Arabic words in the mono stack take the mono
+   face's wide space. Latin technical labels keep the mono face. */
+:global(html[lang="ar"]) :is(.simulation > strong, .simulation button) { font-family: var(--font-arabic); letter-spacing: 0; }

@@ -1,0 +1,4926 @@
+[
+  {
+    "locale": "en",
+    "route": "",
+    "width": 1920,
+    "height": 1080,
+    "title": "We turn business complexity into systems that move.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "We turn business complexity into systems that move.",
+        "font": "112px",
+        "line": "100.8px",
+        "width": 559.609375,
+        "height": 604.78125,
+        "x": 140,
+        "right": 699.609375,
+        "scroll": 560,
+        "client": 560
+      },
+      {
+        "text": "Capabilities that become outcomes.",
+        "font": "96px",
+        "line": "92.16px",
+        "width": 746.15625,
+        "height": 184.3125,
+        "x": 351,
+        "right": 1097.15625,
+        "scroll": 746,
+        "client": 746
+      },
+      {
+        "text": "Systems shaped around real work.",
+        "font": "96px",
+        "line": "92.16px",
+        "width": 746.15625,
+        "height": 184.3125,
+        "x": 351,
+        "right": 1097.15625,
+        "scroll": 746,
+        "client": 746
+      },
+      {
+        "text": "Relax Moon Spa Automation",
+        "font": "72px",
+        "line": "64.8px",
+        "width": 341.1875,
+        "height": 194.390625,
+        "x": 296,
+        "right": 637.1875,
+        "scroll": 341,
+        "client": 341
+      },
+      {
+        "text": "From request to outcome, state by state.",
+        "font": "96px",
+        "line": "92.16px",
+        "width": 746.15625,
+        "height": 276.46875,
+        "x": 351,
+        "right": 1097.15625,
+        "scroll": 746,
+        "client": 746
+      },
+      {
+        "text": "One process. A system that evolves.",
+        "font": "96px",
+        "line": "92.16px",
+        "width": 746.15625,
+        "height": 276.46875,
+        "x": 351,
+        "right": 1097.15625,
+        "scroll": 746,
+        "client": 746
+      },
+      {
+        "text": "Thinking about how digital systems should be designed—and run.",
+        "font": "112px",
+        "line": "100.8px",
+        "width": 784.875,
+        "height": 503.984375,
+        "x": 376,
+        "right": 1160.875,
+        "scroll": 785,
+        "client": 785
+      },
+      {
+        "text": "Let’s build what your business needs next.",
+        "font": "128px",
+        "line": "110.08px",
+        "width": 690,
+        "height": 440.3125,
+        "x": 256,
+        "right": 946,
+        "scroll": 690,
+        "client": 690
+      }
+    ],
+    "body": [
+      {
+        "text": "Services",
+        "font": "16px"
+      },
+      {
+        "text": "Work",
+        "font": "16px"
+      },
+      {
+        "text": "About",
+        "font": "16px"
+      },
+      {
+        "text": "Insights",
+        "font": "16px"
+      },
+      {
+        "text": "Contact",
+        "font": "16px"
+      },
+      {
+        "text": "We design and build high-performance websites, applications, automation systems, and intelligent digital products that connect technology with real operations.",
+        "font": "18px"
+      },
+      {
+        "text": "Start a project",
+        "font": "16px"
+      },
+      {
+        "text": "Explore our work",
+        "font": "16px"
+      },
+      {
+        "text": "We do not deliver pages. We design and engineer digital systems that connect customer experience to operations and data.",
+        "font": "48px"
+      },
+      {
+        "text": "Web Development",
+        "font": "32px"
+      },
+      {
+        "text": "High-performance digital experiences.",
+        "font": "18px"
+      },
+      {
+        "text": "Web Applications",
+        "font": "32px"
+      },
+      {
+        "text": "Purpose-built platforms for business workflows.",
+        "font": "18px"
+      },
+      {
+        "text": "Mobile Applications",
+        "font": "32px"
+      },
+      {
+        "text": "Connected customer and operational applications.",
+        "font": "18px"
+      },
+      {
+        "text": "Automation",
+        "font": "32px"
+      },
+      {
+        "text": "Reliable orchestration across business systems.",
+        "font": "18px"
+      },
+      {
+        "text": "AI & Intelligent Systems",
+        "font": "32px"
+      },
+      {
+        "text": "Purposeful intelligence for defined decisions.",
+        "font": "18px"
+      },
+      {
+        "text": "Custom Software",
+        "font": "32px"
+      },
+      {
+        "text": "Software fitted to real operational requirements.",
+        "font": "18px"
+      },
+      {
+        "text": "Relax Moon Spa Automation",
+        "font": "88px"
+      },
+      {
+        "text": "Sanitized demonstration of conversational booking and operational coordination.",
+        "font": "18px"
+      },
+      {
+        "text": "WhatsApp Booking & Operations Automation",
+        "font": "32px"
+      },
+      {
+        "text": "Sanitized demonstration of conversational booking and operational coordination.",
+        "font": "18px"
+      },
+      {
+        "text": "View case study",
+        "font": "16px"
+      },
+      {
+        "text": "Hello! I'd like to book an appointment.",
+        "font": "14px"
+      },
+      {
+        "text": "What service would you like?",
+        "font": "14px"
+      },
+      {
+        "text": "Massage Therapy",
+        "font": "14px"
+      },
+      {
+        "text": "Great. When would you like to come?",
+        "font": "14px"
+      },
+      {
+        "text": "Tomorrow at 5 PM",
+        "font": "14px"
+      },
+      {
+        "text": "Your appointment is confirmed.",
+        "font": "14px"
+      },
+      {
+        "text": "Request received",
+        "font": "18px"
+      },
+      {
+        "text": "Let’s engineer the right system around the way your business actually works.",
+        "font": "18px"
+      },
+      {
+        "text": "Start a project",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "",
+    "width": 390,
+    "height": 844,
+    "title": "We turn business complexity into systems that move.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "We turn business complexity into systems that move.",
+        "font": "56.16px",
+        "line": "52.7904px",
+        "width": 342.953125,
+        "height": 263.90625,
+        "x": 16,
+        "right": 358.953125,
+        "scroll": 343,
+        "client": 343
+      },
+      {
+        "text": "Capabilities that become outcomes.",
+        "font": "43.2px",
+        "line": "41.472px",
+        "width": 300,
+        "height": 124.40625,
+        "x": 80,
+        "right": 380,
+        "scroll": 300,
+        "client": 300
+      },
+      {
+        "text": "Systems shaped around real work.",
+        "font": "43.2px",
+        "line": "41.472px",
+        "width": 300,
+        "height": 124.40625,
+        "x": 80,
+        "right": 380,
+        "scroll": 300,
+        "client": 300
+      },
+      {
+        "text": "Relax Moon Spa Automation",
+        "font": "40px",
+        "line": "36px",
+        "width": 294,
+        "height": 72,
+        "x": 48,
+        "right": 342,
+        "scroll": 294,
+        "client": 294
+      },
+      {
+        "text": "From request to outcome, state by state.",
+        "font": "43.2px",
+        "line": "41.472px",
+        "width": 300,
+        "height": 124.40625,
+        "x": 80,
+        "right": 380,
+        "scroll": 300,
+        "client": 300
+      },
+      {
+        "text": "One process. A system that evolves.",
+        "font": "43.2px",
+        "line": "41.472px",
+        "width": 300,
+        "height": 124.40625,
+        "x": 80,
+        "right": 380,
+        "scroll": 300,
+        "client": 300
+      },
+      {
+        "text": "Thinking about how digital systems should be designed—and run.",
+        "font": "49.6px",
+        "line": "44.64px",
+        "width": 347.578125,
+        "height": 223.125,
+        "x": 10,
+        "right": 357.578125,
+        "scroll": 348,
+        "client": 348
+      },
+      {
+        "text": "Let’s build what your business needs next.",
+        "font": "59.2px",
+        "line": "50.912px",
+        "width": 319.125,
+        "height": 203.625,
+        "x": 10,
+        "right": 329.125,
+        "scroll": 319,
+        "client": 319
+      }
+    ],
+    "body": [
+      {
+        "text": "Services",
+        "font": "15px"
+      },
+      {
+        "text": "Work",
+        "font": "15px"
+      },
+      {
+        "text": "About",
+        "font": "15px"
+      },
+      {
+        "text": "Insights",
+        "font": "15px"
+      },
+      {
+        "text": "Contact",
+        "font": "15px"
+      },
+      {
+        "text": "We design and build high-performance websites, applications, automation systems, and intelligent digital products that connect technology with real operations.",
+        "font": "16px"
+      },
+      {
+        "text": "Start a project",
+        "font": "15px"
+      },
+      {
+        "text": "Explore our work",
+        "font": "15px"
+      },
+      {
+        "text": "We do not deliver pages. We design and engineer digital systems that connect customer experience to operations and data.",
+        "font": "28.8px"
+      },
+      {
+        "text": "Web Development",
+        "font": "20px"
+      },
+      {
+        "text": "High-performance digital experiences.",
+        "font": "16px"
+      },
+      {
+        "text": "Web Applications",
+        "font": "20px"
+      },
+      {
+        "text": "Purpose-built platforms for business workflows.",
+        "font": "16px"
+      },
+      {
+        "text": "Mobile Applications",
+        "font": "20px"
+      },
+      {
+        "text": "Connected customer and operational applications.",
+        "font": "16px"
+      },
+      {
+        "text": "Automation",
+        "font": "20px"
+      },
+      {
+        "text": "Reliable orchestration across business systems.",
+        "font": "16px"
+      },
+      {
+        "text": "AI & Intelligent Systems",
+        "font": "20px"
+      },
+      {
+        "text": "Purposeful intelligence for defined decisions.",
+        "font": "16px"
+      },
+      {
+        "text": "Custom Software",
+        "font": "20px"
+      },
+      {
+        "text": "Software fitted to real operational requirements.",
+        "font": "16px"
+      },
+      {
+        "text": "Relax Moon Spa Automation",
+        "font": "40px"
+      },
+      {
+        "text": "Sanitized demonstration of conversational booking and operational coordination.",
+        "font": "16px"
+      },
+      {
+        "text": "WhatsApp Booking & Operations Automation",
+        "font": "21.6px"
+      },
+      {
+        "text": "Sanitized demonstration of conversational booking and operational coordination.",
+        "font": "16px"
+      },
+      {
+        "text": "View case study",
+        "font": "15px"
+      },
+      {
+        "text": "Hello! I'd like to book an appointment.",
+        "font": "13px"
+      },
+      {
+        "text": "What service would you like?",
+        "font": "13px"
+      },
+      {
+        "text": "Massage Therapy",
+        "font": "13px"
+      },
+      {
+        "text": "Great. When would you like to come?",
+        "font": "13px"
+      },
+      {
+        "text": "Tomorrow at 5 PM",
+        "font": "13px"
+      },
+      {
+        "text": "Your appointment is confirmed.",
+        "font": "13px"
+      },
+      {
+        "text": "Request received",
+        "font": "16px"
+      },
+      {
+        "text": "Let’s engineer the right system around the way your business actually works.",
+        "font": "16px"
+      },
+      {
+        "text": "Start a project",
+        "font": "15px"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "work",
+    "width": 1920,
+    "height": 1080,
+    "title": "Systems explained through the work they improve.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Systems explained through the work they improve.",
+        "font": "176px",
+        "line": "144.32px",
+        "width": 1270.234375,
+        "height": 432.9375,
+        "x": 256,
+        "right": 1526.234375,
+        "scroll": 1270,
+        "client": 1270
+      },
+      {
+        "text": "WhatsApp Booking & Operations Automation",
+        "font": "96px",
+        "line": "88.32px",
+        "width": 569.25,
+        "height": 353.25,
+        "x": 337,
+        "right": 906.25,
+        "scroll": 569,
+        "client": 569
+      }
+    ],
+    "body": [
+      {
+        "text": "Services",
+        "font": "16px"
+      },
+      {
+        "text": "Work",
+        "font": "16px"
+      },
+      {
+        "text": "About",
+        "font": "16px"
+      },
+      {
+        "text": "Insights",
+        "font": "16px"
+      },
+      {
+        "text": "Contact",
+        "font": "16px"
+      },
+      {
+        "text": "Real-world digital systems presented through their business journey, customer experience, and sanitized technical architecture.",
+        "font": "21.6px"
+      },
+      {
+        "text": "A conversational booking and operations platform built for a mobile spa service operating across Riyadh and Al Sharqiyah, Saudi Arabia.",
+        "font": "21.6px"
+      },
+      {
+        "text": "The system guides customers from their first WhatsApp message through service selection, date and time selection, location details, availability checking, specialist assignment, booking confirmation, rescheduling, cancellation, and operational notifications.",
+        "font": "18px"
+      },
+      {
+        "text": "WHAT THE SYSTEM COORDINATES",
+        "font": "14px"
+      },
+      {
+        "text": "SYSTEM FLOW",
+        "font": "14px"
+      },
+      {
+        "text": "TECHNOLOGY",
+        "font": "14px"
+      },
+      {
+        "text": "n8n · WhatsApp Cloud API · Scheduling · Database · APIs",
+        "font": "18px"
+      },
+      {
+        "text": "Experience the customer journey and see how the automation processes each booking step behind the interface.",
+        "font": "18px"
+      },
+      {
+        "text": "Experience the System",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "work",
+    "width": 390,
+    "height": 844,
+    "title": "Systems explained through the work they improve.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Systems explained through the work they improve.",
+        "font": "72px",
+        "line": "59.04px",
+        "width": 370,
+        "height": 295.15625,
+        "x": 10,
+        "right": 380,
+        "scroll": 370,
+        "client": 370
+      },
+      {
+        "text": "WhatsApp Booking & Operations Automation",
+        "font": "44.8px",
+        "line": "41.216px",
+        "width": 265.640625,
+        "height": 164.8125,
+        "x": 35,
+        "right": 300.640625,
+        "scroll": 266,
+        "client": 266
+      }
+    ],
+    "body": [
+      {
+        "text": "Services",
+        "font": "15px"
+      },
+      {
+        "text": "Work",
+        "font": "15px"
+      },
+      {
+        "text": "About",
+        "font": "15px"
+      },
+      {
+        "text": "Insights",
+        "font": "15px"
+      },
+      {
+        "text": "Contact",
+        "font": "15px"
+      },
+      {
+        "text": "Real-world digital systems presented through their business journey, customer experience, and sanitized technical architecture.",
+        "font": "18px"
+      },
+      {
+        "text": "A conversational booking and operations platform built for a mobile spa service operating across Riyadh and Al Sharqiyah, Saudi Arabia.",
+        "font": "18px"
+      },
+      {
+        "text": "The system guides customers from their first WhatsApp message through service selection, date and time selection, location details, availability checking, specialist assignment, booking confirmation, rescheduling, cancellation, and operational notifications.",
+        "font": "16px"
+      },
+      {
+        "text": "WHAT THE SYSTEM COORDINATES",
+        "font": "13px"
+      },
+      {
+        "text": "SYSTEM FLOW",
+        "font": "13px"
+      },
+      {
+        "text": "TECHNOLOGY",
+        "font": "13px"
+      },
+      {
+        "text": "n8n · WhatsApp Cloud API · Scheduling · Database · APIs",
+        "font": "16px"
+      },
+      {
+        "text": "Experience the customer journey and see how the automation processes each booking step behind the interface.",
+        "font": "16px"
+      },
+      {
+        "text": "Experience the System",
+        "font": "15px"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "services",
+    "width": 1920,
+    "height": 1080,
+    "title": "One engineering practice. Six ways to create leverage.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "One engineering practice. Six ways to create leverage.",
+        "font": "176px",
+        "line": "144.32px",
+        "width": 1270.234375,
+        "height": 432.9375,
+        "x": 256,
+        "right": 1526.234375,
+        "scroll": 1270,
+        "client": 1270
+      },
+      {
+        "text": "Web Development",
+        "font": "80px",
+        "line": "72px",
+        "width": 624,
+        "height": 72,
+        "x": 376,
+        "right": 1000,
+        "scroll": 624,
+        "client": 624
+      },
+      {
+        "text": "Web Applications",
+        "font": "80px",
+        "line": "72px",
+        "width": 624,
+        "height": 72,
+        "x": 376,
+        "right": 1000,
+        "scroll": 624,
+        "client": 624
+      },
+      {
+        "text": "Mobile Applications",
+        "font": "80px",
+        "line": "72px",
+        "width": 624,
+        "height": 72,
+        "x": 376,
+        "right": 1000,
+        "scroll": 624,
+        "client": 624
+      },
+      {
+        "text": "Automation",
+        "font": "80px",
+        "line": "72px",
+        "width": 624,
+        "height": 72,
+        "x": 376,
+        "right": 1000,
+        "scroll": 624,
+        "client": 624
+      },
+      {
+        "text": "AI & Intelligent Systems",
+        "font": "80px",
+        "line": "72px",
+        "width": 624,
+        "height": 144,
+        "x": 376,
+        "right": 1000,
+        "scroll": 624,
+        "client": 624
+      },
+      {
+        "text": "Custom Software",
+        "font": "80px",
+        "line": "72px",
+        "width": 624,
+        "height": 72,
+        "x": 376,
+        "right": 1000,
+        "scroll": 624,
+        "client": 624
+      }
+    ],
+    "body": [
+      {
+        "text": "Services",
+        "font": "16px"
+      },
+      {
+        "text": "Work",
+        "font": "16px"
+      },
+      {
+        "text": "About",
+        "font": "16px"
+      },
+      {
+        "text": "Insights",
+        "font": "16px"
+      },
+      {
+        "text": "Contact",
+        "font": "16px"
+      },
+      {
+        "text": "Each engagement starts with the operational problem—not a predetermined technology.",
+        "font": "21.6px"
+      },
+      {
+        "text": "",
+        "font": "18px"
+      },
+      {
+        "text": "High-performance digital experiences.",
+        "font": "18px"
+      },
+      {
+        "text": "Start a project",
+        "font": "16px"
+      },
+      {
+        "text": "",
+        "font": "18px"
+      },
+      {
+        "text": "Purpose-built platforms for business workflows.",
+        "font": "18px"
+      },
+      {
+        "text": "Start a project",
+        "font": "16px"
+      },
+      {
+        "text": "",
+        "font": "18px"
+      },
+      {
+        "text": "Connected customer and operational applications.",
+        "font": "18px"
+      },
+      {
+        "text": "Start a project",
+        "font": "16px"
+      },
+      {
+        "text": "",
+        "font": "18px"
+      },
+      {
+        "text": "Reliable orchestration across business systems.",
+        "font": "18px"
+      },
+      {
+        "text": "Start a project",
+        "font": "16px"
+      },
+      {
+        "text": "",
+        "font": "18px"
+      },
+      {
+        "text": "Purposeful intelligence for defined decisions.",
+        "font": "18px"
+      },
+      {
+        "text": "Start a project",
+        "font": "16px"
+      },
+      {
+        "text": "",
+        "font": "18px"
+      },
+      {
+        "text": "Software fitted to real operational requirements.",
+        "font": "18px"
+      },
+      {
+        "text": "Start a project",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "services",
+    "width": 390,
+    "height": 844,
+    "title": "One engineering practice. Six ways to create leverage.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "One engineering practice. Six ways to create leverage.",
+        "font": "72px",
+        "line": "59.04px",
+        "width": 370,
+        "height": 354.1875,
+        "x": 10,
+        "right": 380,
+        "scroll": 370,
+        "client": 370
+      },
+      {
+        "text": "Web Development",
+        "font": "36.8px",
+        "line": "33.12px",
+        "width": 307,
+        "height": 33.109375,
+        "x": 73,
+        "right": 380,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "Web Applications",
+        "font": "36.8px",
+        "line": "33.12px",
+        "width": 307,
+        "height": 33.109375,
+        "x": 73,
+        "right": 380,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "Mobile Applications",
+        "font": "36.8px",
+        "line": "33.12px",
+        "width": 307,
+        "height": 33.109375,
+        "x": 73,
+        "right": 380,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "Automation",
+        "font": "36.8px",
+        "line": "33.12px",
+        "width": 307,
+        "height": 33.109375,
+        "x": 73,
+        "right": 380,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "AI & Intelligent Systems",
+        "font": "36.8px",
+        "line": "33.12px",
+        "width": 307,
+        "height": 66.21875,
+        "x": 73,
+        "right": 380,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "Custom Software",
+        "font": "36.8px",
+        "line": "33.12px",
+        "width": 307,
+        "height": 33.109375,
+        "x": 73,
+        "right": 380,
+        "scroll": 307,
+        "client": 307
+      }
+    ],
+    "body": [
+      {
+        "text": "Services",
+        "font": "15px"
+      },
+      {
+        "text": "Work",
+        "font": "15px"
+      },
+      {
+        "text": "About",
+        "font": "15px"
+      },
+      {
+        "text": "Insights",
+        "font": "15px"
+      },
+      {
+        "text": "Contact",
+        "font": "15px"
+      },
+      {
+        "text": "Each engagement starts with the operational problem—not a predetermined technology.",
+        "font": "18px"
+      },
+      {
+        "text": "",
+        "font": "16px"
+      },
+      {
+        "text": "High-performance digital experiences.",
+        "font": "16px"
+      },
+      {
+        "text": "Start a project",
+        "font": "15px"
+      },
+      {
+        "text": "",
+        "font": "16px"
+      },
+      {
+        "text": "Purpose-built platforms for business workflows.",
+        "font": "16px"
+      },
+      {
+        "text": "Start a project",
+        "font": "15px"
+      },
+      {
+        "text": "",
+        "font": "16px"
+      },
+      {
+        "text": "Connected customer and operational applications.",
+        "font": "16px"
+      },
+      {
+        "text": "Start a project",
+        "font": "15px"
+      },
+      {
+        "text": "",
+        "font": "16px"
+      },
+      {
+        "text": "Reliable orchestration across business systems.",
+        "font": "16px"
+      },
+      {
+        "text": "Start a project",
+        "font": "15px"
+      },
+      {
+        "text": "",
+        "font": "16px"
+      },
+      {
+        "text": "Purposeful intelligence for defined decisions.",
+        "font": "16px"
+      },
+      {
+        "text": "Start a project",
+        "font": "15px"
+      },
+      {
+        "text": "",
+        "font": "16px"
+      },
+      {
+        "text": "Software fitted to real operational requirements.",
+        "font": "16px"
+      },
+      {
+        "text": "Start a project",
+        "font": "15px"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "about",
+    "width": 1920,
+    "height": 1080,
+    "title": "Design sense. Engineering discipline. Business understanding. ",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Design sense. Engineering discipline. Business understanding. ",
+        "font": "105px",
+        "line": "107.1px",
+        "width": 1224.15625,
+        "height": 321.28125,
+        "x": 256,
+        "right": 1480.15625,
+        "scroll": 1224,
+        "client": 1224
+      },
+      {
+        "text": "Beyond the interface",
+        "font": "40px",
+        "line": "44.8px",
+        "width": 412.328125,
+        "height": 44.796875,
+        "x": 284,
+        "right": 696.328125,
+        "scroll": 412,
+        "client": 412
+      },
+      {
+        "text": "Every decision has a reason",
+        "font": "40px",
+        "line": "44.8px",
+        "width": 412.328125,
+        "height": 89.59375,
+        "x": 753.328125,
+        "right": 1165.65625,
+        "scroll": 412,
+        "client": 412
+      },
+      {
+        "text": "Practical partnership",
+        "font": "40px",
+        "line": "44.8px",
+        "width": 413.34375,
+        "height": 44.796875,
+        "x": 1222.65625,
+        "right": 1636,
+        "scroll": 413,
+        "client": 413
+      },
+      {
+        "text": "What we build",
+        "font": "60px",
+        "line": "67.2px",
+        "width": 584.09375,
+        "height": 67.1875,
+        "x": 256,
+        "right": 840.09375,
+        "scroll": 584,
+        "client": 584
+      },
+      {
+        "text": "How we think",
+        "font": "60px",
+        "line": "67.2px",
+        "width": 732.828125,
+        "height": 67.1875,
+        "x": 256,
+        "right": 988.828125,
+        "scroll": 733,
+        "client": 733
+      },
+      {
+        "text": "Automation should make operations clearer — not more complicated.",
+        "font": "60px",
+        "line": "67.2px",
+        "width": 999.3125,
+        "height": 134.375,
+        "x": 256,
+        "right": 1255.3125,
+        "scroll": 999,
+        "client": 999
+      },
+      {
+        "text": "Built beyond the interface.",
+        "font": "60px",
+        "line": "67.2px",
+        "width": 584.09375,
+        "height": 134.375,
+        "x": 256,
+        "right": 840.09375,
+        "scroll": 584,
+        "client": 584
+      },
+      {
+        "text": "From business problem to working system.",
+        "font": "60px",
+        "line": "67.2px",
+        "width": 732.828125,
+        "height": 134.375,
+        "x": 256,
+        "right": 988.828125,
+        "scroll": 733,
+        "client": 733
+      },
+      {
+        "text": "Let’s build the system your business needs next.",
+        "font": "60px",
+        "line": "67.2px",
+        "width": 584.09375,
+        "height": 201.5625,
+        "x": 256,
+        "right": 840.09375,
+        "scroll": 584,
+        "client": 584
+      }
+    ],
+    "body": [
+      {
+        "text": "Services",
+        "font": "16px"
+      },
+      {
+        "text": "Work",
+        "font": "16px"
+      },
+      {
+        "text": "About",
+        "font": "16px"
+      },
+      {
+        "text": "Insights",
+        "font": "16px"
+      },
+      {
+        "text": "Contact",
+        "font": "16px"
+      },
+      {
+        "text": "ELSHEIK DIGITAL SOLUTIONS designs and engineers digital products, automation systems, applications, and connected operational solutions built around how businesses actually work.",
+        "font": "18px"
+      },
+      {
+        "text": "We combine design, software engineering, automation, and practical business understanding to create systems that are clear, reliable, and useful in real operations.",
+        "font": "18px"
+      },
+      {
+        "text": "A strong digital product is more than what users see. It should communicate clearly, perform reliably, and connect cleanly with the operations, data, and systems behind it.",
+        "font": "18px"
+      },
+      {
+        "text": "We design with intention. Every interaction, workflow, and technical decision should improve clarity, reliability, maintainability, or measurable operational value.",
+        "font": "18px"
+      },
+      {
+        "text": "We turn business challenges into understandable product decisions, then build systems that can evolve without unnecessary complexity. The goal is software that supports real operations, rather than technology for its own sake.",
+        "font": "18px"
+      },
+      {
+        "text": "We design and engineer digital systems across the customer experience and the operations behind it.",
+        "font": "18px"
+      },
+      {
+        "text": "Web experiences",
+        "font": "27px"
+      },
+      {
+        "text": "High-performance websites and digital experiences built for clarity, speed, and conversion.",
+        "font": "18px"
+      },
+      {
+        "text": "Web applications",
+        "font": "27px"
+      },
+      {
+        "text": "Purpose-built operational platforms, dashboards, portals, and internal business applications.",
+        "font": "18px"
+      },
+      {
+        "text": "Mobile applications",
+        "font": "27px"
+      },
+      {
+        "text": "Connected mobile products for customers, teams, and operations.",
+        "font": "18px"
+      },
+      {
+        "text": "Automation",
+        "font": "27px"
+      },
+      {
+        "text": "Workflow orchestration that connects messages, APIs, databases, calendars, CRM systems, and business processes.",
+        "font": "18px"
+      },
+      {
+        "text": "Intelligent systems",
+        "font": "27px"
+      },
+      {
+        "text": "AI-assisted workflows and decision systems applied to defined business problems.",
+        "font": "18px"
+      },
+      {
+        "text": "Custom software",
+        "font": "27px"
+      },
+      {
+        "text": "Software designed around operational requirements instead of forcing the business into a generic tool.",
+        "font": "18px"
+      },
+      {
+        "text": "Clarity before complexity",
+        "font": "27px"
+      },
+      {
+        "text": "If a system cannot be understood, it becomes harder to operate and maintain.",
+        "font": "18px"
+      },
+      {
+        "text": "Operations before features",
+        "font": "27px"
+      },
+      {
+        "text": "Features only matter when they support a real workflow or business need.",
+        "font": "18px"
+      },
+      {
+        "text": "Systems, not isolated screens",
+        "font": "27px"
+      },
+      {
+        "text": "Interfaces, automation, data, and backend logic should work as one connected system.",
+        "font": "18px"
+      },
+      {
+        "text": "We design automation around the way a business actually operates. That can include connecting:",
+        "font": "18px"
+      },
+      {
+        "text": "The objective is to remove repetitive work, reduce operational friction, and keep information moving consistently between systems.",
+        "font": "18px"
+      },
+      {
+        "text": "We consider the complete engineering structure: how each layer behaves, what it depends on, and how the system can be operated and maintained.",
+        "font": "18px"
+      },
+      {
+        "text": "Experience",
+        "font": "27px"
+      },
+      {
+        "text": "Interface behavior, accessibility, and responsive interaction.",
+        "font": "18px"
+      },
+      {
+        "text": "Application",
+        "font": "27px"
+      },
+      {
+        "text": "Backend structure, business rules, and input validation.",
+        "font": "18px"
+      },
+      {
+        "text": "Automation",
+        "font": "27px"
+      },
+      {
+        "text": "Workflow states, integration boundaries, and failure handling.",
+        "font": "18px"
+      },
+      {
+        "text": "Data",
+        "font": "27px"
+      },
+      {
+        "text": "Database design, information relationships, and consistent records.",
+        "font": "18px"
+      },
+      {
+        "text": "Security",
+        "font": "27px"
+      },
+      {
+        "text": "Access control, permission boundaries, and careful handling of data.",
+        "font": "18px"
+      },
+      {
+        "text": "Quality",
+        "font": "27px"
+      },
+      {
+        "text": "Testing, performance, and maintainability throughout the system.",
+        "font": "18px"
+      },
+      {
+        "text": "Understand",
+        "font": "27px"
+      },
+      {
+        "text": "Understand the operation, customer journey, and actual constraints.",
+        "font": "18px"
+      },
+      {
+        "text": "Define",
+        "font": "27px"
+      },
+      {
+        "text": "Turn the problem into clear system requirements.",
+        "font": "18px"
+      },
+      {
+        "text": "Design",
+        "font": "27px"
+      },
+      {
+        "text": "Design the experience and system structure together.",
+        "font": "18px"
+      },
+      {
+        "text": "Engineer",
+        "font": "27px"
+      },
+      {
+        "text": "Build the interface, application, data, integrations, and automation.",
+        "font": "18px"
+      },
+      {
+        "text": "Verify",
+        "font": "27px"
+      },
+      {
+        "text": "Test behavior, edge cases, responsiveness, and operational reliability.",
+        "font": "18px"
+      },
+      {
+        "text": "Improve",
+        "font": "27px"
+      },
+      {
+        "text": "Refine based on how the system performs in real use.",
+        "font": "18px"
+      },
+      {
+        "text": "Tell us how your business works today. We’ll help define the right digital system around it.",
+        "font": "18px"
+      },
+      {
+        "text": "Start a project",
+        "font": "16px"
+      },
+      {
+        "text": "Explore our work",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "about",
+    "width": 390,
+    "height": 844,
+    "title": "Design sense. Engineering discipline. Business understanding. ",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Design sense. Engineering discipline. Business understanding. ",
+        "font": "50.7px",
+        "line": "56.784px",
+        "width": 358,
+        "height": 283.90625,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "Beyond the interface",
+        "font": "26px",
+        "line": "29.12px",
+        "width": 358,
+        "height": 29.109375,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "Every decision has a reason",
+        "font": "26px",
+        "line": "29.12px",
+        "width": 358,
+        "height": 29.109375,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "Practical partnership",
+        "font": "26px",
+        "line": "29.12px",
+        "width": 358,
+        "height": 29.109375,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "What we build",
+        "font": "34px",
+        "line": "38.08px",
+        "width": 358,
+        "height": 38.078125,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "How we think",
+        "font": "34px",
+        "line": "38.08px",
+        "width": 358,
+        "height": 38.078125,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "Automation should make operations clearer — not more complicated.",
+        "font": "34px",
+        "line": "38.08px",
+        "width": 358,
+        "height": 152.3125,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "Built beyond the interface.",
+        "font": "34px",
+        "line": "38.08px",
+        "width": 358,
+        "height": 76.15625,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "From business problem to working system.",
+        "font": "34px",
+        "line": "38.08px",
+        "width": 358,
+        "height": 76.15625,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "Let’s build the system your business needs next.",
+        "font": "34px",
+        "line": "38.08px",
+        "width": 358,
+        "height": 114.234375,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      }
+    ],
+    "body": [
+      {
+        "text": "Services",
+        "font": "15px"
+      },
+      {
+        "text": "Work",
+        "font": "15px"
+      },
+      {
+        "text": "About",
+        "font": "15px"
+      },
+      {
+        "text": "Insights",
+        "font": "15px"
+      },
+      {
+        "text": "Contact",
+        "font": "15px"
+      },
+      {
+        "text": "ELSHEIK DIGITAL SOLUTIONS designs and engineers digital products, automation systems, applications, and connected operational solutions built around how businesses actually work.",
+        "font": "16px"
+      },
+      {
+        "text": "We combine design, software engineering, automation, and practical business understanding to create systems that are clear, reliable, and useful in real operations.",
+        "font": "16px"
+      },
+      {
+        "text": "A strong digital product is more than what users see. It should communicate clearly, perform reliably, and connect cleanly with the operations, data, and systems behind it.",
+        "font": "16px"
+      },
+      {
+        "text": "We design with intention. Every interaction, workflow, and technical decision should improve clarity, reliability, maintainability, or measurable operational value.",
+        "font": "16px"
+      },
+      {
+        "text": "We turn business challenges into understandable product decisions, then build systems that can evolve without unnecessary complexity. The goal is software that supports real operations, rather than technology for its own sake.",
+        "font": "16px"
+      },
+      {
+        "text": "We design and engineer digital systems across the customer experience and the operations behind it.",
+        "font": "16px"
+      },
+      {
+        "text": "Web experiences",
+        "font": "23px"
+      },
+      {
+        "text": "High-performance websites and digital experiences built for clarity, speed, and conversion.",
+        "font": "16px"
+      },
+      {
+        "text": "Web applications",
+        "font": "23px"
+      },
+      {
+        "text": "Purpose-built operational platforms, dashboards, portals, and internal business applications.",
+        "font": "16px"
+      },
+      {
+        "text": "Mobile applications",
+        "font": "23px"
+      },
+      {
+        "text": "Connected mobile products for customers, teams, and operations.",
+        "font": "16px"
+      },
+      {
+        "text": "Automation",
+        "font": "23px"
+      },
+      {
+        "text": "Workflow orchestration that connects messages, APIs, databases, calendars, CRM systems, and business processes.",
+        "font": "16px"
+      },
+      {
+        "text": "Intelligent systems",
+        "font": "23px"
+      },
+      {
+        "text": "AI-assisted workflows and decision systems applied to defined business problems.",
+        "font": "16px"
+      },
+      {
+        "text": "Custom software",
+        "font": "23px"
+      },
+      {
+        "text": "Software designed around operational requirements instead of forcing the business into a generic tool.",
+        "font": "16px"
+      },
+      {
+        "text": "Clarity before complexity",
+        "font": "23px"
+      },
+      {
+        "text": "If a system cannot be understood, it becomes harder to operate and maintain.",
+        "font": "16px"
+      },
+      {
+        "text": "Operations before features",
+        "font": "23px"
+      },
+      {
+        "text": "Features only matter when they support a real workflow or business need.",
+        "font": "16px"
+      },
+      {
+        "text": "Systems, not isolated screens",
+        "font": "23px"
+      },
+      {
+        "text": "Interfaces, automation, data, and backend logic should work as one connected system.",
+        "font": "16px"
+      },
+      {
+        "text": "We design automation around the way a business actually operates. That can include connecting:",
+        "font": "16px"
+      },
+      {
+        "text": "The objective is to remove repetitive work, reduce operational friction, and keep information moving consistently between systems.",
+        "font": "16px"
+      },
+      {
+        "text": "We consider the complete engineering structure: how each layer behaves, what it depends on, and how the system can be operated and maintained.",
+        "font": "16px"
+      },
+      {
+        "text": "Experience",
+        "font": "23px"
+      },
+      {
+        "text": "Interface behavior, accessibility, and responsive interaction.",
+        "font": "16px"
+      },
+      {
+        "text": "Application",
+        "font": "23px"
+      },
+      {
+        "text": "Backend structure, business rules, and input validation.",
+        "font": "16px"
+      },
+      {
+        "text": "Automation",
+        "font": "23px"
+      },
+      {
+        "text": "Workflow states, integration boundaries, and failure handling.",
+        "font": "16px"
+      },
+      {
+        "text": "Data",
+        "font": "23px"
+      },
+      {
+        "text": "Database design, information relationships, and consistent records.",
+        "font": "16px"
+      },
+      {
+        "text": "Security",
+        "font": "23px"
+      },
+      {
+        "text": "Access control, permission boundaries, and careful handling of data.",
+        "font": "16px"
+      },
+      {
+        "text": "Quality",
+        "font": "23px"
+      },
+      {
+        "text": "Testing, performance, and maintainability throughout the system.",
+        "font": "16px"
+      },
+      {
+        "text": "Understand",
+        "font": "23px"
+      },
+      {
+        "text": "Understand the operation, customer journey, and actual constraints.",
+        "font": "16px"
+      },
+      {
+        "text": "Define",
+        "font": "23px"
+      },
+      {
+        "text": "Turn the problem into clear system requirements.",
+        "font": "16px"
+      },
+      {
+        "text": "Design",
+        "font": "23px"
+      },
+      {
+        "text": "Design the experience and system structure together.",
+        "font": "16px"
+      },
+      {
+        "text": "Engineer",
+        "font": "23px"
+      },
+      {
+        "text": "Build the interface, application, data, integrations, and automation.",
+        "font": "16px"
+      },
+      {
+        "text": "Verify",
+        "font": "23px"
+      },
+      {
+        "text": "Test behavior, edge cases, responsiveness, and operational reliability.",
+        "font": "16px"
+      },
+      {
+        "text": "Improve",
+        "font": "23px"
+      },
+      {
+        "text": "Refine based on how the system performs in real use.",
+        "font": "16px"
+      },
+      {
+        "text": "Tell us how your business works today. We’ll help define the right digital system around it.",
+        "font": "16px"
+      },
+      {
+        "text": "Start a project",
+        "font": "15px"
+      },
+      {
+        "text": "Explore our work",
+        "font": "15px"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "insights",
+    "width": 1920,
+    "height": 1080,
+    "title": "Ideas for better digital systems.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Ideas for better digital systems.",
+        "font": "107.2px",
+        "line": "109.344px",
+        "width": 952.234375,
+        "height": 218.6875,
+        "x": 256,
+        "right": 1208.234375,
+        "scroll": 952,
+        "client": 952
+      },
+      {
+        "text": "New engineering notes are being prepared.",
+        "font": "60.8px",
+        "line": "66.88px",
+        "width": 622.71875,
+        "height": 133.75,
+        "x": 320,
+        "right": 942.71875,
+        "scroll": 623,
+        "client": 623
+      },
+      {
+        "text": "Put better thinking to work.",
+        "font": "64px",
+        "line": "73.6px",
+        "width": 735.984375,
+        "height": 73.59375,
+        "x": 256,
+        "right": 991.984375,
+        "scroll": 736,
+        "client": 736
+      }
+    ],
+    "body": [
+      {
+        "text": "Services",
+        "font": "16px"
+      },
+      {
+        "text": "Work",
+        "font": "16px"
+      },
+      {
+        "text": "About",
+        "font": "16px"
+      },
+      {
+        "text": "Insights",
+        "font": "16px"
+      },
+      {
+        "text": "Contact",
+        "font": "16px"
+      },
+      {
+        "text": "Engineering notes, automation patterns and product thinking from building software for real operations.",
+        "font": "20px"
+      },
+      {
+        "text": "Research, engineering and operational thinking from ELSHEIK.",
+        "font": "16px"
+      },
+      {
+        "text": "Explore our work while new articles are being published.",
+        "font": "18px"
+      },
+      {
+        "text": "Have a system to improve or a product to build? Let’s talk about what comes next.",
+        "font": "18px"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "insights",
+    "width": 390,
+    "height": 844,
+    "title": "Ideas for better digital systems.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Ideas for better digital systems.",
+        "font": "44.8px",
+        "line": "45.696px",
+        "width": 370,
+        "height": 91.375,
+        "x": 10,
+        "right": 380,
+        "scroll": 370,
+        "client": 370
+      },
+      {
+        "text": "New engineering notes are being prepared.",
+        "font": "32px",
+        "line": "35.2px",
+        "width": 322,
+        "height": 70.375,
+        "x": 34,
+        "right": 356,
+        "scroll": 322,
+        "client": 322
+      },
+      {
+        "text": "Put better thinking to work.",
+        "font": "32px",
+        "line": "36.8px",
+        "width": 370,
+        "height": 36.796875,
+        "x": 10,
+        "right": 380,
+        "scroll": 370,
+        "client": 370
+      }
+    ],
+    "body": [
+      {
+        "text": "Services",
+        "font": "15px"
+      },
+      {
+        "text": "Work",
+        "font": "15px"
+      },
+      {
+        "text": "About",
+        "font": "15px"
+      },
+      {
+        "text": "Insights",
+        "font": "15px"
+      },
+      {
+        "text": "Contact",
+        "font": "15px"
+      },
+      {
+        "text": "Engineering notes, automation patterns and product thinking from building software for real operations.",
+        "font": "17px"
+      },
+      {
+        "text": "Research, engineering and operational thinking from ELSHEIK.",
+        "font": "16px"
+      },
+      {
+        "text": "Explore our work while new articles are being published.",
+        "font": "18px"
+      },
+      {
+        "text": "Have a system to improve or a product to build? Let’s talk about what comes next.",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "contact",
+    "width": 1920,
+    "height": 1080,
+    "title": "Tell us what needs to work better.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Tell us what needs to work better.",
+        "font": "176px",
+        "line": "144.32px",
+        "width": 1270.234375,
+        "height": 288.625,
+        "x": 256,
+        "right": 1526.234375,
+        "scroll": 1270,
+        "client": 1270
+      }
+    ],
+    "body": [
+      {
+        "text": "Services",
+        "font": "16px"
+      },
+      {
+        "text": "Work",
+        "font": "16px"
+      },
+      {
+        "text": "About",
+        "font": "16px"
+      },
+      {
+        "text": "Insights",
+        "font": "16px"
+      },
+      {
+        "text": "Contact",
+        "font": "16px"
+      },
+      {
+        "text": "A useful first conversation begins with the business challenge, the people affected, and the outcome you need.",
+        "font": "21.6px"
+      },
+      {
+        "text": "Send project brief",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "contact",
+    "width": 390,
+    "height": 844,
+    "title": "Tell us what needs to work better.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Tell us what needs to work better.",
+        "font": "72px",
+        "line": "59.04px",
+        "width": 370,
+        "height": 177.09375,
+        "x": 10,
+        "right": 380,
+        "scroll": 370,
+        "client": 370
+      }
+    ],
+    "body": [
+      {
+        "text": "Services",
+        "font": "15px"
+      },
+      {
+        "text": "Work",
+        "font": "15px"
+      },
+      {
+        "text": "About",
+        "font": "15px"
+      },
+      {
+        "text": "Insights",
+        "font": "15px"
+      },
+      {
+        "text": "Contact",
+        "font": "15px"
+      },
+      {
+        "text": "A useful first conversation begins with the business challenge, the people affected, and the outcome you need.",
+        "font": "18px"
+      },
+      {
+        "text": "Send project brief",
+        "font": "15px"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "work/relax-moon-spa-automation",
+    "width": 1920,
+    "height": 1080,
+    "title": "Relax Moon Spa Automation",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Relax Moon Spa Automation",
+        "font": "176px",
+        "line": "144.32px",
+        "width": 1043.625,
+        "height": 432.9375,
+        "x": 256,
+        "right": 1299.625,
+        "scroll": 1044,
+        "client": 1044
+      },
+      {
+        "text": "Try the booking assistant",
+        "font": "92.8px",
+        "line": "85.376px",
+        "width": 500.25,
+        "height": 256.078125,
+        "x": 256,
+        "right": 756.25,
+        "scroll": 500,
+        "client": 500
+      },
+      {
+        "text": "The business problem",
+        "font": "112px",
+        "line": "106.4px",
+        "width": 784.875,
+        "height": 212.78125,
+        "x": 256,
+        "right": 1040.875,
+        "scroll": 785,
+        "client": 785
+      },
+      {
+        "text": "Engineering decisions",
+        "font": "112px",
+        "line": "106.4px",
+        "width": 784.875,
+        "height": 212.78125,
+        "x": 256,
+        "right": 1040.875,
+        "scroll": 785,
+        "client": 785
+      },
+      {
+        "text": "Security & reliability",
+        "font": "112px",
+        "line": "106.4px",
+        "width": 784.875,
+        "height": 212.78125,
+        "x": 256,
+        "right": 1040.875,
+        "scroll": 785,
+        "client": 785
+      },
+      {
+        "text": "Customer journey",
+        "font": "112px",
+        "line": "106.4px",
+        "width": 784.875,
+        "height": 106.390625,
+        "x": 256,
+        "right": 1040.875,
+        "scroll": 785,
+        "client": 785
+      },
+      {
+        "text": "THE SYSTEM IN ACTION",
+        "font": "112px",
+        "line": "106.4px",
+        "width": 784.875,
+        "height": 212.78125,
+        "x": 256,
+        "right": 1040.875,
+        "scroll": 785,
+        "client": 785
+      },
+      {
+        "text": "System architecture",
+        "font": "112px",
+        "line": "106.4px",
+        "width": 784.875,
+        "height": 212.78125,
+        "x": 256,
+        "right": 1040.875,
+        "scroll": 785,
+        "client": 785
+      },
+      {
+        "text": "Technology",
+        "font": "112px",
+        "line": "106.4px",
+        "width": 784.875,
+        "height": 106.390625,
+        "x": 256,
+        "right": 1040.875,
+        "scroll": 785,
+        "client": 785
+      },
+      {
+        "text": "YOUR NEXT SYSTEM STARTS HERE.",
+        "font": "128px",
+        "line": "115.2px",
+        "width": 759,
+        "height": 345.5625,
+        "x": 256,
+        "right": 1015,
+        "scroll": 759,
+        "client": 759
+      }
+    ],
+    "body": [
+      {
+        "text": "Services",
+        "font": "16px"
+      },
+      {
+        "text": "Work",
+        "font": "16px"
+      },
+      {
+        "text": "About",
+        "font": "16px"
+      },
+      {
+        "text": "Insights",
+        "font": "16px"
+      },
+      {
+        "text": "Contact",
+        "font": "16px"
+      },
+      {
+        "text": "Service operations · Example",
+        "font": "14px"
+      },
+      {
+        "text": "Sanitized demonstration of conversational booking and operational coordination.",
+        "font": "21.6px"
+      },
+      {
+        "text": "Saudi Arabia Riyadh + Al Sharqiyah",
+        "font": "15px"
+      },
+      {
+        "text": "This simulation uses fictional data and does not create a real booking.",
+        "font": "18px"
+      },
+      {
+        "text": "Requested— / —",
+        "font": "18px"
+      },
+      {
+        "text": "Calendar—",
+        "font": "18px"
+      },
+      {
+        "text": "Specialist—",
+        "font": "18px"
+      },
+      {
+        "text": "Turn a multi-step booking conversation into a controlled workflow that coordinates availability, assignment, and confirmation.",
+        "font": "25.6px"
+      },
+      {
+        "text": "The system connects the WhatsApp channel to booking logic, calendar, structured data, and notifications without exposing internal implementation details.",
+        "font": "25.6px"
+      },
+      {
+        "text": "The public experience demonstrates deterministic workflow states, input validation, protected server-side processing, and sanitized data boundaries without exposing credentials or private integration details.",
+        "font": "25.6px"
+      },
+      {
+        "text": "01Selected stage: Appointment request",
+        "font": "15px"
+      },
+      {
+        "text": "01Appointment request",
+        "font": "18px"
+      },
+      {
+        "text": "02Service selection",
+        "font": "18px"
+      },
+      {
+        "text": "03Date selection",
+        "font": "18px"
+      },
+      {
+        "text": "04Time selection",
+        "font": "18px"
+      },
+      {
+        "text": "05Location",
+        "font": "18px"
+      },
+      {
+        "text": "06Availability check",
+        "font": "18px"
+      },
+      {
+        "text": "07Specialist assignment",
+        "font": "18px"
+      },
+      {
+        "text": "08Booking confirmation",
+        "font": "18px"
+      },
+      {
+        "text": "Presentation-only simulation using local, fictional data. Nothing is sent or stored.",
+        "font": "14px"
+      },
+      {
+        "text": "START A PROJECT",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "locale": "en",
+    "route": "work/relax-moon-spa-automation",
+    "width": 390,
+    "height": 844,
+    "title": "Relax Moon Spa Automation",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "Relax Moon Spa Automation",
+        "font": "70.2px",
+        "line": "57.564px",
+        "width": 370,
+        "height": 172.6875,
+        "x": 10,
+        "right": 380,
+        "scroll": 370,
+        "client": 370
+      },
+      {
+        "text": "Try the booking assistant",
+        "font": "48px",
+        "line": "44.16px",
+        "width": 258.75,
+        "height": 132.46875,
+        "x": 10,
+        "right": 268.75,
+        "scroll": 259,
+        "client": 259
+      },
+      {
+        "text": "The business problem",
+        "font": "43.2px",
+        "line": "41.04px",
+        "width": 302.734375,
+        "height": 82.0625,
+        "x": 10,
+        "right": 312.734375,
+        "scroll": 303,
+        "client": 303
+      },
+      {
+        "text": "Engineering decisions",
+        "font": "43.2px",
+        "line": "41.04px",
+        "width": 302.734375,
+        "height": 82.0625,
+        "x": 10,
+        "right": 312.734375,
+        "scroll": 303,
+        "client": 303
+      },
+      {
+        "text": "Security & reliability",
+        "font": "43.2px",
+        "line": "41.04px",
+        "width": 302.734375,
+        "height": 82.0625,
+        "x": 10,
+        "right": 312.734375,
+        "scroll": 303,
+        "client": 303
+      },
+      {
+        "text": "Customer journey",
+        "font": "43.2px",
+        "line": "41.04px",
+        "width": 302.734375,
+        "height": 41.03125,
+        "x": 10,
+        "right": 312.734375,
+        "scroll": 303,
+        "client": 303
+      },
+      {
+        "text": "THE SYSTEM IN ACTION",
+        "font": "43.2px",
+        "line": "41.04px",
+        "width": 302.734375,
+        "height": 82.0625,
+        "x": 10,
+        "right": 312.734375,
+        "scroll": 303,
+        "client": 303
+      },
+      {
+        "text": "System architecture",
+        "font": "43.2px",
+        "line": "41.04px",
+        "width": 302.734375,
+        "height": 82.0625,
+        "x": 10,
+        "right": 312.734375,
+        "scroll": 303,
+        "client": 303
+      },
+      {
+        "text": "Technology",
+        "font": "43.2px",
+        "line": "41.04px",
+        "width": 302.734375,
+        "height": 41.03125,
+        "x": 10,
+        "right": 312.734375,
+        "scroll": 303,
+        "client": 303
+      },
+      {
+        "text": "YOUR NEXT SYSTEM STARTS HERE.",
+        "font": "48px",
+        "line": "43.2px",
+        "width": 284.625,
+        "height": 129.5625,
+        "x": 10,
+        "right": 294.625,
+        "scroll": 285,
+        "client": 285
+      }
+    ],
+    "body": [
+      {
+        "text": "Services",
+        "font": "15px"
+      },
+      {
+        "text": "Work",
+        "font": "15px"
+      },
+      {
+        "text": "About",
+        "font": "15px"
+      },
+      {
+        "text": "Insights",
+        "font": "15px"
+      },
+      {
+        "text": "Contact",
+        "font": "15px"
+      },
+      {
+        "text": "Service operations · Example",
+        "font": "13px"
+      },
+      {
+        "text": "Sanitized demonstration of conversational booking and operational coordination.",
+        "font": "18px"
+      },
+      {
+        "text": "Saudi Arabia Riyadh + Al Sharqiyah",
+        "font": "14px"
+      },
+      {
+        "text": "This simulation uses fictional data and does not create a real booking.",
+        "font": "16px"
+      },
+      {
+        "text": "Requested— / —",
+        "font": "16px"
+      },
+      {
+        "text": "Calendar—",
+        "font": "16px"
+      },
+      {
+        "text": "Specialist—",
+        "font": "16px"
+      },
+      {
+        "text": "Turn a multi-step booking conversation into a controlled workflow that coordinates availability, assignment, and confirmation.",
+        "font": "18.4px"
+      },
+      {
+        "text": "The system connects the WhatsApp channel to booking logic, calendar, structured data, and notifications without exposing internal implementation details.",
+        "font": "18.4px"
+      },
+      {
+        "text": "The public experience demonstrates deterministic workflow states, input validation, protected server-side processing, and sanitized data boundaries without exposing credentials or private integration details.",
+        "font": "18.4px"
+      },
+      {
+        "text": "01Selected stage: Appointment request",
+        "font": "14px"
+      },
+      {
+        "text": "01Appointment request",
+        "font": "16px"
+      },
+      {
+        "text": "02Service selection",
+        "font": "16px"
+      },
+      {
+        "text": "03Date selection",
+        "font": "16px"
+      },
+      {
+        "text": "04Time selection",
+        "font": "16px"
+      },
+      {
+        "text": "05Location",
+        "font": "16px"
+      },
+      {
+        "text": "06Availability check",
+        "font": "16px"
+      },
+      {
+        "text": "07Specialist assignment",
+        "font": "16px"
+      },
+      {
+        "text": "08Booking confirmation",
+        "font": "16px"
+      },
+      {
+        "text": "Presentation-only simulation using local, fictional data. Nothing is sent or stored.",
+        "font": "13px"
+      },
+      {
+        "text": "START A PROJECT",
+        "font": "15px"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "route": "",
+    "width": 1920,
+    "height": 1080,
+    "title": "نحوّل تعقيد الأعمال إلى أنظمة تتحرك.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "نحوّل تعقيد الأعمال إلى أنظمة تتحرك.",
+        "font": "97.2px",
+        "line": "112.752px",
+        "width": 680.765625,
+        "height": 338.25,
+        "x": 1099.234375,
+        "right": 1780,
+        "scroll": 681,
+        "client": 681
+      },
+      {
+        "text": "قدرات تتحول إلى نتائج.",
+        "font": "96px",
+        "line": "92.16px",
+        "width": 733.6875,
+        "height": 184.3125,
+        "x": 835.3125,
+        "right": 1569,
+        "scroll": 734,
+        "client": 734
+      },
+      {
+        "text": "أنظمة صُممت حول العمل الحقيقي.",
+        "font": "96px",
+        "line": "92.16px",
+        "width": 733.6875,
+        "height": 184.3125,
+        "x": 835.3125,
+        "right": 1569,
+        "scroll": 734,
+        "client": 734
+      },
+      {
+        "text": "أتمتة ريلاكس مون سبا",
+        "font": "72px",
+        "line": "64.8px",
+        "width": 272,
+        "height": 194.390625,
+        "x": 1352,
+        "right": 1624,
+        "scroll": 272,
+        "client": 272
+      },
+      {
+        "text": "من طلب إلى نتيجة، خطوة بخطوة.",
+        "font": "96px",
+        "line": "92.16px",
+        "width": 733.6875,
+        "height": 276.46875,
+        "x": 835.3125,
+        "right": 1569,
+        "scroll": 734,
+        "client": 734
+      },
+      {
+        "text": "عملية واحدة. نظام يتطور.",
+        "font": "96px",
+        "line": "92.16px",
+        "width": 733.6875,
+        "height": 184.3125,
+        "x": 835.3125,
+        "right": 1569,
+        "scroll": 734,
+        "client": 734
+      },
+      {
+        "text": "أفكار حول تصميم وتشغيل الأنظمة الرقمية.",
+        "font": "112px",
+        "line": "100.8px",
+        "width": 794.828125,
+        "height": 302.390625,
+        "x": 749.171875,
+        "right": 1544,
+        "scroll": 795,
+        "client": 795
+      },
+      {
+        "text": "لنبنِ النظام الذي يحتاجه عملك الآن.",
+        "font": "128px",
+        "line": "110.08px",
+        "width": 698.75,
+        "height": 330.234375,
+        "x": 965.25,
+        "right": 1664,
+        "scroll": 699,
+        "client": 699
+      }
+    ],
+    "body": [
+      {
+        "text": "الخدمات",
+        "font": "17px"
+      },
+      {
+        "text": "أعمالنا",
+        "font": "17px"
+      },
+      {
+        "text": "من نحن",
+        "font": "17px"
+      },
+      {
+        "text": "رؤى",
+        "font": "17px"
+      },
+      {
+        "text": "تواصل معنا",
+        "font": "17px"
+      },
+      {
+        "text": "نصمم ونبني مواقع وتطبيقات وأنظمة أتمتة وحلولًا رقمية ذكية تربط التقنية باحتياجات الأعمال الفعلية.",
+        "font": "19px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "17px"
+      },
+      {
+        "text": "استكشف أعمالنا",
+        "font": "17px"
+      },
+      {
+        "text": "نحن لا نسلّم صفحات. نصمم ونبني أنظمة رقمية تربط تجربة العميل بمنطق التشغيل والبيانات.",
+        "font": "48px"
+      },
+      {
+        "text": "تطوير المواقع",
+        "font": "32px"
+      },
+      {
+        "text": "تجارب رقمية عالية الأداء.",
+        "font": "19px"
+      },
+      {
+        "text": "تطبيقات الويب",
+        "font": "32px"
+      },
+      {
+        "text": "منصات مصممة لسير عمل الشركات.",
+        "font": "19px"
+      },
+      {
+        "text": "تطبيقات الجوال",
+        "font": "32px"
+      },
+      {
+        "text": "تطبيقات مترابطة للعملاء والعمليات.",
+        "font": "19px"
+      },
+      {
+        "text": "الأتمتة",
+        "font": "32px"
+      },
+      {
+        "text": "تنسيق موثوق بين أنظمة الأعمال.",
+        "font": "19px"
+      },
+      {
+        "text": "الذكاء الاصطناعي والأنظمة الذكية",
+        "font": "32px"
+      },
+      {
+        "text": "ذكاء هادف لقرارات محددة.",
+        "font": "19px"
+      },
+      {
+        "text": "البرمجيات المخصصة",
+        "font": "32px"
+      },
+      {
+        "text": "برمجيات تناسب المتطلبات التشغيلية الفعلية.",
+        "font": "19px"
+      },
+      {
+        "text": "أتمتة ريلاكس مون سبا",
+        "font": "88px"
+      },
+      {
+        "text": "نموذج مبسّط للحجز بالمحادثة وتنسيق العمليات.",
+        "font": "19px"
+      },
+      {
+        "text": "حجز واتساب وأتمتة العمليات",
+        "font": "32px"
+      },
+      {
+        "text": "نموذج مبسّط للحجز بالمحادثة وتنسيق العمليات.",
+        "font": "19px"
+      },
+      {
+        "text": "عرض دراسة الحالة",
+        "font": "17px"
+      },
+      {
+        "text": "مرحبًا، أرغب في حجز موعد",
+        "font": "15px"
+      },
+      {
+        "text": "ما الخدمة التي ترغب بها؟",
+        "font": "15px"
+      },
+      {
+        "text": "جلسة مساج",
+        "font": "15px"
+      },
+      {
+        "text": "ممتاز، متى ترغب في حجز الموعد؟",
+        "font": "15px"
+      },
+      {
+        "text": "غدًا الساعة 5 مساءً",
+        "font": "15px"
+      },
+      {
+        "text": "تم تأكيد موعدك بنجاح",
+        "font": "15px"
+      },
+      {
+        "text": "تم استلام الطلب",
+        "font": "19px"
+      },
+      {
+        "text": "لنصمم النظام المناسب لطريقة عمل شركتك الفعلية.",
+        "font": "19px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "17px"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "route": "",
+    "width": 390,
+    "height": 844,
+    "title": "نحوّل تعقيد الأعمال إلى أنظمة تتحرك.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "نحوّل تعقيد الأعمال إلى أنظمة تتحرك.",
+        "font": "46.8px",
+        "line": "56.16px",
+        "width": 327.78125,
+        "height": 168.46875,
+        "x": 46.21875,
+        "right": 374,
+        "scroll": 328,
+        "client": 328
+      },
+      {
+        "text": "قدرات تتحول إلى نتائج.",
+        "font": "43.2px",
+        "line": "41.472px",
+        "width": 300,
+        "height": 82.9375,
+        "x": 10,
+        "right": 310,
+        "scroll": 300,
+        "client": 300
+      },
+      {
+        "text": "أنظمة صُممت حول العمل الحقيقي.",
+        "font": "43.2px",
+        "line": "41.472px",
+        "width": 300,
+        "height": 124.40625,
+        "x": 10,
+        "right": 310,
+        "scroll": 300,
+        "client": 300
+      },
+      {
+        "text": "أتمتة ريلاكس مون سبا",
+        "font": "40px",
+        "line": "36px",
+        "width": 294,
+        "height": 72,
+        "x": 48,
+        "right": 342,
+        "scroll": 294,
+        "client": 294
+      },
+      {
+        "text": "من طلب إلى نتيجة، خطوة بخطوة.",
+        "font": "43.2px",
+        "line": "41.472px",
+        "width": 300,
+        "height": 124.40625,
+        "x": 10,
+        "right": 310,
+        "scroll": 300,
+        "client": 300
+      },
+      {
+        "text": "عملية واحدة. نظام يتطور.",
+        "font": "43.2px",
+        "line": "41.472px",
+        "width": 300,
+        "height": 82.9375,
+        "x": 10,
+        "right": 310,
+        "scroll": 300,
+        "client": 300
+      },
+      {
+        "text": "أفكار حول تصميم وتشغيل الأنظمة الرقمية.",
+        "font": "49.6px",
+        "line": "44.64px",
+        "width": 351.984375,
+        "height": 133.875,
+        "x": 28.015625,
+        "right": 380,
+        "scroll": 352,
+        "client": 352
+      },
+      {
+        "text": "لنبنِ النظام الذي يحتاجه عملك الآن.",
+        "font": "59.2px",
+        "line": "50.912px",
+        "width": 323.171875,
+        "height": 152.71875,
+        "x": 56.828125,
+        "right": 380,
+        "scroll": 323,
+        "client": 323
+      }
+    ],
+    "body": [
+      {
+        "text": "الخدمات",
+        "font": "16px"
+      },
+      {
+        "text": "أعمالنا",
+        "font": "16px"
+      },
+      {
+        "text": "من نحن",
+        "font": "16px"
+      },
+      {
+        "text": "رؤى",
+        "font": "16px"
+      },
+      {
+        "text": "تواصل معنا",
+        "font": "16px"
+      },
+      {
+        "text": "نصمم ونبني مواقع وتطبيقات وأنظمة أتمتة وحلولًا رقمية ذكية تربط التقنية باحتياجات الأعمال الفعلية.",
+        "font": "17px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "16px"
+      },
+      {
+        "text": "استكشف أعمالنا",
+        "font": "16px"
+      },
+      {
+        "text": "نحن لا نسلّم صفحات. نصمم ونبني أنظمة رقمية تربط تجربة العميل بمنطق التشغيل والبيانات.",
+        "font": "28.8px"
+      },
+      {
+        "text": "تطوير المواقع",
+        "font": "20px"
+      },
+      {
+        "text": "تجارب رقمية عالية الأداء.",
+        "font": "17px"
+      },
+      {
+        "text": "تطبيقات الويب",
+        "font": "20px"
+      },
+      {
+        "text": "منصات مصممة لسير عمل الشركات.",
+        "font": "17px"
+      },
+      {
+        "text": "تطبيقات الجوال",
+        "font": "20px"
+      },
+      {
+        "text": "تطبيقات مترابطة للعملاء والعمليات.",
+        "font": "17px"
+      },
+      {
+        "text": "الأتمتة",
+        "font": "20px"
+      },
+      {
+        "text": "تنسيق موثوق بين أنظمة الأعمال.",
+        "font": "17px"
+      },
+      {
+        "text": "الذكاء الاصطناعي والأنظمة الذكية",
+        "font": "20px"
+      },
+      {
+        "text": "ذكاء هادف لقرارات محددة.",
+        "font": "17px"
+      },
+      {
+        "text": "البرمجيات المخصصة",
+        "font": "20px"
+      },
+      {
+        "text": "برمجيات تناسب المتطلبات التشغيلية الفعلية.",
+        "font": "17px"
+      },
+      {
+        "text": "أتمتة ريلاكس مون سبا",
+        "font": "40px"
+      },
+      {
+        "text": "نموذج مبسّط للحجز بالمحادثة وتنسيق العمليات.",
+        "font": "17px"
+      },
+      {
+        "text": "حجز واتساب وأتمتة العمليات",
+        "font": "21.6px"
+      },
+      {
+        "text": "نموذج مبسّط للحجز بالمحادثة وتنسيق العمليات.",
+        "font": "17px"
+      },
+      {
+        "text": "عرض دراسة الحالة",
+        "font": "16px"
+      },
+      {
+        "text": "مرحبًا، أرغب في حجز موعد",
+        "font": "14px"
+      },
+      {
+        "text": "ما الخدمة التي ترغب بها؟",
+        "font": "14px"
+      },
+      {
+        "text": "جلسة مساج",
+        "font": "14px"
+      },
+      {
+        "text": "ممتاز، متى ترغب في حجز الموعد؟",
+        "font": "14px"
+      },
+      {
+        "text": "غدًا الساعة 5 مساءً",
+        "font": "14px"
+      },
+      {
+        "text": "تم تأكيد موعدك بنجاح",
+        "font": "14px"
+      },
+      {
+        "text": "تم استلام الطلب",
+        "font": "17px"
+      },
+      {
+        "text": "لنصمم النظام المناسب لطريقة عمل شركتك الفعلية.",
+        "font": "17px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "route": "work",
+    "width": 1920,
+    "height": 1080,
+    "title": "أنظمة نشرحها من خلال العمل الذي تطوّره.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "أنظمة نشرحها من خلال العمل الذي تطوّره.",
+        "font": "176px",
+        "line": "184.8px",
+        "width": 1408,
+        "height": 554.390625,
+        "x": 256,
+        "right": 1664,
+        "scroll": 1408,
+        "client": 1408
+      },
+      {
+        "text": "أتمتة الحجوزات والعمليات عبر واتساب",
+        "font": "96px",
+        "line": "88.32px",
+        "width": 576.46875,
+        "height": 353.25,
+        "x": 1006.53125,
+        "right": 1583,
+        "scroll": 576,
+        "client": 576
+      }
+    ],
+    "body": [
+      {
+        "text": "الخدمات",
+        "font": "17px"
+      },
+      {
+        "text": "أعمالنا",
+        "font": "17px"
+      },
+      {
+        "text": "من نحن",
+        "font": "17px"
+      },
+      {
+        "text": "رؤى",
+        "font": "17px"
+      },
+      {
+        "text": "تواصل معنا",
+        "font": "17px"
+      },
+      {
+        "text": "أنظمة رقمية واقعية تُعرض عبر رحلة العمل وتجربة العميل والبنية التقنية المبسطة والآمنة للنشر.",
+        "font": "21.6px"
+      },
+      {
+        "text": "منصة محادثة للحجز والعمليات صُممت لخدمة سبا متنقلة تعمل في الرياض والمنطقة الشرقية بالمملكة العربية السعودية.",
+        "font": "21.6px"
+      },
+      {
+        "text": "يرشد النظام العميل من أول رسالة واتساب إلى اختيار الخدمة والتاريخ والوقت والموقع، ثم التحقق من التوفر وتعيين الأخصائي وتأكيد الحجز وإعادة الجدولة والإلغاء والإشعارات التشغيلية.",
+        "font": "19px"
+      },
+      {
+        "text": "ما الذي ينسّقه النظام",
+        "font": "15px"
+      },
+      {
+        "text": "مسار النظام",
+        "font": "15px"
+      },
+      {
+        "text": "التقنيات",
+        "font": "15px"
+      },
+      {
+        "text": "n8n · WhatsApp Cloud API · الجدولة · قاعدة البيانات · واجهات API",
+        "font": "19px"
+      },
+      {
+        "text": "اختبر رحلة العميل وشاهد كيف تعالج الأتمتة كل خطوة من خطوات الحجز خلف الواجهة.",
+        "font": "19px"
+      },
+      {
+        "text": "اختبر النظام",
+        "font": "17px"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "route": "work",
+    "width": 390,
+    "height": 844,
+    "title": "أنظمة نشرحها من خلال العمل الذي تطوّره.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "أنظمة نشرحها من خلال العمل الذي تطوّره.",
+        "font": "72px",
+        "line": "75.6px",
+        "width": 370,
+        "height": 453.5625,
+        "x": 10,
+        "right": 380,
+        "scroll": 370,
+        "client": 370
+      },
+      {
+        "text": "أتمتة الحجوزات والعمليات عبر واتساب",
+        "font": "44.8px",
+        "line": "41.216px",
+        "width": 269.015625,
+        "height": 164.8125,
+        "x": 85.984375,
+        "right": 355,
+        "scroll": 269,
+        "client": 269
+      }
+    ],
+    "body": [
+      {
+        "text": "الخدمات",
+        "font": "16px"
+      },
+      {
+        "text": "أعمالنا",
+        "font": "16px"
+      },
+      {
+        "text": "من نحن",
+        "font": "16px"
+      },
+      {
+        "text": "رؤى",
+        "font": "16px"
+      },
+      {
+        "text": "تواصل معنا",
+        "font": "16px"
+      },
+      {
+        "text": "أنظمة رقمية واقعية تُعرض عبر رحلة العمل وتجربة العميل والبنية التقنية المبسطة والآمنة للنشر.",
+        "font": "18px"
+      },
+      {
+        "text": "منصة محادثة للحجز والعمليات صُممت لخدمة سبا متنقلة تعمل في الرياض والمنطقة الشرقية بالمملكة العربية السعودية.",
+        "font": "18px"
+      },
+      {
+        "text": "يرشد النظام العميل من أول رسالة واتساب إلى اختيار الخدمة والتاريخ والوقت والموقع، ثم التحقق من التوفر وتعيين الأخصائي وتأكيد الحجز وإعادة الجدولة والإلغاء والإشعارات التشغيلية.",
+        "font": "17px"
+      },
+      {
+        "text": "ما الذي ينسّقه النظام",
+        "font": "14px"
+      },
+      {
+        "text": "مسار النظام",
+        "font": "14px"
+      },
+      {
+        "text": "التقنيات",
+        "font": "14px"
+      },
+      {
+        "text": "n8n · WhatsApp Cloud API · الجدولة · قاعدة البيانات · واجهات API",
+        "font": "16px"
+      },
+      {
+        "text": "اختبر رحلة العميل وشاهد كيف تعالج الأتمتة كل خطوة من خطوات الحجز خلف الواجهة.",
+        "font": "16px"
+      },
+      {
+        "text": "اختبر النظام",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "route": "services",
+    "width": 1920,
+    "height": 1080,
+    "title": "منهج هندسي واحد. ستة مسارات لصناعة أثر حقيقي.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "منهج هندسي واحد. ستة مسارات لصناعة أثر حقيقي.",
+        "font": "176px",
+        "line": "184.8px",
+        "width": 1408,
+        "height": 739.1875,
+        "x": 256,
+        "right": 1664,
+        "scroll": 1408,
+        "client": 1408
+      },
+      {
+        "text": "تطوير المواقع",
+        "font": "80px",
+        "line": "72px",
+        "width": 624,
+        "height": 72,
+        "x": 920,
+        "right": 1544,
+        "scroll": 624,
+        "client": 624
+      },
+      {
+        "text": "تطبيقات الويب",
+        "font": "80px",
+        "line": "72px",
+        "width": 624,
+        "height": 72,
+        "x": 920,
+        "right": 1544,
+        "scroll": 624,
+        "client": 624
+      },
+      {
+        "text": "تطبيقات الجوال",
+        "font": "80px",
+        "line": "72px",
+        "width": 624,
+        "height": 72,
+        "x": 920,
+        "right": 1544,
+        "scroll": 624,
+        "client": 624
+      },
+      {
+        "text": "الأتمتة",
+        "font": "80px",
+        "line": "72px",
+        "width": 624,
+        "height": 72,
+        "x": 920,
+        "right": 1544,
+        "scroll": 624,
+        "client": 624
+      },
+      {
+        "text": "الذكاء الاصطناعي والأنظمة الذكية",
+        "font": "80px",
+        "line": "72px",
+        "width": 624,
+        "height": 144,
+        "x": 920,
+        "right": 1544,
+        "scroll": 624,
+        "client": 624
+      },
+      {
+        "text": "البرمجيات المخصصة",
+        "font": "80px",
+        "line": "72px",
+        "width": 624,
+        "height": 144,
+        "x": 920,
+        "right": 1544,
+        "scroll": 624,
+        "client": 624
+      }
+    ],
+    "body": [
+      {
+        "text": "الخدمات",
+        "font": "17px"
+      },
+      {
+        "text": "أعمالنا",
+        "font": "17px"
+      },
+      {
+        "text": "من نحن",
+        "font": "17px"
+      },
+      {
+        "text": "رؤى",
+        "font": "17px"
+      },
+      {
+        "text": "تواصل معنا",
+        "font": "17px"
+      },
+      {
+        "text": "تبدأ كل شراكة من المشكلة التشغيلية، لا من تقنية مقررة سلفًا.",
+        "font": "21.6px"
+      },
+      {
+        "text": "",
+        "font": "19px"
+      },
+      {
+        "text": "تجارب رقمية عالية الأداء.",
+        "font": "19px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "17px"
+      },
+      {
+        "text": "",
+        "font": "19px"
+      },
+      {
+        "text": "منصات مصممة لسير عمل الشركات.",
+        "font": "19px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "17px"
+      },
+      {
+        "text": "",
+        "font": "19px"
+      },
+      {
+        "text": "تطبيقات مترابطة للعملاء والعمليات.",
+        "font": "19px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "17px"
+      },
+      {
+        "text": "",
+        "font": "19px"
+      },
+      {
+        "text": "تنسيق موثوق بين أنظمة الأعمال.",
+        "font": "19px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "17px"
+      },
+      {
+        "text": "",
+        "font": "19px"
+      },
+      {
+        "text": "ذكاء هادف لقرارات محددة.",
+        "font": "19px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "17px"
+      },
+      {
+        "text": "",
+        "font": "19px"
+      },
+      {
+        "text": "برمجيات تناسب المتطلبات التشغيلية الفعلية.",
+        "font": "19px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "17px"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "route": "services",
+    "width": 390,
+    "height": 844,
+    "title": "منهج هندسي واحد. ستة مسارات لصناعة أثر حقيقي.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "منهج هندسي واحد. ستة مسارات لصناعة أثر حقيقي.",
+        "font": "72px",
+        "line": "75.6px",
+        "width": 370,
+        "height": 453.5625,
+        "x": 10,
+        "right": 380,
+        "scroll": 370,
+        "client": 370
+      },
+      {
+        "text": "تطوير المواقع",
+        "font": "36.8px",
+        "line": "33.12px",
+        "width": 307,
+        "height": 33.109375,
+        "x": 10,
+        "right": 317,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "تطبيقات الويب",
+        "font": "36.8px",
+        "line": "33.12px",
+        "width": 307,
+        "height": 33.109375,
+        "x": 10,
+        "right": 317,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "تطبيقات الجوال",
+        "font": "36.8px",
+        "line": "33.12px",
+        "width": 307,
+        "height": 33.109375,
+        "x": 10,
+        "right": 317,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "الأتمتة",
+        "font": "36.8px",
+        "line": "33.12px",
+        "width": 307,
+        "height": 33.109375,
+        "x": 10,
+        "right": 317,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "الذكاء الاصطناعي والأنظمة الذكية",
+        "font": "36.8px",
+        "line": "33.12px",
+        "width": 307,
+        "height": 66.21875,
+        "x": 10,
+        "right": 317,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "البرمجيات المخصصة",
+        "font": "36.8px",
+        "line": "33.12px",
+        "width": 307,
+        "height": 33.109375,
+        "x": 10,
+        "right": 317,
+        "scroll": 307,
+        "client": 307
+      }
+    ],
+    "body": [
+      {
+        "text": "الخدمات",
+        "font": "16px"
+      },
+      {
+        "text": "أعمالنا",
+        "font": "16px"
+      },
+      {
+        "text": "من نحن",
+        "font": "16px"
+      },
+      {
+        "text": "رؤى",
+        "font": "16px"
+      },
+      {
+        "text": "تواصل معنا",
+        "font": "16px"
+      },
+      {
+        "text": "تبدأ كل شراكة من المشكلة التشغيلية، لا من تقنية مقررة سلفًا.",
+        "font": "18px"
+      },
+      {
+        "text": "",
+        "font": "17px"
+      },
+      {
+        "text": "تجارب رقمية عالية الأداء.",
+        "font": "17px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "16px"
+      },
+      {
+        "text": "",
+        "font": "17px"
+      },
+      {
+        "text": "منصات مصممة لسير عمل الشركات.",
+        "font": "17px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "16px"
+      },
+      {
+        "text": "",
+        "font": "17px"
+      },
+      {
+        "text": "تطبيقات مترابطة للعملاء والعمليات.",
+        "font": "17px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "16px"
+      },
+      {
+        "text": "",
+        "font": "17px"
+      },
+      {
+        "text": "تنسيق موثوق بين أنظمة الأعمال.",
+        "font": "17px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "16px"
+      },
+      {
+        "text": "",
+        "font": "17px"
+      },
+      {
+        "text": "ذكاء هادف لقرارات محددة.",
+        "font": "17px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "16px"
+      },
+      {
+        "text": "",
+        "font": "17px"
+      },
+      {
+        "text": "برمجيات تناسب المتطلبات التشغيلية الفعلية.",
+        "font": "17px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "route": "about",
+    "width": 1920,
+    "height": 1080,
+    "title": "حس تصميمي. انضباط هندسي. وفهم للأعمال. ",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "حس تصميمي. انضباط هندسي. وفهم للأعمال. ",
+        "font": "110px",
+        "line": "132px",
+        "width": 1330.734375,
+        "height": 396,
+        "x": 333.265625,
+        "right": 1664,
+        "scroll": 1331,
+        "client": 1331
+      },
+      {
+        "text": "ما وراء الواجهة",
+        "font": "40px",
+        "line": "56px",
+        "width": 412.328125,
+        "height": 56,
+        "x": 1223.671875,
+        "right": 1636,
+        "scroll": 412,
+        "client": 412
+      },
+      {
+        "text": "كل قرار له سبب",
+        "font": "40px",
+        "line": "56px",
+        "width": 412.328125,
+        "height": 56,
+        "x": 754.34375,
+        "right": 1166.671875,
+        "scroll": 412,
+        "client": 412
+      },
+      {
+        "text": "شراكة عملية",
+        "font": "40px",
+        "line": "56px",
+        "width": 413.34375,
+        "height": 56,
+        "x": 284,
+        "right": 697.34375,
+        "scroll": 413,
+        "client": 413
+      },
+      {
+        "text": "ماذا نبني",
+        "font": "60px",
+        "line": "84px",
+        "width": 584.09375,
+        "height": 84,
+        "x": 1079.90625,
+        "right": 1664,
+        "scroll": 584,
+        "client": 584
+      },
+      {
+        "text": "كيف نفكر",
+        "font": "60px",
+        "line": "84px",
+        "width": 840.46875,
+        "height": 84,
+        "x": 823.53125,
+        "right": 1664,
+        "scroll": 840,
+        "client": 840
+      },
+      {
+        "text": "الأتمتة يجب أن تجعل العمليات أوضح — لا أكثر تعقيدًا.",
+        "font": "60px",
+        "line": "84px",
+        "width": 1146.09375,
+        "height": 168,
+        "x": 517.90625,
+        "right": 1664,
+        "scroll": 1146,
+        "client": 1146
+      },
+      {
+        "text": "نبني ما هو أبعد من الواجهة.",
+        "font": "60px",
+        "line": "84px",
+        "width": 584.09375,
+        "height": 168,
+        "x": 1079.90625,
+        "right": 1664,
+        "scroll": 584,
+        "client": 584
+      },
+      {
+        "text": "من تحدٍ تشغيلي إلى نظام يعمل فعليًا.",
+        "font": "60px",
+        "line": "84px",
+        "width": 840.46875,
+        "height": 168,
+        "x": 823.53125,
+        "right": 1664,
+        "scroll": 840,
+        "client": 840
+      },
+      {
+        "text": "لنَبْنِ النظام الذي يحتاجه عملك في خطوته القادمة.",
+        "font": "60px",
+        "line": "84px",
+        "width": 584.09375,
+        "height": 252,
+        "x": 1079.90625,
+        "right": 1664,
+        "scroll": 584,
+        "client": 584
+      }
+    ],
+    "body": [
+      {
+        "text": "الخدمات",
+        "font": "17px"
+      },
+      {
+        "text": "أعمالنا",
+        "font": "17px"
+      },
+      {
+        "text": "من نحن",
+        "font": "17px"
+      },
+      {
+        "text": "رؤى",
+        "font": "17px"
+      },
+      {
+        "text": "تواصل معنا",
+        "font": "17px"
+      },
+      {
+        "text": "تصمم شركة ELSHEIK DIGITAL SOLUTIONS منتجات رقمية، وتطبيقات، وأنظمة أتمتة، وحلولًا تشغيلية مترابطة تُبنى حول طريقة عمل الأعمال فعليًا.",
+        "font": "19px"
+      },
+      {
+        "text": "نجمع بين التصميم، وهندسة البرمجيات، والأتمتة، وفهم العمليات لبناء أنظمة واضحة وموثوقة تخدم احتياجات حقيقية.",
+        "font": "19px"
+      },
+      {
+        "text": "المنتج الرقمي القوي لا يقتصر على ما يراه المستخدم. يجب أن يتواصل بوضوح، ويعمل بموثوقية، ويرتبط بشكل منظم مع العمليات والبيانات والأنظمة التي تقف خلفه.",
+        "font": "19px"
+      },
+      {
+        "text": "نصمم بقصد واضح. كل تفاعل، وكل مسار عمل، وكل قرار تقني يجب أن يضيف وضوحًا أو موثوقية أو سهولة صيانة أو قيمة تشغيلية حقيقية.",
+        "font": "19px"
+      },
+      {
+        "text": "نحوّل تحديات الأعمال إلى قرارات واضحة ومفهومة، ثم نبني أنظمة قابلة للتطور دون تعقيد غير ضروري. الهدف ليس استخدام التقنية لمجرد التقنية، بل بناء أنظمة تدعم العمل الحقيقي.",
+        "font": "19px"
+      },
+      {
+        "text": "نصمم ونطور أنظمة رقمية تمتد من تجربة العميل إلى العمليات التي تقف خلفها.",
+        "font": "19px"
+      },
+      {
+        "text": "المواقع والتجارب الرقمية",
+        "font": "27px"
+      },
+      {
+        "text": "مواقع وتجارب رقمية عالية الأداء، تجمع بين الوضوح والسرعة وتسهّل انتقال الزائر إلى الخطوة التالية.",
+        "font": "19px"
+      },
+      {
+        "text": "تطبيقات الويب",
+        "font": "27px"
+      },
+      {
+        "text": "منصات تشغيلية، ولوحات تحكم، وبوابات، وتطبيقات أعمال داخلية مصممة لتلبية احتياجات محددة.",
+        "font": "19px"
+      },
+      {
+        "text": "تطبيقات الجوال",
+        "font": "27px"
+      },
+      {
+        "text": "منتجات جوال مترابطة تخدم العملاء وفرق العمل وتدعم العمليات أينما احتاجوا إليها.",
+        "font": "19px"
+      },
+      {
+        "text": "الأتمتة",
+        "font": "27px"
+      },
+      {
+        "text": "تنسيق مسارات العمل وربط الرسائل وواجهات API وقواعد البيانات والتقويم وأنظمة CRM والعمليات التشغيلية.",
+        "font": "19px"
+      },
+      {
+        "text": "الأنظمة الذكية",
+        "font": "27px"
+      },
+      {
+        "text": "مسارات عمل وأنظمة دعم قرار تستفيد من الذكاء الاصطناعي لمعالجة مشكلات أعمال محددة.",
+        "font": "19px"
+      },
+      {
+        "text": "البرمجيات المخصصة",
+        "font": "27px"
+      },
+      {
+        "text": "برمجيات تُصمم حول المتطلبات التشغيلية، بدلًا من إجبار العمل على التكيف مع أداة عامة.",
+        "font": "19px"
+      },
+      {
+        "text": "الوضوح قبل التعقيد",
+        "font": "27px"
+      },
+      {
+        "text": "عندما يصعب فهم النظام، تصبح إدارته وصيانته أكثر صعوبة. نحرص على أن تكون بنيته وسلوكياته واضحة.",
+        "font": "19px"
+      },
+      {
+        "text": "العمليات قبل كثرة المزايا",
+        "font": "27px"
+      },
+      {
+        "text": "تكتسب الميزة قيمتها عندما تخدم مسار عمل فعليًا أو تلبي حاجة حقيقية لدى المنشأة.",
+        "font": "19px"
+      },
+      {
+        "text": "أنظمة مترابطة، لا شاشات منفصلة",
+        "font": "27px"
+      },
+      {
+        "text": "يجب أن تعمل الواجهات والأتمتة والبيانات والمنطق البرمجي معًا كنظام واحد متصل.",
+        "font": "19px"
+      },
+      {
+        "text": "نصمم الأتمتة حول طريقة عمل المنشأة فعليًا. يمكن للنظام أن يربط بين:",
+        "font": "19px"
+      },
+      {
+        "text": "الهدف هو تقليل الأعمال المتكررة، وتخفيف الاحتكاك التشغيلي، وضمان انتقال المعلومات بشكل منظم بين الأنظمة.",
+        "font": "19px"
+      },
+      {
+        "text": "نتعامل مع النظام كبنية هندسية متكاملة: كيف تعمل كل طبقة، وما الذي تعتمد عليه، وكيف يمكن تشغيل النظام وصيانته وتطويره.",
+        "font": "19px"
+      },
+      {
+        "text": "التجربة",
+        "font": "27px"
+      },
+      {
+        "text": "سلوك الواجهات، وإمكانية الوصول، والتفاعل المتجاوب مع أحجام الشاشات.",
+        "font": "19px"
+      },
+      {
+        "text": "التطبيق",
+        "font": "27px"
+      },
+      {
+        "text": "البنية البرمجية، وقواعد العمل، والتحقق من صحة المدخلات.",
+        "font": "19px"
+      },
+      {
+        "text": "الأتمتة",
+        "font": "27px"
+      },
+      {
+        "text": "حالات مسارات العمل، وحدود التكامل، والتعامل مع الإخفاقات.",
+        "font": "19px"
+      },
+      {
+        "text": "البيانات",
+        "font": "27px"
+      },
+      {
+        "text": "تصميم قواعد البيانات، والعلاقات بين المعلومات، واتساق السجلات.",
+        "font": "19px"
+      },
+      {
+        "text": "الأمان",
+        "font": "27px"
+      },
+      {
+        "text": "ضبط الوصول، وحدود الصلاحيات، والتعامل المسؤول مع البيانات.",
+        "font": "19px"
+      },
+      {
+        "text": "الجودة",
+        "font": "27px"
+      },
+      {
+        "text": "الاختبارات، والأداء، وقابلية الصيانة في مختلف أجزاء النظام.",
+        "font": "19px"
+      },
+      {
+        "text": "نفهم",
+        "font": "27px"
+      },
+      {
+        "text": "نفهم العمليات، ورحلة العميل، والقيود الفعلية التي تحكم العمل.",
+        "font": "19px"
+      },
+      {
+        "text": "نحدد",
+        "font": "27px"
+      },
+      {
+        "text": "نحوّل المشكلة إلى متطلبات واضحة للنظام.",
+        "font": "19px"
+      },
+      {
+        "text": "نصمم",
+        "font": "27px"
+      },
+      {
+        "text": "نصمم تجربة الاستخدام وبنية النظام معًا.",
+        "font": "19px"
+      },
+      {
+        "text": "نطوّر",
+        "font": "27px"
+      },
+      {
+        "text": "نبني الواجهات والتطبيق والبيانات والتكاملات والأتمتة.",
+        "font": "19px"
+      },
+      {
+        "text": "نتحقق",
+        "font": "27px"
+      },
+      {
+        "text": "نختبر السلوك والحالات الاستثنائية والتجاوب والموثوقية التشغيلية.",
+        "font": "19px"
+      },
+      {
+        "text": "نحسّن",
+        "font": "27px"
+      },
+      {
+        "text": "نراجع النظام ونحسّنه استنادًا إلى أدائه في الاستخدام الفعلي.",
+        "font": "19px"
+      },
+      {
+        "text": "حدثنا عن طريقة عملك اليوم، وسنساعدك في تحديد النظام الرقمي المناسب حولها.",
+        "font": "19px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "17px"
+      },
+      {
+        "text": "استعرض أعمالنا",
+        "font": "17px"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "route": "about",
+    "width": 390,
+    "height": 844,
+    "title": "حس تصميمي. انضباط هندسي. وفهم للأعمال. ",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "حس تصميمي. انضباط هندسي. وفهم للأعمال. ",
+        "font": "50.7px",
+        "line": "63.375px",
+        "width": 358,
+        "height": 253.5,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "ما وراء الواجهة",
+        "font": "26px",
+        "line": "36.4px",
+        "width": 358,
+        "height": 36.390625,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "كل قرار له سبب",
+        "font": "26px",
+        "line": "36.4px",
+        "width": 358,
+        "height": 36.390625,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "شراكة عملية",
+        "font": "26px",
+        "line": "36.4px",
+        "width": 358,
+        "height": 36.390625,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "ماذا نبني",
+        "font": "34px",
+        "line": "47.6px",
+        "width": 358,
+        "height": 47.59375,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "كيف نفكر",
+        "font": "34px",
+        "line": "47.6px",
+        "width": 358,
+        "height": 47.59375,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "الأتمتة يجب أن تجعل العمليات أوضح — لا أكثر تعقيدًا.",
+        "font": "34px",
+        "line": "47.6px",
+        "width": 358,
+        "height": 142.78125,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "نبني ما هو أبعد من الواجهة.",
+        "font": "34px",
+        "line": "47.6px",
+        "width": 358,
+        "height": 95.1875,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "من تحدٍ تشغيلي إلى نظام يعمل فعليًا.",
+        "font": "34px",
+        "line": "47.6px",
+        "width": 358,
+        "height": 95.1875,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      },
+      {
+        "text": "لنَبْنِ النظام الذي يحتاجه عملك في خطوته القادمة.",
+        "font": "34px",
+        "line": "47.6px",
+        "width": 358,
+        "height": 142.78125,
+        "x": 16,
+        "right": 374,
+        "scroll": 358,
+        "client": 358
+      }
+    ],
+    "body": [
+      {
+        "text": "الخدمات",
+        "font": "16px"
+      },
+      {
+        "text": "أعمالنا",
+        "font": "16px"
+      },
+      {
+        "text": "من نحن",
+        "font": "16px"
+      },
+      {
+        "text": "رؤى",
+        "font": "16px"
+      },
+      {
+        "text": "تواصل معنا",
+        "font": "16px"
+      },
+      {
+        "text": "تصمم شركة ELSHEIK DIGITAL SOLUTIONS منتجات رقمية، وتطبيقات، وأنظمة أتمتة، وحلولًا تشغيلية مترابطة تُبنى حول طريقة عمل الأعمال فعليًا.",
+        "font": "17px"
+      },
+      {
+        "text": "نجمع بين التصميم، وهندسة البرمجيات، والأتمتة، وفهم العمليات لبناء أنظمة واضحة وموثوقة تخدم احتياجات حقيقية.",
+        "font": "17px"
+      },
+      {
+        "text": "المنتج الرقمي القوي لا يقتصر على ما يراه المستخدم. يجب أن يتواصل بوضوح، ويعمل بموثوقية، ويرتبط بشكل منظم مع العمليات والبيانات والأنظمة التي تقف خلفه.",
+        "font": "17px"
+      },
+      {
+        "text": "نصمم بقصد واضح. كل تفاعل، وكل مسار عمل، وكل قرار تقني يجب أن يضيف وضوحًا أو موثوقية أو سهولة صيانة أو قيمة تشغيلية حقيقية.",
+        "font": "17px"
+      },
+      {
+        "text": "نحوّل تحديات الأعمال إلى قرارات واضحة ومفهومة، ثم نبني أنظمة قابلة للتطور دون تعقيد غير ضروري. الهدف ليس استخدام التقنية لمجرد التقنية، بل بناء أنظمة تدعم العمل الحقيقي.",
+        "font": "17px"
+      },
+      {
+        "text": "نصمم ونطور أنظمة رقمية تمتد من تجربة العميل إلى العمليات التي تقف خلفها.",
+        "font": "17px"
+      },
+      {
+        "text": "المواقع والتجارب الرقمية",
+        "font": "23px"
+      },
+      {
+        "text": "مواقع وتجارب رقمية عالية الأداء، تجمع بين الوضوح والسرعة وتسهّل انتقال الزائر إلى الخطوة التالية.",
+        "font": "17px"
+      },
+      {
+        "text": "تطبيقات الويب",
+        "font": "23px"
+      },
+      {
+        "text": "منصات تشغيلية، ولوحات تحكم، وبوابات، وتطبيقات أعمال داخلية مصممة لتلبية احتياجات محددة.",
+        "font": "17px"
+      },
+      {
+        "text": "تطبيقات الجوال",
+        "font": "23px"
+      },
+      {
+        "text": "منتجات جوال مترابطة تخدم العملاء وفرق العمل وتدعم العمليات أينما احتاجوا إليها.",
+        "font": "17px"
+      },
+      {
+        "text": "الأتمتة",
+        "font": "23px"
+      },
+      {
+        "text": "تنسيق مسارات العمل وربط الرسائل وواجهات API وقواعد البيانات والتقويم وأنظمة CRM والعمليات التشغيلية.",
+        "font": "17px"
+      },
+      {
+        "text": "الأنظمة الذكية",
+        "font": "23px"
+      },
+      {
+        "text": "مسارات عمل وأنظمة دعم قرار تستفيد من الذكاء الاصطناعي لمعالجة مشكلات أعمال محددة.",
+        "font": "17px"
+      },
+      {
+        "text": "البرمجيات المخصصة",
+        "font": "23px"
+      },
+      {
+        "text": "برمجيات تُصمم حول المتطلبات التشغيلية، بدلًا من إجبار العمل على التكيف مع أداة عامة.",
+        "font": "17px"
+      },
+      {
+        "text": "الوضوح قبل التعقيد",
+        "font": "23px"
+      },
+      {
+        "text": "عندما يصعب فهم النظام، تصبح إدارته وصيانته أكثر صعوبة. نحرص على أن تكون بنيته وسلوكياته واضحة.",
+        "font": "17px"
+      },
+      {
+        "text": "العمليات قبل كثرة المزايا",
+        "font": "23px"
+      },
+      {
+        "text": "تكتسب الميزة قيمتها عندما تخدم مسار عمل فعليًا أو تلبي حاجة حقيقية لدى المنشأة.",
+        "font": "17px"
+      },
+      {
+        "text": "أنظمة مترابطة، لا شاشات منفصلة",
+        "font": "23px"
+      },
+      {
+        "text": "يجب أن تعمل الواجهات والأتمتة والبيانات والمنطق البرمجي معًا كنظام واحد متصل.",
+        "font": "17px"
+      },
+      {
+        "text": "نصمم الأتمتة حول طريقة عمل المنشأة فعليًا. يمكن للنظام أن يربط بين:",
+        "font": "17px"
+      },
+      {
+        "text": "الهدف هو تقليل الأعمال المتكررة، وتخفيف الاحتكاك التشغيلي، وضمان انتقال المعلومات بشكل منظم بين الأنظمة.",
+        "font": "17px"
+      },
+      {
+        "text": "نتعامل مع النظام كبنية هندسية متكاملة: كيف تعمل كل طبقة، وما الذي تعتمد عليه، وكيف يمكن تشغيل النظام وصيانته وتطويره.",
+        "font": "17px"
+      },
+      {
+        "text": "التجربة",
+        "font": "23px"
+      },
+      {
+        "text": "سلوك الواجهات، وإمكانية الوصول، والتفاعل المتجاوب مع أحجام الشاشات.",
+        "font": "17px"
+      },
+      {
+        "text": "التطبيق",
+        "font": "23px"
+      },
+      {
+        "text": "البنية البرمجية، وقواعد العمل، والتحقق من صحة المدخلات.",
+        "font": "17px"
+      },
+      {
+        "text": "الأتمتة",
+        "font": "23px"
+      },
+      {
+        "text": "حالات مسارات العمل، وحدود التكامل، والتعامل مع الإخفاقات.",
+        "font": "17px"
+      },
+      {
+        "text": "البيانات",
+        "font": "23px"
+      },
+      {
+        "text": "تصميم قواعد البيانات، والعلاقات بين المعلومات، واتساق السجلات.",
+        "font": "17px"
+      },
+      {
+        "text": "الأمان",
+        "font": "23px"
+      },
+      {
+        "text": "ضبط الوصول، وحدود الصلاحيات، والتعامل المسؤول مع البيانات.",
+        "font": "17px"
+      },
+      {
+        "text": "الجودة",
+        "font": "23px"
+      },
+      {
+        "text": "الاختبارات، والأداء، وقابلية الصيانة في مختلف أجزاء النظام.",
+        "font": "17px"
+      },
+      {
+        "text": "نفهم",
+        "font": "23px"
+      },
+      {
+        "text": "نفهم العمليات، ورحلة العميل، والقيود الفعلية التي تحكم العمل.",
+        "font": "17px"
+      },
+      {
+        "text": "نحدد",
+        "font": "23px"
+      },
+      {
+        "text": "نحوّل المشكلة إلى متطلبات واضحة للنظام.",
+        "font": "17px"
+      },
+      {
+        "text": "نصمم",
+        "font": "23px"
+      },
+      {
+        "text": "نصمم تجربة الاستخدام وبنية النظام معًا.",
+        "font": "17px"
+      },
+      {
+        "text": "نطوّر",
+        "font": "23px"
+      },
+      {
+        "text": "نبني الواجهات والتطبيق والبيانات والتكاملات والأتمتة.",
+        "font": "17px"
+      },
+      {
+        "text": "نتحقق",
+        "font": "23px"
+      },
+      {
+        "text": "نختبر السلوك والحالات الاستثنائية والتجاوب والموثوقية التشغيلية.",
+        "font": "17px"
+      },
+      {
+        "text": "نحسّن",
+        "font": "23px"
+      },
+      {
+        "text": "نراجع النظام ونحسّنه استنادًا إلى أدائه في الاستخدام الفعلي.",
+        "font": "17px"
+      },
+      {
+        "text": "حدثنا عن طريقة عملك اليوم، وسنساعدك في تحديد النظام الرقمي المناسب حولها.",
+        "font": "17px"
+      },
+      {
+        "text": "ابدأ مشروعك",
+        "font": "16px"
+      },
+      {
+        "text": "استعرض أعمالنا",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "route": "insights",
+    "width": 1920,
+    "height": 1080,
+    "title": "أفكار تبني أنظمة رقمية أفضل.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "أفكار تبني أنظمة رقمية أفضل.",
+        "font": "107.2px",
+        "line": "150.08px",
+        "width": 1048,
+        "height": 300.15625,
+        "x": 616,
+        "right": 1664,
+        "scroll": 1048,
+        "client": 1048
+      },
+      {
+        "text": "نعمل على إعداد رؤى هندسية جديدة.",
+        "font": "60.8px",
+        "line": "85.12px",
+        "width": 630.609375,
+        "height": 170.21875,
+        "x": 969.390625,
+        "right": 1600,
+        "scroll": 631,
+        "client": 631
+      },
+      {
+        "text": "لنحوّل الأفكار إلى أنظمة تعمل.",
+        "font": "64px",
+        "line": "89.6px",
+        "width": 795.125,
+        "height": 89.59375,
+        "x": 868.875,
+        "right": 1664,
+        "scroll": 795,
+        "client": 795
+      }
+    ],
+    "body": [
+      {
+        "text": "الخدمات",
+        "font": "17px"
+      },
+      {
+        "text": "أعمالنا",
+        "font": "17px"
+      },
+      {
+        "text": "من نحن",
+        "font": "17px"
+      },
+      {
+        "text": "رؤى",
+        "font": "17px"
+      },
+      {
+        "text": "تواصل معنا",
+        "font": "17px"
+      },
+      {
+        "text": "ملاحظات هندسية، وأنماط أتمتة، ورؤى في تصميم المنتجات من تجربة بناء برمجيات تخدم العمليات الفعلية.",
+        "font": "20px"
+      },
+      {
+        "text": "أبحاث ورؤى هندسية وتشغيلية من الشيخ للحلول الرقمية.",
+        "font": "16px"
+      },
+      {
+        "text": "اكتشف أعمالنا ريثما ننشر مقالاتنا الجديدة.",
+        "font": "18px"
+      },
+      {
+        "text": "هل تريد تطوير نظام أو بناء منتج؟ لنتحدث عن خطوتك القادمة.",
+        "font": "19px"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "route": "insights",
+    "width": 390,
+    "height": 844,
+    "title": "أفكار تبني أنظمة رقمية أفضل.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "أفكار تبني أنظمة رقمية أفضل.",
+        "font": "44.8px",
+        "line": "62.72px",
+        "width": 370,
+        "height": 125.40625,
+        "x": 10,
+        "right": 380,
+        "scroll": 370,
+        "client": 370
+      },
+      {
+        "text": "نعمل على إعداد رؤى هندسية جديدة.",
+        "font": "32px",
+        "line": "44.8px",
+        "width": 322,
+        "height": 89.59375,
+        "x": 34,
+        "right": 356,
+        "scroll": 322,
+        "client": 322
+      },
+      {
+        "text": "لنحوّل الأفكار إلى أنظمة تعمل.",
+        "font": "32px",
+        "line": "44.8px",
+        "width": 370,
+        "height": 89.59375,
+        "x": 10,
+        "right": 380,
+        "scroll": 370,
+        "client": 370
+      }
+    ],
+    "body": [
+      {
+        "text": "الخدمات",
+        "font": "16px"
+      },
+      {
+        "text": "أعمالنا",
+        "font": "16px"
+      },
+      {
+        "text": "من نحن",
+        "font": "16px"
+      },
+      {
+        "text": "رؤى",
+        "font": "16px"
+      },
+      {
+        "text": "تواصل معنا",
+        "font": "16px"
+      },
+      {
+        "text": "ملاحظات هندسية، وأنماط أتمتة، ورؤى في تصميم المنتجات من تجربة بناء برمجيات تخدم العمليات الفعلية.",
+        "font": "17px"
+      },
+      {
+        "text": "أبحاث ورؤى هندسية وتشغيلية من الشيخ للحلول الرقمية.",
+        "font": "16px"
+      },
+      {
+        "text": "اكتشف أعمالنا ريثما ننشر مقالاتنا الجديدة.",
+        "font": "18px"
+      },
+      {
+        "text": "هل تريد تطوير نظام أو بناء منتج؟ لنتحدث عن خطوتك القادمة.",
+        "font": "17px"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "route": "contact",
+    "width": 1920,
+    "height": 1080,
+    "title": "أخبرنا بما يجب أن يعمل بصورة أفضل.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "أخبرنا بما يجب أن يعمل بصورة أفضل.",
+        "font": "176px",
+        "line": "184.8px",
+        "width": 1408,
+        "height": 554.390625,
+        "x": 256,
+        "right": 1664,
+        "scroll": 1408,
+        "client": 1408
+      }
+    ],
+    "body": [
+      {
+        "text": "الخدمات",
+        "font": "17px"
+      },
+      {
+        "text": "أعمالنا",
+        "font": "17px"
+      },
+      {
+        "text": "من نحن",
+        "font": "17px"
+      },
+      {
+        "text": "رؤى",
+        "font": "17px"
+      },
+      {
+        "text": "تواصل معنا",
+        "font": "17px"
+      },
+      {
+        "text": "يبدأ الحوار المفيد من تحدي العمل، والأشخاص المتأثرين به، والنتيجة المطلوبة.",
+        "font": "21.6px"
+      },
+      {
+        "text": "إرسال ملخص المشروع",
+        "font": "17px"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "route": "contact",
+    "width": 390,
+    "height": 844,
+    "title": "أخبرنا بما يجب أن يعمل بصورة أفضل.",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "أخبرنا بما يجب أن يعمل بصورة أفضل.",
+        "font": "72px",
+        "line": "75.6px",
+        "width": 370,
+        "height": 377.96875,
+        "x": 10,
+        "right": 380,
+        "scroll": 370,
+        "client": 370
+      }
+    ],
+    "body": [
+      {
+        "text": "الخدمات",
+        "font": "16px"
+      },
+      {
+        "text": "أعمالنا",
+        "font": "16px"
+      },
+      {
+        "text": "من نحن",
+        "font": "16px"
+      },
+      {
+        "text": "رؤى",
+        "font": "16px"
+      },
+      {
+        "text": "تواصل معنا",
+        "font": "16px"
+      },
+      {
+        "text": "يبدأ الحوار المفيد من تحدي العمل، والأشخاص المتأثرين به، والنتيجة المطلوبة.",
+        "font": "18px"
+      },
+      {
+        "text": "إرسال ملخص المشروع",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "route": "work/relax-moon-spa-automation",
+    "width": 1920,
+    "height": 1080,
+    "title": "أتمتة ريلاكس مون سبا",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "أتمتة ريلاكس مون سبا",
+        "font": "176px",
+        "line": "144.32px",
+        "width": 1056.859375,
+        "height": 288.625,
+        "x": 607.140625,
+        "right": 1664,
+        "scroll": 1057,
+        "client": 1057
+      },
+      {
+        "text": "جرّب مساعد الحجز",
+        "font": "92.8px",
+        "line": "85.376px",
+        "width": 506.59375,
+        "height": 170.71875,
+        "x": 1157.40625,
+        "right": 1664,
+        "scroll": 507,
+        "client": 507
+      },
+      {
+        "text": "مشكلة العمل",
+        "font": "112px",
+        "line": "106.4px",
+        "width": 794.828125,
+        "height": 106.390625,
+        "x": 869.171875,
+        "right": 1664,
+        "scroll": 795,
+        "client": 795
+      },
+      {
+        "text": "القرارات الهندسية",
+        "font": "112px",
+        "line": "106.4px",
+        "width": 794.828125,
+        "height": 212.78125,
+        "x": 869.171875,
+        "right": 1664,
+        "scroll": 795,
+        "client": 795
+      },
+      {
+        "text": "الأمان والموثوقية",
+        "font": "112px",
+        "line": "106.4px",
+        "width": 794.828125,
+        "height": 106.390625,
+        "x": 869.171875,
+        "right": 1664,
+        "scroll": 795,
+        "client": 795
+      },
+      {
+        "text": "رحلة العميل",
+        "font": "112px",
+        "line": "106.4px",
+        "width": 794.828125,
+        "height": 106.390625,
+        "x": 869.171875,
+        "right": 1664,
+        "scroll": 795,
+        "client": 795
+      },
+      {
+        "text": "النظام أثناء العمل",
+        "font": "112px",
+        "line": "106.4px",
+        "width": 794.828125,
+        "height": 106.390625,
+        "x": 869.171875,
+        "right": 1664,
+        "scroll": 795,
+        "client": 795
+      },
+      {
+        "text": "بنية النظام",
+        "font": "112px",
+        "line": "106.4px",
+        "width": 794.828125,
+        "height": 106.390625,
+        "x": 869.171875,
+        "right": 1664,
+        "scroll": 795,
+        "client": 795
+      },
+      {
+        "text": "التقنيات",
+        "font": "112px",
+        "line": "106.4px",
+        "width": 794.828125,
+        "height": 106.390625,
+        "x": 869.171875,
+        "right": 1664,
+        "scroll": 795,
+        "client": 795
+      },
+      {
+        "text": "نظامك القادم يبدأ هنا.",
+        "font": "128px",
+        "line": "115.2px",
+        "width": 768.625,
+        "height": 230.375,
+        "x": 895.375,
+        "right": 1664,
+        "scroll": 769,
+        "client": 769
+      }
+    ],
+    "body": [
+      {
+        "text": "الخدمات",
+        "font": "17px"
+      },
+      {
+        "text": "أعمالنا",
+        "font": "17px"
+      },
+      {
+        "text": "من نحن",
+        "font": "17px"
+      },
+      {
+        "text": "رؤى",
+        "font": "17px"
+      },
+      {
+        "text": "تواصل معنا",
+        "font": "17px"
+      },
+      {
+        "text": "عمليات الخدمات · Example",
+        "font": "15px"
+      },
+      {
+        "text": "نموذج مبسّط للحجز بالمحادثة وتنسيق العمليات.",
+        "font": "21.6px"
+      },
+      {
+        "text": "Saudi Arabia Riyadh + Al Sharqiyah",
+        "font": "16px"
+      },
+      {
+        "text": "تستخدم هذه المحاكاة بيانات خيالية ولا تنشئ حجزًا حقيقيًا.",
+        "font": "19px"
+      },
+      {
+        "text": "المطلوب— / —",
+        "font": "19px"
+      },
+      {
+        "text": "التقويم—",
+        "font": "19px"
+      },
+      {
+        "text": "الأخصائي—",
+        "font": "19px"
+      },
+      {
+        "text": "تحويل محادثة حجز متعددة الخطوات إلى سير عمل واضح ينسّق التوفر والتعيين والتأكيد.",
+        "font": "25.6px"
+      },
+      {
+        "text": "يربط النظام قناة واتساب بمنطق الحجز والتقويم والبيانات والإشعارات دون كشف تفاصيل التشغيل الداخلية.",
+        "font": "25.6px"
+      },
+      {
+        "text": "تعتمد التجربة العامة على حالات عمل محددة، والتحقق من المدخلات، ومعالجة خادمية محمية، مع إبقاء بيانات العملاء وبيانات الاعتماد وتفاصيل الربط خارج الواجهة العامة.",
+        "font": "25.6px"
+      },
+      {
+        "text": "01المرحلة المحددة: طلب الموعد",
+        "font": "16px"
+      },
+      {
+        "text": "01طلب الموعد",
+        "font": "19px"
+      },
+      {
+        "text": "02اختيار الخدمة",
+        "font": "19px"
+      },
+      {
+        "text": "03اختيار التاريخ",
+        "font": "19px"
+      },
+      {
+        "text": "04اختيار الوقت",
+        "font": "19px"
+      },
+      {
+        "text": "05تحديد الموقع",
+        "font": "19px"
+      },
+      {
+        "text": "06فحص التوفر",
+        "font": "19px"
+      },
+      {
+        "text": "07تعيين المختص",
+        "font": "19px"
+      },
+      {
+        "text": "08تأكيد الحجز",
+        "font": "19px"
+      },
+      {
+        "text": "محاكاة ببيانات محلية وهمية فقط. لا يتم إرسال أو تخزين أي شيء.",
+        "font": "15px"
+      },
+      {
+        "text": "ابدأ مشروعاً",
+        "font": "17px"
+      }
+    ]
+  },
+  {
+    "locale": "ar",
+    "route": "work/relax-moon-spa-automation",
+    "width": 390,
+    "height": 844,
+    "title": "أتمتة ريلاكس مون سبا",
+    "overflow": false,
+    "headings": [
+      {
+        "text": "أتمتة ريلاكس مون سبا",
+        "font": "70.2px",
+        "line": "57.564px",
+        "width": 370,
+        "height": 172.6875,
+        "x": 10,
+        "right": 380,
+        "scroll": 370,
+        "client": 370
+      },
+      {
+        "text": "جرّب مساعد الحجز",
+        "font": "48px",
+        "line": "44.16px",
+        "width": 262.03125,
+        "height": 88.3125,
+        "x": 117.96875,
+        "right": 380,
+        "scroll": 262,
+        "client": 262
+      },
+      {
+        "text": "مشكلة العمل",
+        "font": "43.2px",
+        "line": "41.04px",
+        "width": 306.5625,
+        "height": 41.03125,
+        "x": 73.4375,
+        "right": 380,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "القرارات الهندسية",
+        "font": "43.2px",
+        "line": "41.04px",
+        "width": 306.5625,
+        "height": 82.0625,
+        "x": 73.4375,
+        "right": 380,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "الأمان والموثوقية",
+        "font": "43.2px",
+        "line": "41.04px",
+        "width": 306.5625,
+        "height": 41.03125,
+        "x": 73.4375,
+        "right": 380,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "رحلة العميل",
+        "font": "43.2px",
+        "line": "41.04px",
+        "width": 306.5625,
+        "height": 41.03125,
+        "x": 73.4375,
+        "right": 380,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "النظام أثناء العمل",
+        "font": "43.2px",
+        "line": "41.04px",
+        "width": 306.5625,
+        "height": 41.03125,
+        "x": 73.4375,
+        "right": 380,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "بنية النظام",
+        "font": "43.2px",
+        "line": "41.04px",
+        "width": 306.5625,
+        "height": 41.03125,
+        "x": 73.4375,
+        "right": 380,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "التقنيات",
+        "font": "43.2px",
+        "line": "41.04px",
+        "width": 306.5625,
+        "height": 41.03125,
+        "x": 73.4375,
+        "right": 380,
+        "scroll": 307,
+        "client": 307
+      },
+      {
+        "text": "نظامك القادم يبدأ هنا.",
+        "font": "48px",
+        "line": "43.2px",
+        "width": 288.234375,
+        "height": 86.375,
+        "x": 91.765625,
+        "right": 380,
+        "scroll": 288,
+        "client": 288
+      }
+    ],
+    "body": [
+      {
+        "text": "الخدمات",
+        "font": "16px"
+      },
+      {
+        "text": "أعمالنا",
+        "font": "16px"
+      },
+      {
+        "text": "من نحن",
+        "font": "16px"
+      },
+      {
+        "text": "رؤى",
+        "font": "16px"
+      },
+      {
+        "text": "تواصل معنا",
+        "font": "16px"
+      },
+      {
+        "text": "عمليات الخدمات · Example",
+        "font": "14px"
+      },
+      {
+        "text": "نموذج مبسّط للحجز بالمحادثة وتنسيق العمليات.",
+        "font": "18px"
+      },
+      {
+        "text": "Saudi Arabia Riyadh + Al Sharqiyah",
+        "font": "15px"
+      },
+      {
+        "text": "تستخدم هذه المحاكاة بيانات خيالية ولا تنشئ حجزًا حقيقيًا.",
+        "font": "17px"
+      },
+      {
+        "text": "المطلوب— / —",
+        "font": "17px"
+      },
+      {
+        "text": "التقويم—",
+        "font": "17px"
+      },
+      {
+        "text": "الأخصائي—",
+        "font": "17px"
+      },
+      {
+        "text": "تحويل محادثة حجز متعددة الخطوات إلى سير عمل واضح ينسّق التوفر والتعيين والتأكيد.",
+        "font": "18.4px"
+      },
+      {
+        "text": "يربط النظام قناة واتساب بمنطق الحجز والتقويم والبيانات والإشعارات دون كشف تفاصيل التشغيل الداخلية.",
+        "font": "18.4px"
+      },
+      {
+        "text": "تعتمد التجربة العامة على حالات عمل محددة، والتحقق من المدخلات، ومعالجة خادمية محمية، مع إبقاء بيانات العملاء وبيانات الاعتماد وتفاصيل الربط خارج الواجهة العامة.",
+        "font": "18.4px"
+      },
+      {
+        "text": "01المرحلة المحددة: طلب الموعد",
+        "font": "15px"
+      },
+      {
+        "text": "01طلب الموعد",
+        "font": "17px"
+      },
+      {
+        "text": "02اختيار الخدمة",
+        "font": "17px"
+      },
+      {
+        "text": "03اختيار التاريخ",
+        "font": "17px"
+      },
+      {
+        "text": "04اختيار الوقت",
+        "font": "17px"
+      },
+      {
+        "text": "05تحديد الموقع",
+        "font": "17px"
+      },
+      {
+        "text": "06فحص التوفر",
+        "font": "17px"
+      },
+      {
+        "text": "07تعيين المختص",
+        "font": "17px"
+      },
+      {
+        "text": "08تأكيد الحجز",
+        "font": "17px"
+      },
+      {
+        "text": "محاكاة ببيانات محلية وهمية فقط. لا يتم إرسال أو تخزين أي شيء.",
+        "font": "14px"
+      },
+      {
+        "text": "ابدأ مشروعاً",
+        "font": "16px"
+      }
+    ]
+  }
+]

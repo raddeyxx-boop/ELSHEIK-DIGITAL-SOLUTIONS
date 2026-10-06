@@ -1,0 +1,126 @@
+{
+  "pages": [
+    {
+      "path": "/ar/",
+      "arabicTextElements": 114,
+      "renderedInTajawal": 88,
+      "notTajawal": 0,
+      "skippedNotRendered": 26
+    },
+    {
+      "path": "/ar/work",
+      "arabicTextElements": 74,
+      "renderedInTajawal": 65,
+      "notTajawal": 0,
+      "skippedNotRendered": 9
+    },
+    {
+      "path": "/ar/work/relax-moon-spa-automation",
+      "arabicTextElements": 371,
+      "renderedInTajawal": 358,
+      "notTajawal": 0,
+      "skippedNotRendered": 13
+    },
+    {
+      "path": "/ar/insights",
+      "arabicTextElements": 56,
+      "renderedInTajawal": 48,
+      "notTajawal": 0,
+      "skippedNotRendered": 8
+    },
+    {
+      "path": "/ar/technologies",
+      "arabicTextElements": 103,
+      "renderedInTajawal": 52,
+      "notTajawal": 42,
+      "skippedNotRendered": 9
+    },
+    {
+      "path": "/ar/services",
+      "arabicTextElements": 111,
+      "renderedInTajawal": 97,
+      "notTajawal": 0,
+      "skippedNotRendered": 14
+    },
+    {
+      "path": "/ar/about",
+      "arabicTextElements": 121,
+      "renderedInTajawal": 112,
+      "notTajawal": 0,
+      "skippedNotRendered": 9
+    },
+    {
+      "path": "/ar/contact",
+      "arabicTextElements": 63,
+      "renderedInTajawal": 54,
+      "notTajawal": 1,
+      "skippedNotRendered": 8
+    },
+    {
+      "path": "/ar/process",
+      "arabicTextElements": 39,
+      "renderedInTajawal": 32,
+      "notTajawal": 0,
+      "skippedNotRendered": 7
+    },
+    {
+      "path": "/ar/does-not-exist",
+      "arabicTextElements": 27,
+      "renderedInTajawal": 20,
+      "notTajawal": 0,
+      "skippedNotRendered": 7
+    }
+  ],
+  "offenders": {
+    "none :: dt": {
+      "path": "technologies",
+      "sample": "الحدود",
+      "family": "Tajawal, \"Tajawal Fallback\", Tahoma, Ari",
+      "count": 21
+    },
+    "none :: dd": {
+      "path": "technologies",
+      "sample": "لا تصل بيانات الاعتماد ولا الب",
+      "family": "Tajawal, \"Tajawal Fallback\", Tahoma, Ari",
+      "count": 21
+    },
+    "Consolas :: span": {
+      "path": "contact",
+      "sample": "الاسم",
+      "family": "SFMono-Regular, Consolas, \"Liberation Mo",
+      "count": 1
+    }
+  },
+  "spacing": {
+    "p (-1.728px)": {
+      "path": "",
+      "sample": "نحن لا نسلّم صفحات. نصمم ونبني",
+      "count": 1
+    },
+    "span (1.96px)": {
+      "path": "",
+      "sample": "استكشف",
+      "count": 30
+    },
+    "strong (-2.304px)": {
+      "path": "work/relax-moon-spa-automation",
+      "sample": "شاهد النظام يتخذ القرار",
+      "count": 1
+    },
+    "small (1.2px)": {
+      "path": "work/relax-moon-spa-automation",
+      "sample": "لوحة العمليات",
+      "count": 1
+    },
+    "span (0.84px)": {
+      "path": "contact",
+      "sample": "الاسم",
+      "count": 9
+    },
+    "small (0.84px)": {
+      "path": "contact",
+      "sample": "اختياري",
+      "count": 5
+    }
+  }
+}

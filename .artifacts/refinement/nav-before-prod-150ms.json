@@ -1,0 +1,179 @@
+{
+  "label": "before-prod-150ms",
+  "base": "http://127.0.0.1:3100",
+  "locale": "en",
+  "mobile": false,
+  "steps": [
+    {
+      "name": "lap1 /en -> /en/services",
+      "urlMs": 28,
+      "contentMs": 360,
+      "rsc": [
+        "/en/services 174ms"
+      ]
+    },
+    {
+      "name": "lap1 /en/services -> /en/work",
+      "urlMs": 29,
+      "contentMs": 357,
+      "rsc": []
+    },
+    {
+      "name": "lap1 /en/work -> /en/process",
+      "urlMs": 110,
+      "contentMs": 110,
+      "rsc": []
+    },
+    {
+      "name": "lap1 /en/process -> /en/about",
+      "urlMs": 40,
+      "contentMs": 40,
+      "rsc": []
+    },
+    {
+      "name": "lap1 /en/about -> /en/insights",
+      "urlMs": 30,
+      "contentMs": 365,
+      "rsc": [
+        "/en/insights 172ms"
+      ]
+    },
+    {
+      "name": "lap1 /en/insights -> /en/contact",
+      "urlMs": 65,
+      "contentMs": 65,
+      "rsc": []
+    },
+    {
+      "name": "lap1 /en/contact -> /en",
+      "urlMs": 34,
+      "contentMs": 329,
+      "rsc": []
+    },
+    {
+      "name": "lap1 Home -> Work",
+      "urlMs": 27,
+      "contentMs": 339,
+      "rsc": []
+    },
+    {
+      "name": "lap1 Work -> case study",
+      "urlMs": 141,
+      "contentMs": 883,
+      "rsc": []
+    },
+    {
+      "name": "lap1 case study -> Work",
+      "urlMs": 180,
+      "contentMs": 180,
+      "rsc": [
+        "/en/work 170ms"
+      ]
+    },
+    {
+      "name": "lap1 Work -> case study (2)",
+      "urlMs": 30,
+      "contentMs": 831,
+      "rsc": []
+    },
+    {
+      "name": "lap1 case study -> Start a project",
+      "urlMs": 42,
+      "contentMs": 42,
+      "rsc": []
+    },
+    {
+      "name": "lap1 Contact -> Home",
+      "urlMs": 36,
+      "contentMs": 344,
+      "rsc": [
+        "/en 178ms"
+      ]
+    },
+    {
+      "name": "lap2 /en -> /en/services",
+      "urlMs": 28,
+      "contentMs": 342,
+      "rsc": []
+    },
+    {
+      "name": "lap2 /en/services -> /en/work",
+      "urlMs": 29,
+      "contentMs": 344,
+      "rsc": [
+        "/en/work 173ms"
+      ]
+    },
+    {
+      "name": "lap2 /en/work -> /en/process",
+      "urlMs": 35,
+      "contentMs": 35,
+      "rsc": []
+    },
+    {
+      "name": "lap2 /en/process -> /en/about",
+      "urlMs": 45,
+      "contentMs": 45,
+      "rsc": []
+    },
+    {
+      "name": "lap2 /en/about -> /en/insights",
+      "urlMs": 28,
+      "contentMs": 336,
+      "rsc": []
+    },
+    {
+      "name": "lap2 /en/insights -> /en/contact",
+      "urlMs": 33,
+      "contentMs": 33,
+      "rsc": []
+    },
+    {
+      "name": "lap2 /en/contact -> /en",
+      "urlMs": 40,
+      "contentMs": 329,
+      "rsc": []
+    },
+    {
+      "name": "lap2 Home -> Work",
+      "urlMs": 29,
+      "contentMs": 354,
+      "rsc": [
+        "/en/work 164ms"
+      ]
+    },
+    {
+      "name": "lap2 Work -> case study",
+      "urlMs": 66,
+      "contentMs": 551,
+      "rsc": []
+    },
+    {
+      "name": "lap2 case study -> Work",
+      "urlMs": 182,
+      "contentMs": 182,
+      "rsc": [
+        "/en/work 172ms"
+      ]
+    },
+    {
+      "name": "lap2 Work -> case study (2)",
+      "urlMs": 69,
+      "contentMs": 534,
+      "rsc": []
+    },
+    {
+      "name": "lap2 case study -> Start a project",
+      "urlMs": 43,
+      "contentMs": 43,
+      "rsc": []
+    },
+    {
+      "name": "lap2 Contact -> Home",
+      "urlMs": 35,
+      "contentMs": 328,
+      "rsc": []
+    }
+  ],
+  "errors": []
+}

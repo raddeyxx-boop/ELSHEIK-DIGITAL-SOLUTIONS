@@ -1,0 +1,290 @@
+﻿.compact,
+.detail {
+  position: relative;
+}
+.previewSlot {
+  pointer-events: none;
+  overflow: hidden;
+  height: 0;
+  transition:
+    height 0.38s cubic-bezier(0.22, 0.7, 0.2, 1),
+    margin 0.38s cubic-bezier(0.22, 0.7, 0.2, 1);
+}
+.compact .previewSlot {
+  width: 100%;
+  max-width: 560px;
+  margin-inline: auto;
+}
+.compact[data-active="true"] .previewSlot {
+  height: 405px;
+  padding: 16px 8px;
+}
+.compact[data-active="true"] .rowLink {
+  padding-inline: 14px;
+  background: #141418;
+  border-color: #caff4a66;
+}
+.compact[data-active="true"] .rowLink > svg {
+  color: var(--accent);
+  rotate: 0deg;
+  translate: 3px -3px;
+}
+.rowLink:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: 3px;
+}
+.previewButton {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid #caff4a40;
+  border-radius: 3px;
+  padding: 8px 10px;
+  min-height: 44px;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.previewButton:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.detailBody {
+  position: relative;
+  min-width: 0;
+}
+.detail .previewSlot {
+  width: 100%;
+  max-width: 580px;
+}
+.detail[data-active="true"] .previewSlot {
+  height: 400px;
+  margin-top: 24px;
+}
+.detail[data-active="true"] {
+  background: #131318;
+  border-color: #caff4a66;
+}
+@media (min-width: 1100px) {
+  .compact .previewSlot {
+    position: absolute;
+    inset-block-start: 24px;
+    inset-inline-end: 62px;
+    width: 46%;
+    max-width: 580px;
+    height: 0;
+    padding: 0;
+  }
+  .compact[data-active="true"] .previewSlot {
+    height: 380px;
+    padding: 0;
+  }
+  .compact[data-active="true"] .rowLink {
+    min-height: 430px;
+    padding-block: 45px;
+    grid-template-columns: 55px minmax(0, 1fr) minmax(0, 1.25fr) 28px;
+    grid-template-rows: 1fr 1fr;
+    gap: 12px 22px;
+    align-content: center;
+  }
+  .compact[data-active="true"] .rowLink > span {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: end;
+    color: var(--accent);
+  }
+  .compact[data-active="true"] .rowLink > h3 {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: end;
+  }
+  .compact[data-active="true"] .rowLink > p {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: start;
+  }
+  .compact[data-active="true"] .rowLink > small {
+    display: none;
+  }
+  .compact[data-active="true"] .rowLink > svg {
+    grid-column: 4;
+    grid-row: 1/3;
+  }
+}
+@media (max-width: 900px), (hover: none) {
+  .previewButton {
+    display: flex;
+  }
+  .compact .previewButton {
+    position: absolute;
+    inset-inline-end: 0;
+    top: 74px;
+    min-height: 36px;
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+  .compact[data-active="true"] .previewSlot {
+    height: 415px;
+    padding-top: 26px;
+  }
+  .detail .previewButton {
+    position: absolute;
+    inset-inline-start: 0;
+    bottom: -52px;
+    max-width: 210px;
+  }
+  .detail[data-active="true"] .previewButton {
+    position: relative;
+    inset: auto;
+    margin-top: 16px;
+  }
+  .detail[data-active="true"] .previewSlot {
+    height: 400px;
+    margin-top: 16px;
+  }
+}
+@media (max-width: 800px) {
+  .detail[data-active="true"] {
+    padding-inline: 0;
+  }
+  .detail .previewSlot {
+    max-width: none;
+  }
+  .detail[data-active="true"] .detailBody {
+    grid-column: 1/-1;
+  }
+  .detail[data-active="true"] .previewSlot {
+    height: 410px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .previewSlot,
+  .rowLink,
+  .detail {
+    transition: none !important;
+  }
+}
+/* The expanded detail scene shares the main row with its original copy. */
+.detail > .previewSlot {
+  position: absolute;
+  inset-inline-end: 20px;
+  top: 0;
+  width: 0;
+  margin: 0;
+}
+.detail[data-active="true"] {
+  grid-template-columns: 80px minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
+  row-gap: 20px;
+  padding-block: 36px;
+  min-height: 478px;
+}
+.detail[data-active="true"] > span {
+  grid-column: 1;
+  grid-row: 1;
+}
+.detail[data-active="true"] > div:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+.detail[data-active="true"] > .detailBody {
+  grid-column: 2;
+  grid-row: 2;
+}
+.detail[data-active="true"] > .previewSlot {
+  position: relative;
+  inset: auto;
+  grid-column: 3;
+  grid-row: 1/3;
+  width: 100%;
+  height: 406px;
+  margin: 0;
+  align-self: center;
+}
+@media (max-width: 800px) {
+  .detail[data-active="true"] {
+    grid-template-columns: 45px minmax(0, 1fr);
+    grid-template-rows: auto auto auto;
+    min-height: 0;
+    padding-block: 45px;
+  }
+  .detail[data-active="true"] > .detailBody {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .detail[data-active="true"] > .previewSlot {
+    grid-column: 1/-1;
+    grid-row: 3;
+    height: 410px;
+  }
+}
+@media (max-width: 800px) {
+  .detail > .detailBody {
+    grid-column: 2;
+  }
+}
+@media (max-width: 900px) {
+  .detail[data-active="true"] > .previewSlot,
+  .compact[data-active="true"] .previewSlot {
+    height: 450px;
+  }
+}
+@media (max-width: 900px) {
+  .compact[data-active="true"] .rowLink > p {
+    display: block;
+    grid-column: 2/-1;
+    grid-row: 2;
+    margin-top: 0;
+  }
+  .compact[data-active="true"] .rowLink > svg {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .compact[data-active="true"] .rowLink {
+    padding-block: 20px;
+    row-gap: 14px;
+  }
+  .compact[data-active="true"] .previewButton {
+    position: relative;
+    inset: auto;
+    margin: 14px 0 0;
+  }
+  .compact[data-active="true"] .previewSlot {
+    padding-top: 16px;
+  }
+}
+/* The shared homepage variant needs the same unclipped scene canvas. */
+.compact[data-active="true"] .previewSlot {
+  height: 440px;
+}
+@media (min-width: 1100px) {
+  .compact[data-active="true"] .previewSlot {
+    height: 406px;
+  }
+  .compact[data-active="true"] .rowLink {
+    min-height: 454px;
+  }
+}
+@media (max-width: 900px) {
+  .compact[data-active="true"] .previewSlot {
+    height: 450px;
+  }
+}
+@media (max-width: 800px) {
+  .detail > .previewSlot {
+    max-width: 580px;
+    justify-self: center;
+  }
+}
+
+/* Service scope: what is built, the problem, integrations, deliverables. */
+.scope { margin: 1.5rem 0 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+.scope > div { background: var(--background); padding: 1rem 1.1rem; display: grid; gap: .4rem; align-content: start; }
+.scope dt { color: var(--accent); font: 700 var(--text-meta)/1.4 var(--font-mono); letter-spacing: .06em; }
+.scope dd { margin: 0; color: var(--foreground-secondary); font-size: var(--text-small); line-height: 1.6; }
+:global(html[lang="ar"]) .scope dt { font-family: var(--font-arabic); letter-spacing: 0; }
+:global(html[lang="ar"]) .scope dd { line-height: 1.8; }
+@media (max-width: 700px) { .scope { grid-template-columns: 1fr; } }

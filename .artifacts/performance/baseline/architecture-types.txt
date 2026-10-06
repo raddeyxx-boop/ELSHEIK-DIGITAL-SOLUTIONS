@@ -1,0 +1,7 @@
+import { z } from "zod";
+
+export const architectureNodeSchema = z.object({ id: z.string().min(1), label: z.string().min(1), description: z.string().min(1), type: z.enum(["channel", "integration", "automation", "logic", "service", "output", "custom"]), layer: z.number().int().nonnegative() });
+export const architectureConnectionSchema = z.object({ source: z.string().min(1), target: z.string().min(1) });
+export const architectureSchema = z.object({ nodes: z.array(architectureNodeSchema).min(2), connections: z.array(architectureConnectionSchema).min(1) }).superRefine((data, context) => { const ids = new Set(data.nodes.map((node) => node.id)); for (const edge of data.connections) if (!ids.has(edge.source) || !ids.has(edge.target)) context.addIssue({ code: "custom", message: "Connection references an unknown node" }); });
+export type ArchitectureNodeData = z.infer<typeof architectureNodeSchema>;
+export type ArchitectureConnectionData = z.infer<typeof architectureConnectionSchema>;

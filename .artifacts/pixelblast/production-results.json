@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "mode": "reduce",
+      "errors": [],
+      "canvases": 0
+    },
+    {
+      "mode": "no-preference",
+      "errors": [],
+      "canvases": 1
+    }
+  ],
+  "deferredChunks": [
+    [
+      "/_next/static/chunks/1cjujq8f1szm_.js",
+      {
+        "bytes": 572850,
+        "gzip": 143051
+      }
+    ]
+  ],
+  "deferredBytes": 572850,
+  "deferredGzipBytes": 143051
+}
